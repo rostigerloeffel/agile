@@ -24,10 +24,18 @@ agile/
 ├── css/
 │   └── custom.css      # Custom styles and theme overrides
 ├── images/             # Presentation images and graphics
+├── slides/             # Modular presentation content (Markdown)
+│   ├── 01-intro.md         # Introduction & History (~10 min)
+│   ├── 02-manifest.md      # Agile Manifest (~8 min)
+│   ├── 03-scrum.md         # Scrum Framework (~16 min)
+│   ├── 04-kanban.md        # Kanban (~10 min)
+│   ├── 05-frameworks.md    # Other Frameworks (XP, SAFe, LeSS) (~5 min)
+│   ├── 06-best-practices.md # Best Practices & Antipatterns (~8 min)
+│   └── 07-outro.md         # Q&A & Resources (~3 min)
 ├── node_modules/       # Dependencies (installed via npm)
 │   └── reveal.js/      # Reveal.js framework
-├── index.html          # HTML container (loads slides.md)
-├── slides.md           # Presentation content in Markdown
+├── index.html          # HTML container (loads slides/*.md)
+├── slides.md           # [DEPRECATED] Old monolithic file (kept as backup)
 ├── package.json        # NPM configuration
 ├── .nojekyll           # Prevents Jekyll processing on GitHub Pages
 ├── README.md           # User documentation
@@ -44,19 +52,31 @@ npm start           # Start development server on port 8080
 
 ### File Organization
 
-**slides.md** ⭐ PRIMARY CONTENT FILE
-- Contains ALL presentation content in Markdown format
-- Loaded dynamically by index.html via reveal.js Markdown plugin
-- Horizontal slides separated by `---`
-- Vertical slides (sub-slides) separated by `--`
-- Speaker notes start with `Note:`
-- Slide attributes via HTML comments: `<!-- .slide: data-background="#color" -->`
+**slides/ Directory** ⭐ PRIMARY CONTENT LOCATION
+- **Modular structure:** Content split into 7 separate Markdown files
+- Each file represents one section of the presentation (~60 minutes total)
+- Files are loaded sequentially by index.html via reveal.js Markdown plugin
+- Markdown syntax (same for all files):
+  - Horizontal slides separated by `---`
+  - Vertical slides (sub-slides) separated by `--`
+  - Speaker notes start with `Note:`
+  - Slide attributes via HTML comments: `<!-- .slide: data-background="#color" -->`
+
+**File Breakdown:**
+1. `01-intro.md` - Introduction, history, Why Agile? (~10 min)
+2. `02-manifest.md` - 4 Values, 12 Principles, misconceptions (~8 min)
+3. `03-scrum.md` - Roles, Events, Artefacts with examples (~16 min)
+4. `04-kanban.md` - Visualization, WIP Limits, Flow (~10 min)
+5. `05-frameworks.md` - XP, SAFe, LeSS (~5 min)
+6. `06-best-practices.md` - Technical Excellence, DO's/DON'Ts, Antipatterns (~8 min)
+7. `07-outro.md` - Q&A, Resources, Takeaways (~3 min)
 
 **index.html**
-- Minimal HTML container that loads slides.md
+- Minimal HTML container with 7 `<section>` tags (one per file)
+- Each section loads from `slides/XX-name.md`
 - Contains reveal.js configuration at the bottom
 - Uses German language (`lang="de"`)
-- DO NOT add slide content here - use slides.md instead
+- DO NOT add slide content here - use files in `slides/` directory
 
 **css/custom.css**
 - Custom color scheme using CSS variables

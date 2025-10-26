@@ -54,9 +54,17 @@ agile/
 ├── css/
 │   └── custom.css      # Benutzerdefinierte Styles
 ├── images/             # Bilder und Grafiken
+├── slides/             # Präsentations-Inhalte (Markdown)
+│   ├── 01-intro.md         # Einführung & Historie (10 Min)
+│   ├── 02-manifest.md      # Agile Manifest (8 Min)
+│   ├── 03-scrum.md         # Scrum Framework (16 Min)
+│   ├── 04-kanban.md        # Kanban (10 Min)
+│   ├── 05-frameworks.md    # Weitere Frameworks (5 Min)
+│   ├── 06-best-practices.md # Best Practices (8 Min)
+│   └── 07-outro.md         # Q&A & Ressourcen (3 Min)
 ├── node_modules/       # NPM Abhängigkeiten (nach Installation)
-├── index.html          # HTML-Container (lädt slides.md)
-├── slides.md           # Präsentations-Inhalt in Markdown
+├── index.html          # HTML-Container (lädt slides/*.md)
+├── slides.md           # [DEPRECATED] Alte monolithische Datei
 ├── package.json        # Projekt-Konfiguration
 ├── .nojekyll           # Deaktiviert Jekyll auf GitHub Pages
 ├── README.md           # Diese Datei
@@ -68,9 +76,25 @@ agile/
 
 ### Präsentations-Inhalte
 
-Alle Präsentationsinhalte befinden sich in der Datei **`slides.md`** (Markdown-Format).
+Die Präsentationsinhalte sind auf **7 separate Markdown-Dateien** aufgeteilt (im Ordner `slides/`):
+
+1. **`01-intro.md`** - Einführung & Historie (~10 Min)
+2. **`02-manifest.md`** - Agile Manifest (~8 Min)
+3. **`03-scrum.md`** - Scrum Framework (~16 Min)
+4. **`04-kanban.md`** - Kanban (~10 Min)
+5. **`05-frameworks.md`** - Weitere Frameworks (XP, SAFe, LeSS) (~5 Min)
+6. **`06-best-practices.md`** - Best Practices & Antipatterns (~8 Min)
+7. **`07-outro.md`** - Q&A & Ressourcen (~3 Min)
+
+**Vorteil der modularen Struktur:**
+- Bessere Übersichtlichkeit
+- Einzelne Abschnitte können unabhängig bearbeitet werden
+- Einfacheres Navigieren in großen Präsentationen
 
 **Neue Slide hinzufügen:**
+
+Öffne die entsprechende Markdown-Datei (z.B. `slides/03-scrum.md`) und füge hinzu:
+
 ```markdown
 ---
 
