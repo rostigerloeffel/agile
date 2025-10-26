@@ -13,6 +13,14 @@ Diese Präsentation bietet eine umfassende Einführung in agile Methoden und Pra
 
 **Dauer:** ca. 60 Minuten
 
+## 🌐 Live Demo
+
+Die Präsentation ist live verfügbar unter:
+
+**[https://rostigerloeffel.github.io/agile/](https://rostigerloeffel.github.io/agile/)**
+
+Die Präsentation wird automatisch bei jedem Push auf den `main` Branch via GitHub Actions deployed.
+
 ## 🚀 Schnellstart
 
 ### Voraussetzungen
@@ -40,12 +48,16 @@ Die Präsentation öffnet sich automatisch im Browser unter `http://localhost:80
 
 ```
 agile/
-├── index.html          # Haupt-Präsentationsdatei
+├── .github/
+│   └── workflows/
+│       └── deploy.yml  # GitHub Actions Deployment-Workflow
 ├── css/
 │   └── custom.css      # Benutzerdefinierte Styles
 ├── images/             # Bilder und Grafiken
 ├── node_modules/       # NPM Abhängigkeiten (nach Installation)
+├── index.html          # Haupt-Präsentationsdatei
 ├── package.json        # Projekt-Konfiguration
+├── .nojekyll           # Deaktiviert Jekyll auf GitHub Pages
 ├── README.md           # Diese Datei
 ├── CLAUDE.md           # Entwickler-Guidelines
 └── LICENSE             # Lizenz
@@ -92,13 +104,25 @@ Bilder im `images/` Ordner ablegen und in der Präsentation referenzieren:
 3. Drucken-Dialog öffnen (Strg+P / Cmd+P)
 4. Als PDF speichern
 
-### Für Deployment
+### Automatisches Deployment (GitHub Pages)
 
-Die Präsentation kann direkt auf einem Webserver gehostet werden:
+Dieses Projekt ist für automatisches Deployment auf GitHub Pages konfiguriert:
+
+1. **Automatisch**: Bei jedem Push auf `main` wird die GitHub Action `.github/workflows/deploy.yml` ausgelöst
+2. **Build-Prozess**: Dependencies werden installiert (`npm ci`)
+3. **Deployment**: Alle notwendigen Dateien werden auf den `gh-pages` Branch deployed
+4. **Live-URL**: Die Präsentation ist dann verfügbar unter `https://rostigerloeffel.github.io/agile/`
+
+**Erstmalige Einrichtung:**
+Nach dem ersten Push müssen Sie GitHub Pages in den Repository-Einstellungen aktivieren:
+- Settings → Pages → Source: `gh-pages` Branch, `/` (root)
+
+### Manuelles Deployment
+
+Die Präsentation kann auch manuell auf anderen Plattformen gehostet werden:
 - Alle Dateien (inkl. `node_modules/reveal.js`) hochladen
 - `index.html` über Webserver ausliefern
-
-Alternative: GitHub Pages, Netlify, Vercel
+- Alternative Plattformen: Netlify, Vercel, Azure Static Web Apps
 
 ## 🛠️ Entwicklung
 

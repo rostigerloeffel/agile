@@ -18,13 +18,17 @@ This repository contains an interactive presentation about **Agile Software Deve
 
 ```
 agile/
-├── index.html          # Main presentation file (all slides)
+├── .github/
+│   └── workflows/
+│       └── deploy.yml  # GitHub Actions CI/CD pipeline
 ├── css/
 │   └── custom.css      # Custom styles and theme overrides
 ├── images/             # Presentation images and graphics
 ├── node_modules/       # Dependencies (installed via npm)
 │   └── reveal.js/      # Reveal.js framework
+├── index.html          # Main presentation file (all slides)
 ├── package.json        # NPM configuration
+├── .nojekyll           # Prevents Jekyll processing on GitHub Pages
 ├── README.md           # User documentation
 └── CLAUDE.md           # This file - developer guidance
 ```
@@ -158,12 +162,108 @@ Add to `css/custom.css`:
 - `B` / `.` - Pause (black screen)
 - `?` - Help overlay
 
+## Deployment & CI/CD
+
+### GitHub Pages Deployment
+
+The project uses GitHub Actions for automated deployment to GitHub Pages.
+
+**Live URL**: https://rostigerloeffel.github.io/agile/
+
+### GitHub Actions Workflow
+
+**File**: `.github/workflows/deploy.yml`
+
+**Trigger**: Automatically runs on every push to `main` branch
+
+**Workflow Steps**:
+1. **Checkout**: Pulls latest code from repository
+2. **Setup Node.js**: Installs Node.js v20 with npm caching
+3. **Install Dependencies**: Runs `npm ci` to install reveal.js and dependencies
+4. **Deploy**: Uses `peaceiris/actions-gh-pages@v4` to deploy to `gh-pages` branch
+
+**Key Configuration**:
+```yaml
+permissions:
+  contents: write  # Required for pushing to gh-pages branch
+
+publish_dir: ./    # Deploys entire root directory
+publish_branch: gh-pages
+exclude_assets: '.github,node_modules/**,.git'
+force_orphan: true  # Keeps gh-pages branch history clean
+```
+
+### First-Time Setup
+
+After the first push, GitHub Pages must be enabled in repository settings:
+
+1. Navigate to repository **Settings** → **Pages**
+2. Set **Source** to: `gh-pages` branch, `/` (root) directory
+3. Save changes
+4. GitHub will deploy automatically (takes 1-2 minutes)
+5. Presentation will be available at the GitHub Pages URL
+
+### Deployment Process
+
+Every push to `main` triggers:
+1. GitHub Actions workflow starts
+2. Dependencies are installed (cached for speed)
+3. All files except `.github/`, `node_modules/`, and `.git/` are copied to `gh-pages` branch
+4. GitHub Pages automatically rebuilds and serves the updated presentation
+
+**Deployment Time**: Typically 1-3 minutes from push to live
+
+### .nojekyll File
+
+The `.nojekyll` file in the root directory is crucial:
+- Prevents GitHub Pages from processing files with Jekyll static site generator
+- Without it, directories starting with `_` (like `node_modules/reveal.js/dist/_includes`) would be ignored
+- Ensures reveal.js assets load correctly
+
+### Local Testing Before Deployment
+
+Always test locally before pushing:
+```bash
+npm install  # Ensure dependencies are installed
+npm start    # Test presentation at http://localhost:8080
+```
+
+### Troubleshooting Deployment
+
+**Problem**: Presentation shows 404 or broken assets
+- **Check**: Verify `gh-pages` branch exists
+- **Check**: Ensure GitHub Pages source is set correctly in settings
+- **Solution**: Wait 2-3 minutes after push for deployment to complete
+
+**Problem**: Styles/scripts not loading
+- **Check**: `.nojekyll` file exists in root
+- **Check**: `node_modules/reveal.js/` is included in deployment
+- **Solution**: Verify `exclude_assets` in workflow doesn't exclude necessary files
+
+**Problem**: Workflow fails with permission error
+- **Check**: Repository settings → Actions → General → Workflow permissions
+- **Solution**: Enable "Read and write permissions" for workflows
+
+**Problem**: Changes not visible on live site
+- **Check**: GitHub Actions tab for workflow status
+- **Check**: Browser cache (hard refresh with Ctrl+F5)
+- **Solution**: Wait for workflow completion, clear browser cache
+
+### Manual Deployment Alternative
+
+To manually deploy to other platforms (Netlify, Vercel, etc.):
+1. Run `npm install` locally
+2. Upload entire project directory (including `node_modules/reveal.js/`)
+3. Set build command: `npm install` (if platform supports it)
+4. Set publish directory: `./` (root)
+
 ## Important Notes
 
 - All dependencies are local (no CDN) - works offline after `npm install`
 - Changes to HTML/CSS auto-reload when using `npm start`
 - Speaker notes are hidden from audience, visible only in presenter view
 - Presentation can be deployed as static files (no server-side processing needed)
+- GitHub Actions deployment is fully automated - just push to `main`
 
 ## Future Enhancements
 
