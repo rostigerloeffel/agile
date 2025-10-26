@@ -110,12 +110,12 @@ Dieses Projekt ist für automatisches Deployment auf GitHub Pages konfiguriert:
 
 1. **Automatisch**: Bei jedem Push auf `main` wird die GitHub Action `.github/workflows/deploy.yml` ausgelöst
 2. **Build-Prozess**: Dependencies werden installiert (`npm ci`)
-3. **Deployment**: Alle notwendigen Dateien werden auf den `gh-pages` Branch deployed
+3. **Deployment**: Alle Dateien werden als Artifact hochgeladen und deployed
 4. **Live-URL**: Die Präsentation ist dann verfügbar unter `https://rostigerloeffel.github.io/agile/`
 
 **Erstmalige Einrichtung:**
 Nach dem ersten Push müssen Sie GitHub Pages in den Repository-Einstellungen aktivieren:
-- Settings → Pages → Source: `gh-pages` Branch, `/` (root)
+- Settings → Pages → Source: **"GitHub Actions"** (nicht Branch!)
 
 ### Manuelles Deployment
 

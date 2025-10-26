@@ -180,38 +180,46 @@ The project uses GitHub Actions for automated deployment to GitHub Pages.
 1. **Checkout**: Pulls latest code from repository
 2. **Setup Node.js**: Installs Node.js v20 with npm caching
 3. **Install Dependencies**: Runs `npm ci` to install reveal.js and dependencies
-4. **Deploy**: Uses `peaceiris/actions-gh-pages@v4` to deploy to `gh-pages` branch
+4. **Setup Pages**: Configures GitHub Pages environment
+5. **Upload Artifact**: Uploads entire project directory as artifact
+6. **Deploy**: Deploys artifact to GitHub Pages using official action
 
 **Key Configuration**:
 ```yaml
 permissions:
-  contents: write  # Required for pushing to gh-pages branch
+  contents: read   # Read repository contents
+  pages: write     # Write to GitHub Pages
+  id-token: write  # Write ID tokens for deployment
 
-publish_dir: ./    # Deploys entire root directory
-publish_branch: gh-pages
-exclude_assets: '.github,node_modules/**,.git'
-force_orphan: true  # Keeps gh-pages branch history clean
+environment:
+  name: github-pages  # Uses GitHub Pages environment
 ```
+
+**Deployment Method**: Uses official GitHub Actions workflow (artifact-based deployment), NOT branch-based deployment.
 
 ### First-Time Setup
 
 After the first push, GitHub Pages must be enabled in repository settings:
 
 1. Navigate to repository **Settings** → **Pages**
-2. Set **Source** to: `gh-pages` branch, `/` (root) directory
-3. Save changes
-4. GitHub will deploy automatically (takes 1-2 minutes)
-5. Presentation will be available at the GitHub Pages URL
+2. Set **Source** to: **"GitHub Actions"** (NOT a branch!)
+3. Save changes (if not already set)
+4. Re-run the workflow if needed (Actions tab)
+5. GitHub will deploy automatically (takes 1-2 minutes)
+6. Presentation will be available at the GitHub Pages URL
 
 ### Deployment Process
 
 Every push to `main` triggers:
 1. GitHub Actions workflow starts
 2. Dependencies are installed (cached for speed)
-3. All files except `.github/`, `node_modules/`, and `.git/` are copied to `gh-pages` branch
-4. GitHub Pages automatically rebuilds and serves the updated presentation
+3. All project files (including `node_modules/reveal.js/`) are packaged as an artifact
+4. Artifact is deployed to GitHub Pages environment
+5. GitHub Pages automatically serves the updated presentation
 
 **Deployment Time**: Typically 1-3 minutes from push to live
+
+**Note**: This uses artifact-based deployment, not branch-based. No `gh-pages` branch is created.
 
 ### .nojekyll File
 
@@ -230,24 +238,29 @@ npm start    # Test presentation at http://localhost:8080
 
 ### Troubleshooting Deployment
 
+**Problem**: Workflow fails with "git failed with exit code 128"
+- **Check**: Repository settings → Settings → Pages → Source must be **"GitHub Actions"**
+- **Solution**: Change source from branch-based to GitHub Actions, re-run workflow
+
 **Problem**: Presentation shows 404 or broken assets
-- **Check**: Verify `gh-pages` branch exists
-- **Check**: Ensure GitHub Pages source is set correctly in settings
+- **Check**: Ensure GitHub Pages source is set to "GitHub Actions" in settings
+- **Check**: Verify workflow completed successfully in Actions tab
 - **Solution**: Wait 2-3 minutes after push for deployment to complete
 
 **Problem**: Styles/scripts not loading
 - **Check**: `.nojekyll` file exists in root
-- **Check**: `node_modules/reveal.js/` is included in deployment
-- **Solution**: Verify `exclude_assets` in workflow doesn't exclude necessary files
+- **Check**: Workflow completed successfully (check Actions tab)
+- **Solution**: Hard refresh browser (Ctrl+F5), check console for errors
 
-**Problem**: Workflow fails with permission error
-- **Check**: Repository settings → Actions → General → Workflow permissions
-- **Solution**: Enable "Read and write permissions" for workflows
+**Problem**: Workflow fails during upload/deployment step
+- **Check**: Repository settings → Pages is enabled
+- **Check**: Workflow has correct permissions (pages:write, id-token:write)
+- **Solution**: Ensure Pages is enabled and source is set to "GitHub Actions"
 
 **Problem**: Changes not visible on live site
-- **Check**: GitHub Actions tab for workflow status
+- **Check**: GitHub Actions tab for workflow status (must show green checkmark)
 - **Check**: Browser cache (hard refresh with Ctrl+F5)
-- **Solution**: Wait for workflow completion, clear browser cache
+- **Solution**: Wait for workflow completion (1-3 min), clear browser cache
 
 ### Manual Deployment Alternative
 
