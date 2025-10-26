@@ -1,0 +1,143 @@
+/**
+ * Custom styles for Agile Software Development Presentation
+ */
+
+/* Custom color scheme */
+:root {
+    --primary-color: #2196F3;
+    --secondary-color: #4CAF50;
+    --accent-color: #FF9800;
+    --text-light: #ffffff;
+    --background-dark: #1a1a1a;
+}
+
+/* Enhance headings */
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4 {
+    text-transform: none;
+    font-weight: 600;
+}
+
+.reveal h1 {
+    color: var(--primary-color);
+    margin-bottom: 0.5em;
+}
+
+.reveal h2 {
+    color: var(--secondary-color);
+}
+
+/* Improve lists */
+.reveal ul,
+.reveal ol {
+    text-align: left;
+    margin: 0 auto;
+    max-width: 80%;
+}
+
+.reveal ul li,
+.reveal ol li {
+    margin-bottom: 0.5em;
+}
+
+/* Highlight important text */
+.reveal .highlight {
+    color: var(--accent-color);
+    font-weight: bold;
+}
+
+/* Custom containers */
+.reveal .info-box {
+    background-color: rgba(33, 150, 243, 0.2);
+    border-left: 4px solid var(--primary-color);
+    padding: 1em;
+    margin: 1em 0;
+    text-align: left;
+}
+
+.reveal .success-box {
+    background-color: rgba(76, 175, 80, 0.2);
+    border-left: 4px solid var(--secondary-color);
+    padding: 1em;
+    margin: 1em 0;
+    text-align: left;
+}
+
+.reveal .warning-box {
+    background-color: rgba(255, 152, 0, 0.2);
+    border-left: 4px solid var(--accent-color);
+    padding: 1em;
+    margin: 1em 0;
+    text-align: left;
+}
+
+/* Improve code blocks */
+.reveal pre {
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.reveal code {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 0.2em 0.4em;
+    border-radius: 3px;
+}
+
+/* Image styling */
+.reveal img {
+    max-height: 500px;
+    border: 2px solid var(--primary-color);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.reveal img.no-border {
+    border: none;
+    box-shadow: none;
+}
+
+/* Two-column layout helper */
+.reveal .two-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2em;
+    align-items: start;
+}
+
+.reveal .two-columns > * {
+    margin: 0;
+}
+
+/* Speaker notes styling (visible in presenter mode) */
+.reveal .notes {
+    font-size: 1.2em;
+}
+
+/* Progress bar customization */
+.reveal .progress {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.reveal .progress span {
+    background: var(--primary-color);
+}
+
+/* Custom slide backgrounds */
+.reveal .slide-background.title-slide {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+/* Footer for slide numbers or branding */
+.reveal .slide-number {
+    color: var(--primary-color);
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .reveal .two-columns {
+        grid-template-columns: 1fr;
+    }
+}
