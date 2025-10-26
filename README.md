@@ -55,13 +55,83 @@ agile/
 │   └── custom.css      # Benutzerdefinierte Styles
 ├── images/             # Bilder und Grafiken
 ├── node_modules/       # NPM Abhängigkeiten (nach Installation)
-├── index.html          # Haupt-Präsentationsdatei
+├── index.html          # HTML-Container (lädt slides.md)
+├── slides.md           # Präsentations-Inhalt in Markdown
 ├── package.json        # Projekt-Konfiguration
 ├── .nojekyll           # Deaktiviert Jekyll auf GitHub Pages
 ├── README.md           # Diese Datei
 ├── CLAUDE.md           # Entwickler-Guidelines
 └── LICENSE             # Lizenz
 ```
+
+## ✍️ Inhalte bearbeiten
+
+### Präsentations-Inhalte
+
+Alle Präsentationsinhalte befinden sich in der Datei **`slides.md`** (Markdown-Format).
+
+**Neue Slide hinzufügen:**
+```markdown
+---
+
+## Meine neue Slide
+
+- Bullet Point 1
+- Bullet Point 2
+```
+
+**Vertikale Slides (Sub-Slides):**
+```markdown
+--
+
+### Sub-Slide
+
+Weitere Details zum Thema
+```
+
+**Speaker Notes hinzufügen:**
+```markdown
+## Slide Titel
+
+Sichtbarer Inhalt
+
+Note:
+Diese Notizen sind nur im Speaker View (Taste 'S') sichtbar
+```
+
+**Slide-Hintergründe:**
+```markdown
+<!-- .slide: data-background="#2196F3" -->
+
+## Slide mit blauem Hintergrund
+```
+
+**Code-Blöcke:**
+```markdown
+## Code Beispiel
+
+```javascript
+function example() {
+    return "Hello World";
+}
+`` `
+```
+(Ohne Leerzeichen vor den Backticks)
+
+**Bilder einfügen:**
+```markdown
+![Beschreibung](images/bild.png)
+```
+
+### Markdown-Syntax
+
+Die Präsentation verwendet Standard-Markdown mit reveal.js Erweiterungen:
+- `---` trennt horizontale Slides
+- `--` trennt vertikale Slides
+- `Note:` leitet Speaker Notes ein
+- `<!-- .slide: ... -->` für Slide-spezifische Attribute
+
+Vollständige Dokumentation: [reveal.js Markdown](https://revealjs.com/markdown/)
 
 ## 🎨 Anpassungen
 

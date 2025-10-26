@@ -26,7 +26,8 @@ agile/
 ├── images/             # Presentation images and graphics
 ├── node_modules/       # Dependencies (installed via npm)
 │   └── reveal.js/      # Reveal.js framework
-├── index.html          # Main presentation file (all slides)
+├── index.html          # HTML container (loads slides.md)
+├── slides.md           # Presentation content in Markdown
 ├── package.json        # NPM configuration
 ├── .nojekyll           # Prevents Jekyll processing on GitHub Pages
 ├── README.md           # User documentation
@@ -43,11 +44,19 @@ npm start           # Start development server on port 8080
 
 ### File Organization
 
+**slides.md** ⭐ PRIMARY CONTENT FILE
+- Contains ALL presentation content in Markdown format
+- Loaded dynamically by index.html via reveal.js Markdown plugin
+- Horizontal slides separated by `---`
+- Vertical slides (sub-slides) separated by `--`
+- Speaker notes start with `Note:`
+- Slide attributes via HTML comments: `<!-- .slide: data-background="#color" -->`
+
 **index.html**
-- Contains all presentation slides in `<section>` elements
-- Nested `<section>` elements create vertical slide stacks
-- reveal.js configuration at the bottom of the file
+- Minimal HTML container that loads slides.md
+- Contains reveal.js configuration at the bottom
 - Uses German language (`lang="de"`)
+- DO NOT add slide content here - use slides.md instead
 
 **css/custom.css**
 - Custom color scheme using CSS variables
@@ -58,44 +67,174 @@ npm start           # Start development server on port 8080
 
 **images/**
 - Store all presentation images here
-- Reference in slides: `<img src="images/filename.png" alt="description">`
+- Reference in slides.md: `![Alt text](images/filename.png)`
 
-## Reveal.js Key Concepts
+## Markdown-Based Workflow
 
-### Slide Structure
-```html
-<!-- Horizontal slide -->
-<section>
-    <h2>Title</h2>
-    <p>Content</p>
-</section>
+### Slide Structure in slides.md
 
-<!-- Vertical slide stack -->
-<section>
-    <section>Main topic</section>
-    <section>Sub-topic 1</section>
-    <section>Sub-topic 2</section>
-</section>
+**Horizontal Slides** (separated by `---`):
+```markdown
+# First Slide
+
+Content here
+
+---
+
+## Second Slide
+
+More content
+
+---
+
+## Third Slide
+
+Even more content
 ```
 
+**Vertical Slides** (sub-slides, separated by `--`):
+```markdown
+## Main Topic
+
+Introduction to the topic
+
+--
+
+### Sub-Topic 1
+
+Details about first aspect
+
+--
+
+### Sub-Topic 2
+
+Details about second aspect
+
+---
+
+## Next Main Topic
+
+Back to horizontal navigation
+```
+
+Navigation:
+- Left/Right arrows: Horizontal slides
+- Up/Down arrows: Vertical slides (if present)
+
 ### Speaker Notes
-```html
-<section>
-    <h2>Slide Title</h2>
-    <p>Visible content</p>
-    <aside class="notes">
-        These notes are only visible in speaker view (press 'S')
-    </aside>
-</section>
+```markdown
+## Slide Title
+
+Visible content that audience sees
+
+Note:
+These notes are only visible in speaker view (press 'S').
+Multiple lines are supported.
+Great for talking points and reminders.
+```
+
+### Slide Attributes
+
+**Background Colors:**
+```markdown
+<!-- .slide: data-background="#2196F3" -->
+
+## Slide with Blue Background
+
+Content here
+```
+
+**Background Images:**
+```markdown
+<!-- .slide: data-background="images/background.jpg" -->
+
+## Slide with Image Background
+```
+
+**Multiple Attributes:**
+```markdown
+<!-- .slide: data-background="#FF5722" data-transition="zoom" -->
+
+## Special Slide
+
+With custom background and transition
+```
+
+### Markdown Syntax
+
+**Headings:**
+```markdown
+# H1 (usually for title slides)
+## H2 (main slide titles)
+### H3 (sub-headings)
+```
+
+**Lists:**
+```markdown
+- Bullet point 1
+- Bullet point 2
+  - Nested item
+  - Another nested item
+
+1. Numbered item
+2. Another numbered item
+```
+
+**Emphasis:**
+```markdown
+*italic text*
+**bold text**
+***bold italic***
+~~strikethrough~~
+```
+
+**Links:**
+```markdown
+[Link Text](https://example.com)
+```
+
+**Images:**
+```markdown
+![Alt text](images/diagram.png)
+```
+
+**Code Blocks:**
+````markdown
+```javascript
+function example() {
+    return "Hello World";
+}
+```
+````
+
+Supported languages: javascript, python, java, css, html, bash, etc.
+
+**Inline Code:**
+```markdown
+Use `code` for inline code snippets.
+```
+
+**Blockquotes:**
+```markdown
+> This is a quote
+> Spanning multiple lines
+```
+
+**Tables:**
+```markdown
+| Column 1 | Column 2 | Column 3 |
+|----------|----------|----------|
+| Data 1   | Data 2   | Data 3   |
+| Data 4   | Data 5   | Data 6   |
 ```
 
 ### Configuration Options (index.html)
 Key settings in `Reveal.initialize()`:
 - `hash: true` - URL reflects current slide
-- `width/height` - Presentation dimensions
+- `width/height` - Presentation dimensions (1280x720)
 - `controls/progress` - UI elements
-- `transition` - Slide transition effect
-- `plugins` - Enabled features
+- `transition` - Slide transition effect ('slide', 'fade', 'zoom', etc.)
+- `plugins` - Enabled features (Markdown, Highlight, Notes, Zoom, Search)
 
 ## Content Guidelines
 
@@ -123,10 +262,52 @@ Key settings in `Reveal.initialize()`:
 ## Common Tasks
 
 ### Adding New Slides
-1. Locate appropriate section in index.html
-2. Add new `<section>` element
-3. Include title, content, and optionally speaker notes
-4. Test navigation flow
+1. Open `slides.md`
+2. Add separator `---` for new horizontal slide
+3. Write content using Markdown syntax
+4. Optionally add `Note:` section for speaker notes
+5. Save and refresh browser (auto-reloads with live-server)
+
+Example:
+```markdown
+---
+
+## New Slide Title
+
+- Point 1
+- Point 2
+- Point 3
+
+Note:
+Remember to mention the key takeaway here
+```
+
+### Adding Vertical Slides (Sub-Slides)
+1. Use `--` separator instead of `---`
+2. These create a vertical stack under the current horizontal slide
+
+Example:
+```markdown
+## Main Topic
+
+Overview
+
+--
+
+### Detail 1
+
+First detail
+
+--
+
+### Detail 2
+
+Second detail
+
+---
+
+## Next Main Topic
+```
 
 ### Changing Theme
 Modify line 12 in index.html:
@@ -137,9 +318,31 @@ Available themes: black, white, league, beige, sky, night, serif, simple, solari
 
 ### Adding Images
 1. Place image in `images/` directory
-2. Reference in slide:
-```html
-<img src="images/example.png" alt="Description">
+2. Reference in slides.md:
+```markdown
+![Image Description](images/example.png)
+```
+
+For custom sizing, use HTML:
+```markdown
+<img src="images/example.png" alt="Description" width="600">
+```
+
+### Adding Code Examples
+Use fenced code blocks with language identifier:
+````markdown
+```python
+def greet(name):
+    return f"Hello, {name}!"
+```
+````
+
+### Custom Slide Backgrounds
+Add before slide content:
+```markdown
+<!-- .slide: data-background="#FF5722" -->
+
+## Slide with Orange Background
 ```
 
 ### Custom Styling
@@ -149,10 +352,32 @@ Add to `css/custom.css`:
 - Animation overrides
 - Font customizations
 
+### Using Custom CSS Classes
+In slides.md:
+```markdown
+<div class="info-box">
+This is an info box with custom styling
+</div>
+```
+
+Available custom classes (see `css/custom.css`):
+- `.info-box` - Blue info box
+- `.success-box` - Green success box
+- `.warning-box` - Orange warning box
+- `.highlight` - Highlighted text
+- `.two-columns` - Two-column layout
+
 ### Export to PDF
 1. Add `?print-pdf` to URL: `http://localhost:8080?print-pdf`
 2. Open print dialog (Ctrl+P / Cmd+P)
 3. Save as PDF
+
+### Testing Changes
+1. Run `npm start`
+2. Edit `slides.md`
+3. Save file
+4. Browser auto-reloads (thanks to live-server)
+5. No manual refresh needed!
 
 ## Keyboard Shortcuts (Presenter)
 - Arrow keys - Navigate slides
@@ -272,11 +497,14 @@ To manually deploy to other platforms (Netlify, Vercel, etc.):
 
 ## Important Notes
 
+- **Primary content file**: `slides.md` (Markdown format) - ALL slide content goes here
+- **DO NOT edit slides in index.html** - it only loads slides.md
 - All dependencies are local (no CDN) - works offline after `npm install`
-- Changes to HTML/CSS auto-reload when using `npm start`
-- Speaker notes are hidden from audience, visible only in presenter view
+- Changes to slides.md/CSS auto-reload when using `npm start`
+- Speaker notes are hidden from audience, visible only in presenter view (press 'S')
 - Presentation can be deployed as static files (no server-side processing needed)
 - GitHub Actions deployment is fully automated - just push to `main`
+- Markdown syntax is faster and cleaner than HTML for content creation
 
 ## Future Enhancements
 
