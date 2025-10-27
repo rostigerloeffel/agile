@@ -99,66 +99,49 @@ Der Product Owner ist die wichtigste Rolle! Sie oder er entscheidet WAS gebaut w
 
 --
 
-## Product Owner: DO's & DON'Ts
+## Product Owner: DO's
 
 ✅ **DO:**
-- **Verfügbar sein** für das Team (täglich!)
-- **Klare Prioritäten** kommunizieren
-  - "Feature A vor Feature B, weil..."
-- **User Stories mit Akzeptanzkriterien** schreiben
-- **Entscheidungen treffen** (nicht aufschieben)
-- **Mit Stakeholdern puffern**
-  - Team vor ständigen Anfragen schützen
-- **Sprint Reviews aktiv moderieren**
-- **NEIN sagen** zu niedrig-priorisierten Anfragen
+- Täglich verfügbar sein
+- Klare Prioritäten kommunizieren
+- User Stories mit Akzeptanzkriterien
+- Entscheidungen treffen
+- NEIN sagen können
 
 Note:
-Ein guter PO ist täglich im Team-Channel, beantwortet Fragen sofort, und hat eine klare Vision. Der PO muss auch den Mut haben, NEIN zu sagen!
+Ein guter PO ist täglich erreichbar und hat klare Prioritäten.
 
 --
 
-## Product Owner: DO's & DON'Ts (Fortsetzung)
+## Product Owner: DON'Ts
 
 ❌ **DON'T:**
-- **Abwesend sein** ("Ruft mich an, wenn's brennt")
-- **Ständig Prioritäten ändern**
-  - Heute Feature X top, morgen Feature Y
-  - Team kann nicht planen!
-- **Mikromanagement** ("Macht es genau SO!")
-  - Team entscheidet über das WIE
-- **Feature-Factory**
-  - Nur Output zählen, nicht Outcome
-  - "Wir brauchen 20 Features pro Sprint!"
-- **Alle Stakeholder-Wünsche** akzeptieren
-  - PO muss filtern & priorisieren
+- Abwesend sein
+- Ständig Prioritäten ändern
+- Mikromanagement ("Macht es genau SO!")
+- Alle Stakeholder-Wünsche akzeptieren
 
-**Red Flag:** "Unser PO ist nie da" oder "Wir haben 3 Product Owner"
+**Red Flag:** "Unser PO ist nie da"
 
 Note:
-Schlechte POs sind oft zu beschäftigt oder haben Angst, Stakeholdern NEIN zu sagen. Resultat: Team arbeitet an unwichtigen Dingen oder ist verwirrt über Prioritäten.
+Schlechte POs sind oft zu beschäftigt oder sagen nicht NEIN.
 
 --
 
-## Real-World Beispiel: PO in Action
-
-**Szenario:** E-Commerce Team, Sprint Planning
+## Real-World: PO Beispiel
 
 **Schlechter PO:**
-- Kommt unprepared zum Planning
-- "Hmm, was könnten wir machen... Vielleicht Feature X?"
-- Team fragt nach Priorität → "Ist alles wichtig!"
-- Akzeptanzkriterien? → "Macht mal, ihr wisst schon"
+- Unprepared zum Planning
+- "Ist alles wichtig!"
 - Während Sprint: 5x Prioritäten geändert
 
 **Guter PO:**
-- Hat Backlog vorbereitet & priorisiert
-- "Top 3: Checkout-Flow, Zahlungs-Bug, Performance"
-- Erklärt WHY: "Checkout-Flow = 20% mehr Conversions (A/B-Test-Daten)"
-- Klare User Story: "Als Kunde möchte ich... damit..."
-- Während Sprint: Verfügbar für Fragen, aber Scope bleibt stabil
+- Backlog vorbereitet & priorisiert
+- Erklärt WHY mit Daten
+- Scope bleibt stabil
 
 Note:
-Der Unterschied: Vorbereitung, Klarheit, Verfügbarkeit. Ein guter PO macht das Leben des Teams SO viel einfacher!
+Der Unterschied: Vorbereitung, Klarheit, Verfügbarkeit.
 
 ---
 
@@ -180,70 +163,49 @@ Der Scrum Master ist Servant Leader - sie oder er dient dem Team, indem Hinderni
 
 --
 
-## Scrum Master: DO's & DON'Ts
+## Scrum Master: DO's
 
 ✅ **DO:**
-- **Impediments aktiv lösen**
-  - Team braucht Zugang zu Prod-DB? → Organisieren!
-  - Meetings kollidieren? → Umplanen!
-- **Retrospektiven facilitieren**
-  - Sichere Atmosphäre schaffen
-  - Aktionspunkte nachverfolgen
-- **Team vor Störungen schützen**
-  - "Nein, wir können nicht spontan Feature X einbauen"
-- **Prozess-Verbesserungen** einbringen
-  - "Soll wir DoD erweitern?"
-- **Organisation schulen**
-  - Management versteht Scrum nicht? → Workshops!
+- Impediments aktiv lösen
+- Retrospektiven facilitieren
+- Team vor Störungen schützen
+- Prozess-Verbesserungen einbringen
+- Organisation schulen
 
 Note:
-Ein guter SM ist unsichtbar, wenn alles läuft - aber sofort da, wenn's hakt. Der SM ist der Prozess-Guardian und Team-Enabler.
+Ein guter SM ist unsichtbar, wenn alles läuft - aber sofort da, wenn's hakt.
 
 --
 
-## Scrum Master: DO's & DON'Ts (Fortsetzung)
+## Scrum Master: DON'Ts
 
 ❌ **DON'T:**
-- **Als Projektmanager agieren**
-  - "Du machst Task A, du Task B..."
-  - Team organisiert sich selbst!
-- **Nur Events moderieren**
-  - SM ist mehr als Terminplaner
-- **Probleme für das Team lösen**
-  - Besser: Team befähigen, selbst zu lösen
-- **Scrum dogmatisch durchdrücken**
-  - "Das ist nicht Scrum, das geht gar nicht!"
-  - Scrum ist ein Framework, kein Gesetz
-- **Keine Zeit für das Team haben**
-  - Teil-Zeit SM für 5 Teams = nicht effektiv
+- Als Projektmanager agieren
+- Nur Events moderieren
+- Probleme für das Team lösen
+- Scrum dogmatisch durchdrücken
 
-**Red Flag:** "Unser SM schreibt auch Tasks" (= PM!) oder "SM ist nur bei Events dabei"
+**Red Flag:** "Unser SM schreibt Tasks"
 
 Note:
-Der häufigste Fehler: SM wird zum Projektmanager. Das Team verliert Autonomie, SM ist überlastet. Ein guter SM coacht, befähigt, entfernt Blocker - aber managt nicht!
+Häufigster Fehler: SM wird zum Projektmanager.
 
 --
 
-## Real-World Beispiel: SM in Action
-
-**Szenario:** Team hat Impediment
+## Real-World: SM Beispiel
 
 **Schlechter SM:**
-- Team: "Wir warten seit 2 Wochen auf API-Zugang"
-- SM: "Hmm, das ist ärgerlich. Habt ihr schon nachgefragt?"
-- (Nichts passiert)
+- "Hmm, ärgerlich. Habt ihr nachgefragt?"
+- Nichts passiert
 
 **Guter SM:**
-- Team: "Wir warten seit 2 Wochen auf API-Zugang"
-- SM: "Verstanden, das blockt euch. Ich kümmere mich JETZT."
-- SM geht zu IT, eskaliert wenn nötig, besorgt temporären Workaround
-- 2 Stunden später: "Ihr habt Zugang, Problem gelöst!"
-- Nächste Retro: "Wie können wir das in Zukunft vermeiden?"
+- "Ich kümmere mich JETZT."
+- 2 Stunden später: Problem gelöst!
 
-**Lehre:** Ownership + Action = guter SM
+**Lehre:** Ownership + Action
 
 Note:
-Der SM ist der Impediment-Bulldozer. Wenn das Team sagt "Wir sind blockiert", ist das HÖCHSTE Priorität für den SM.
+Der SM ist der Impediment-Bulldozer.
 
 ---
 
@@ -266,77 +228,47 @@ Das Entwicklungsteam ist das Herz von Scrum. Hier wird der Wert geschaffen! Selb
 
 --
 
-## Entwicklungsteam: DO's & DON'Ts
+## Entwicklungsteam: DO's
 
 ✅ **DO:**
-- **Cross-functional skills** aufbauen
-  - Frontend-Dev lernt Backend, vice versa
-  - T-Shaped Skills: Tief in 1 Bereich, breit in anderen
-- **Gemeinsame Verantwortung**
-  - "Wir haben das Sprint Goal verfehlt" (nicht "Er hat...")
-- **Pair Programming, Code Reviews**
-  - Wissensaustausch & Qualität
-- **Definition of Done** gemeinsam definieren
-  - Was bedeutet "fertig"?
-- **Estimation als Team**
-  - Planning Poker, nicht ein Einzelner schätzt
+- Cross-functional skills aufbauen
+- Gemeinsame Verantwortung
+- Pair Programming & Code Reviews
+- Definition of Done gemeinsam definieren
+- Estimation als Team
 
 Note:
-Die besten Teams sind die, wo jeder mehrere Hüte tragen kann. Nicht jeder ist Experte in allem, aber jeder kann überall helfen. Das verhindert Bottlenecks.
+Die besten Teams: Jeder kann überall helfen.
 
 --
 
-## Entwicklungsteam: DO's & DON'Ts (Fortsetzung)
+## Entwicklungsteam: DON'Ts
 
 ❌ **DON'T:**
-- **Silodenken** ("Ich bin nur Frontend")
-  - Blocker: "Backend-Dev im Urlaub, wir können nichts tun"
-- **"Das ist nicht mein Job"**-Mentalität
-  - Wenn Sprint Goal gefährdet ist → alle helfen!
-- **Einzelkämpfer**
-  - Einer entwickelt Feature komplett alleine
-  - Risiko: Wissensmonopole, keine Reviews
-- **Überlastung akzeptieren**
-  - "Wir schaffen 60 Story Points!" (obwohl Velocity 30 ist)
-  - Lieber konservativ schätzen
-- **Externe Störungen akzeptieren**
-  - "Chef will spontan Feature X" → SM/PO muss puffern!
+- Silodenken ("Ich bin nur Frontend")
+- "Das ist nicht mein Job"
+- Einzelkämpfer (Wissensmonopole)
+- Überlastung akzeptieren
 
-**Red Flag:** "Wir haben einen Frontend-Dev und der ist krank" (Single Point of Failure)
+**Red Flag:** Single Point of Failure
 
 Note:
-Das Team muss als Einheit funktionieren. Silos sind Gift für Scrum. Wenn einer krank ist, sollte das Team trotzdem liefern können (Bus-Faktor!).
+Silos sind Gift für Scrum. Team muss als Einheit funktionieren.
 
 --
 
-## Real-World: Cross-Functional Team
+## Real-World: T-Shaped Skills
 
-**Anti-Pattern: Spezialist-Silos**
-```
-Frontend Dev  →  nur Frontend
-Backend Dev   →  nur Backend
-DBA           →  nur Datenbank
-QA            →  nur Testen
-```
-**Problem:**
-- Frontend fertig → wartet auf Backend
-- Backend fertig → wartet auf DB-Schema
-- Alles fertig → wartet auf QA
-→ Viel Waiting, wenig Flow!
+**Spezialist-Silos:**
+- Viel Waiting, wenig Flow!
+- Frontend → Backend → DB → QA
 
-**Agile Alternative: T-Shaped Skills**
-```
-Dev A: Frontend ███████ | Backend ███ | Testing ███
-Dev B: Backend ████████ | Frontend ██ | Testing ███
-Dev C: Testing ████████ | Backend ███ | Frontend ██
-```
-**Vorteil:**
-- Jeder kann überall helfen
+**T-Shaped Alternative:**
+- Jeder hat Expertise (tief) + Breite
 - Weniger Bottlenecks
-- Bessere Auslastung
 
 Note:
-Ein cross-funktionales Team kann ein Feature von Anfang bis Ende durchziehen - ohne auf andere Teams zu warten. Das ist der Kern von Agilität!
+Cross-funktionale Teams liefern Features Ende-zu-Ende.
 
 ---
 
@@ -429,75 +361,47 @@ Diese 3 Fragen strukturieren das Planning. WHY gibt Kontext, WHAT gibt Scope, HO
 
 --
 
-## Sprint Planning: DO's & DON'Ts
+## Sprint Planning: DO's
 
 ✅ **DO:**
-- **Vorbereitetes Backlog** (PO!)
-  - Top-Items sind refined
-  - Akzeptanzkriterien klar
-- **Sprint Goal formulieren**
-  - "Payment-Flow verbessern" (nicht "5 User Stories abarbeiten")
-- **Realistische Planung**
-  - Velocity der letzten 3 Sprints als Basis
-  - Urlaube/Feiertage berücksichtigen
-- **Planning Poker** für Estimation
-  - Team schätzt gemeinsam
-- **Technical Spikes** einplanen
-  - "Wir müssen erst Library X evaluieren"
+- Vorbereitetes Backlog (PO!)
+- Sprint Goal formulieren
+- Realistische Planung (basierend auf Velocity)
+- Planning Poker nutzen
+- Technical Spikes einplanen
 
 Note:
-Ein gutes Planning startet mit vorbereitetem Backlog. Wenn PO erst im Planning User Stories schreibt, ist es zu spät!
+Gutes Planning startet mit vorbereitetem Backlog!
 
 --
 
-## Sprint Planning: DO's & DON'Ts (Fortsetzung)
+## Sprint Planning: DON'Ts
 
 ❌ **DON'T:**
-- **Unprepared** zum Planning kommen
-  - Backlog nicht refined
-  - User Stories unklar
-- **Überladen**
-  - "Wir schaffen 60 Points!" (Velocity ist 30)
-  - Lieber konservativ schätzen
-- **Kein Sprint Goal**
-  - Nur Liste von Tasks
-  - Team verliert Fokus
-- **PO diktiert Tasks**
-  - "Macht zuerst X, dann Y..."
-  - Team entscheidet über HOW!
-- **Planning länger als Timebox**
-  - 5h statt 4h → Ermüdung, schlechte Entscheidungen
+- Unprepared zum Planning kommen
+- Sprint überladen
+- Kein Sprint Goal
+- PO diktiert Tasks
 
-**Red Flag:** Planning dauert regelmäßig länger als Timebox
+**Red Flag:** Planning > Timebox
 
 Note:
-Die häufigsten Fehler: Unprepared Backlog und Überladen. Das führt zu gescheiterten Sprints und Frustration.
+Häufigste Fehler: Unprepared Backlog und Überladen.
 
 --
 
-## Real-World: Sprint Goal Beispiele
+## Sprint Goal: Schlecht vs. Gut
 
-❌ **Schlechte Sprint Goals:**
+❌ **Schlechte Goals:**
 - "5 User Stories abschließen"
-  - Kein Fokus, nur Output
 - "Verschiedene Bugs fixen"
-  - Zu vage
-- "An Feature X arbeiten"
-  - Nicht messbar
 
-✅ **Gute Sprint Goals:**
-- "Checkout-Flow für Gast-Kunden ermöglichen"
-  - Klares Business-Ziel
-  - Messbar (Gast kann bestellen?)
-- "Performance der Suche unter 200ms"
-  - Konkret & messbar
-- "OAuth 2.0 Integration abschließen"
-  - Technisches Ziel, aber klar
-
-**Vorteil guter Goals:** Team kann während Sprint entscheiden, welche Tasks wirklich nötig sind!
+✅ **Gute Goals:**
+- "Checkout-Flow für Gast-Kunden"
+- "Performance der Suche <200ms"
 
 Note:
-Ein gutes Sprint Goal gibt Richtung, aber auch Flexibilität. Wenn das Team merkt, dass Task X nicht nötig ist für das Goal, kann es weggelassen werden.
+Gute Goals geben Richtung UND Flexibilität.
 
 ---
 
@@ -537,68 +441,49 @@ Viele Teams nutzen die 3 Fragen, aber das ist nicht zwingend. Wichtiger: Daily h
 
 --
 
-## Daily Scrum: DO's & DON'Ts
+## Daily Scrum: DO's
 
 ✅ **DO:**
-- **Pünktlich starten** (auch wenn nicht alle da)
-- **Kurz & knackig** (max 15 Min!)
-  - "Gestern Feature X, heute Feature Y, kein Blocker"
-- **Fokus auf Sprint Goal**
-  - "Sind wir auf Track?"
-- **Blocker sofort ansprechen**
-  - SM notiert, kümmert sich danach
-- **Am Board** (physisch oder digital)
-  - Visualisiert Fortschritt
-- **Stehen** (wenn möglich)
-  - Hält Meeting kurz!
+- Pünktlich starten
+- Kurz & knackig (max 15 Min!)
+- Fokus auf Sprint Goal
+- Blocker sofort ansprechen
+- Am Board durchführen
+- Stehen (hält kurz!)
 
 Note:
-Die 15-Minuten-Regel ist heilig! Wenn Diskussionen entstehen: "Lasst uns das nach dem Daily klären." Das Daily ist NICHT für Problem-Solving!
+15-Minuten-Regel ist heilig! Daily ist NICHT für Problem-Solving.
 
 --
 
-## Daily Scrum: DO's & DON'Ts (Fortsetzung)
+## Daily Scrum: DON'Ts
 
 ❌ **DON'T:**
-- **Zu lang** (30+ Minuten)
-  - Wird zum Problem-Solving-Meeting
-- **Status-Report an SM/PO**
-  - Daily ist FÜR das Team, nicht an "den Boss"
-- **Zu spät kommen** (chronisch)
-  - Respektlosigkeit gegenüber dem Team
-- **Probleme im Detail lösen**
-  - "Lass uns das nach dem Daily klären!"
-- **Remote-Teams ignorieren**
-  - Bei Hybrid: Auch Videocall-Option!
-- **Abwesend ohne Info**
-  - Kurze Slack-Message genügt
+- Zu lang (30+ Minuten)
+- Status-Report an "den Boss"
+- Chronisch zu spät kommen
+- Probleme im Detail lösen
 
-**Red Flag:** Daily dauert regelmäßig 30+ Minuten
+**Red Flag:** Daily dauert 30+ Minuten
 
 Note:
-Das größte Problem: Daily wird zur Problem-Lösung-Session. Das ist falsch! Daily = Synchronisation. Problem-Lösung = danach, mit relevanten Leuten.
+Daily = Synchronisation. Problem-Lösung = danach!
 
 --
 
-## Real-World: Daily Anti-Patterns
+## Daily: Anti-Patterns
 
-**Anti-Pattern 1: "Status Report an den Boss"**
-- Team berichtet an SM/PO wie an Chef
-- Niemand spricht miteinander
-- Lösung: SM/PO schweigen, Team spricht!
+**1. Status Report an Boss**
+- Lösung: Team spricht miteinander!
 
-**Anti-Pattern 2: "Architecture Meeting"**
-- "Wir sollten Microservices nutzen..."
-- 45 Minuten Diskussion
-- Lösung: "Parking Lot" für solche Themen!
+**2. Architecture Meeting**
+- Lösung: "Parking Lot"!
 
-**Anti-Pattern 3: "Zombie Daily"**
-- Alle lesen monoton von Tasks ab
-- Kein echtes Zuhören
-- Lösung: Format ändern! "Was braucht ihr von mir?"
+**3. Zombie Daily**
+- Lösung: Format ändern!
 
 Note:
-Wenn das Daily langweilig wird, stimmt etwas nicht. Es sollte Energie geben, nicht rauben. Experimentiert mit dem Format!
+Daily sollte Energie geben, nicht rauben.
 
 ---
 
@@ -622,76 +507,50 @@ Sprint Review ist DAS Feedback-Event. Hier zeigt das Team, was es gebaut hat, un
 
 --
 
-## Sprint Review: DO's & DON'Ts
+## Sprint Review: DO's
 
 ✅ **DO:**
-- **Echte Software zeigen** (keine PPT!)
-  - Live-Demo im Browser/App
-  - "Hier könnt ihr's selbst ausprobieren"
-- **Stakeholder aktiv einbeziehen**
-  - "Was denkt ihr?"
-  - Feedback einholen, nicht nur präsentieren
-- **Unfertige Features** transparent machen
-  - "Feature X ist zu 80%, weil..."
-- **Next Steps** diskutieren
-  - Basierend auf Feedback: Backlog anpassen
-- **Informal & collaborative**
-  - Kein "Management Presentation"
+- Echte Software zeigen (keine PPT!)
+- Stakeholder aktiv einbeziehen
+- Unfertige Features transparent machen
+- Next Steps diskutieren
+- Informal & collaborative
 
 Note:
-Review ist ein Arbeitstreffen, keine Show! Es geht um echtes Feedback, nicht um schönreden.
+Review ist ein Arbeitstreffen, keine Show!
 
 --
 
-## Sprint Review: DO's & DON'Ts (Fortsetzung)
+## Sprint Review: DON'Ts
 
 ❌ **DON'T:**
-- **PowerPoint-Präsentation** statt Demo
-  - "Hier sehen Sie den Screen-Design..."
-  - Stakeholder wollen echte Software sehen!
-- **Nur "fertige" Features** zeigen
-  - Verschweigen von Problemen
-  - Keine Transparenz!
-- **Keine Stakeholder einladen**
-  - Review nur intern
-  - Kein echtes Feedback
-- **Blame Game**
-  - "Wir haben nicht geschafft wegen..."
-  - Fokus: Was haben wir gelernt?
-- **Zu lang & zu formal**
-  - 3-Stunden-Präsentation mit Slides
-  - Review sollte dynamisch sein
+- PowerPoint statt Demo
+- Nur "fertige" Features zeigen
+- Keine Stakeholder einladen
+- Blame Game
 
-**Red Flag:** Stakeholder kommen nicht mehr (weil zu langweilig!)
+**Red Flag:** Stakeholder kommen nicht mehr
 
 Note:
-Das größte Problem: Review wird zur Marketing-Show. Stattdessen: Ehrlich, transparent, kollaborativ. Auch Probleme ansprechen!
+Ehrlich, transparent, kollaborativ!
 
 --
 
-## Real-World: Sprint Review Best Practice
-
-**Beispiel: E-Commerce Team**
+## Review: Schlecht vs. Gut
 
 **Schlechtes Review:**
-- Team zeigt PowerPoint mit Screenshots
-- Stakeholder: "Sieht gut aus" (haben nichts verstanden)
-- Keine Fragen, keine Diskussion
-- Dauer: 15 Minuten
+- PowerPoint mit Screenshots
+- 15 Minuten, keine Diskussion
 
 **Gutes Review:**
-- Team zeigt Live-Demo im Staging
-- Stakeholder können selbst klicken & testen
-- "Was fällt euch auf?"
-- Feedback: "Button-Platzierung suboptimal"
-- PO notiert: Backlog-Item für nächsten Sprint
-- Diskussion über nächste Features
-- Dauer: 1,5 Stunden (produktiv!)
+- Live-Demo, Stakeholder testen selbst
+- 1,5h produktive Diskussion
+- Feedback → Backlog
 
-**Lehre:** Reviews sollten interaktiv sein, nicht passiv!
+**Lehre:** Reviews = interaktiv!
 
 Note:
-Die besten Reviews sind die, wo Stakeholder aktiv dabei sind und sofort Feedback geben. Das Team lernt am meisten durch direktes User-Feedback.
+Beste Reviews: Stakeholder sind aktiv dabei.
 
 ---
 
@@ -712,122 +571,81 @@ Die Retrospektive ist DAS Verbesserungs-Event. Hier reflektiert das Team, was gu
 
 --
 
-## Retrospektive: Typischer Ablauf
+## Retrospektive: Ablauf
 
-### 1. **Set the Stage** (5 Min)
-- Check-in Runde
-- Sichere Atmosphäre schaffen
-
-### 2. **Gather Data** (15 Min)
-- Was ist passiert?
-- Fakten sammeln
-
-### 3. **Generate Insights** (25 Min)
-- Warum ist es passiert?
-- Muster erkennen
-
-### 4. **Decide What to Do** (20 Min)
-- Konkrete Aktionen ableiten
-- Ownership festlegen
-
-### 5. **Close** (5 Min)
-- Zusammenfassung
-- Dankeschön
+**5 Phasen:**
+1. Set the Stage (5 Min)
+2. Gather Data (15 Min)
+3. Generate Insights (25 Min)
+4. Decide What to Do (20 Min)
+5. Close (5 Min)
 
 Note:
-Dieser 5-Schritte-Ablauf (nach Esther Derby) ist ein bewährtes Format. Aber: Es gibt viele andere Formate! Variiert, um Retros frisch zu halten.
+5-Schritte-Ablauf (Esther Derby). Variiert, um frisch zu bleiben!
 
 --
 
-## Retrospektive: Formate & Techniken
+## Retrospektive: Formate
 
-**Klassische Formate:**
-- **Start/Stop/Continue**
-  - Was sollen wir anfangen/aufhören/weitermachen?
-- **Glad/Sad/Mad**
-  - Was macht uns froh/traurig/wütend?
-- **4 L's**
-  - Liked / Learned / Lacked / Longed for
-- **Starfish**
-  - Keep Doing / Less Of / More Of / Stop Doing / Start Doing
-- **Timeline**
-  - Sprint-Ereignisse auf Timeline, dann diskutieren
+**Beispiele:**
+- Start/Stop/Continue
+- Glad/Sad/Mad
+- 4 L's (Liked/Learned/Lacked/Longed for)
+- Starfish
+- Timeline
 
-**Tipp:** Alle 3-4 Sprints Format wechseln!
+**Tipp:** Alle 3-4 Sprints wechseln!
 
 Note:
-Retros können einschlafen, wenn immer das gleiche Format genutzt wird. Experimentiert! Es gibt hunderte Formate (z.B. auf retromat.org).
+Experimentiert! Hunderte Formate auf retromat.org.
 
 --
 
-## Retrospektive: DO's & DON'Ts
+## Retrospektive: DO's
 
 ✅ **DO:**
-- **Sichere Atmosphäre** schaffen
-  - "Was hier gesagt wird, bleibt hier"
-  - Keine Schuldzuweisungen!
-- **Konkrete Aktionen** ableiten
-  - "Wir verbessern X durch Y"
-  - Owner + Deadline festlegen
-- **Follow-Up** von letzter Retro
-  - "Haben wir Aktion Z umgesetzt?"
-- **Alle zu Wort kommen lassen**
-  - Auch stille Teammitglieder einbeziehen
-- **Fokus auf Verbesserung**
-  - Nicht nur meckern, sondern Lösungen finden
+- Sichere Atmosphäre schaffen
+- Konkrete Aktionen ableiten
+- Follow-Up von letzter Retro
+- Alle zu Wort kommen lassen
+- Fokus auf Verbesserung
 
 Note:
-Die wichtigste Regel: Psychologische Sicherheit! Ohne Vertrauen gibt es kein ehrliches Feedback. Der SM muss diese Atmosphäre schützen.
+Wichtigste Regel: Psychologische Sicherheit!
 
 --
 
-## Retrospektive: DO's & DON'Ts (Fortsetzung)
+## Retrospektive: DON'Ts
 
 ❌ **DON'T:**
-- **Blame Game**
-  - "Person X hat versagt!"
-  - Fokus: System, nicht Personen
-- **Keine Aktionen**
-  - Nur reden, nichts ändern
-  - Resultat: Team verliert Glauben an Retro
-- **Zu viele Aktionen**
-  - 10 Verbesserungen auf einmal
-  - Lieber 1-2, die wirklich umgesetzt werden
-- **Management anwesend** (außer als Teammitglied)
-  - Team traut sich nicht, ehrlich zu sein
-- **Retro ausfallen lassen**
-  - "Wir hatten einen guten Sprint, brauchen keine Retro"
-  - Auch gute Sprints können verbessert werden!
+- Blame Game (Fokus: System!)
+- Keine Aktionen ableiten
+- Zu viele Aktionen (lieber 1-2)
+- Retro ausfallen lassen
 
 **Red Flag:** Retros bringen keine Veränderung
 
 Note:
-Wenn Retros nichts ändern, werden sie sinnlos. Das Team muss sehen, dass ihre Vorschläge umgesetzt werden. Sonst stirbt die Motivation.
+Ohne Umsetzung sterben Retros.
 
 --
 
-## Real-World: Retrospektive Beispiel
+## Retro: Beispiel
 
-**Problem (aus echter Retro):**
-- "Unsere Builds dauern 45 Minuten"
-- Team ist frustriert
+**Problem:** Builds dauern 45 Min
 
 **Schlechte Retro:**
-- "Ja, ist ärgerlich. Naja, können wir nichts machen."
-- Nächster Sprint: Immer noch 45 Min
+- "Können wir nichts machen"
 
 **Gute Retro:**
-- Diskussion: Warum so langsam?
-- Hypothese: Zu viele Tests, keine Parallelisierung
-- **Aktion:** Dev A untersucht Build-Performance (2 Tage)
-- **Owner:** Dev A
-- **Deadline:** Nächste Retro
-- Nächster Sprint: Build auf 15 Min reduziert! 🎉
+- Aktion: Build-Performance untersuchen
+- Owner: Dev A
+- Resultat: Build auf 15 Min! 🎉
 
-**Lehre:** Konkrete Aktionen + Ownership = Verbesserung
+**Lehre:** Aktionen + Ownership
 
 Note:
-Das ist der Kern einer guten Retro: Probleme identifizieren, Lösungen finden, umsetzen, messen. Der Cycle of Continuous Improvement.
+Cycle of Continuous Improvement.
 
 ---
 
@@ -866,62 +684,59 @@ Das Product Backlog ist die "To-Do-Liste" für das gesamte Produkt. Es ist dynam
 ## Product Backlog: Best Practices
 
 ✅ **DO:**
-- **DEEP Backlog** (Mike Cohn):
-  - **D**etailed appropriately (Oben detailliert, unten grob)
-  - **E**stimated (Zumindest grob geschätzt)
-  - **E**mergent (Entwickelt sich kontinuierlich)
-  - **P**rioritized (Klar priorisiert)
-- **User Story Format**
-  - "Als [Rolle] möchte ich [Feature], um [Nutzen]"
-- **INVEST-Kriterien**
-  - **I**ndependent, **N**egotiable, **V**aluable, **E**stimable, **S**mall, **T**estable
-- **Regelmäßiges Refinement**
-  - 10% der Sprint-Zeit für Backlog-Pflege
+- **DEEP Backlog:**
+  - Detailed appropriately
+  - Estimated
+  - Emergent
+  - Prioritized
+- User Story Format
+- INVEST-Kriterien
+- Regelmäßiges Refinement (10%)
 
 Note:
-Ein gutes Backlog ist wie ein Eisberg: Oben (nächste Sprints) sehr detailliert, unten (ferne Zukunft) nur grobe Ideen. Das vermeidet Verschwendung!
+Gutes Backlog wie Eisberg: Oben detailliert, unten grob.
 
 --
 
-## Product Backlog: DO's & DON'Ts
+## Product Backlog: DON'Ts
 
 ❌ **DON'T:**
-- **Alle Items gleich detailliert**
-  - Verschwendung! Items für Q4 2024 schon jetzt detailliert?
-- **Keine Priorisierung**
-  - "Alles ist wichtig!"
-  - PO muss knallhart priorisieren
-- **Technischer Jargon**
-  - "Refactor UserController Singleton Pattern"
-  - Business Value unklar!
-- **Gigantische Epics**
-  - "Neues CRM-System" (300 Story Points)
-  - Runterbrechen!
-- **Veraltet & ungepflegt**
-  - Items aus 2020 noch drin, aber nicht mehr relevant
+- Alle Items gleich detailliert
+- Keine Priorisierung
+- Technischer Jargon
+- Gigantische Epics
+- Veraltet & ungepflegt
 
-**Red Flag:** Backlog hat 500+ Items (niemand kann das überblicken)
+**Red Flag:** 500+ Items
 
 Note:
-Ein gepflegtes Backlog ist Gold wert. Ein ungepflegtes ist nutzlos. PO sollte regelmäßig aufräumen: Was ist noch relevant? Was kann weg?
+Gepflegtes Backlog ist Gold wert!
 
 --
 
-## User Story: INVEST-Kriterien
+## User Story: INVEST (1/2)
 
-Gute User Stories sind **INVEST**:
-
-| Kriterium | Bedeutung | Beispiel |
-|-----------|-----------|----------|
-| **I**ndependent | Unabhängig von anderen Stories | Kann in beliebiger Reihenfolge umgesetzt werden |
-| **N**egotiable | Verhandelbar, kein Vertrag | Details werden im Gespräch geklärt |
-| **V**aluable | Wertvoll für Nutzer/Business | Liefert erkennbaren Nutzen |
-| **E**stimable | Schätzbar | Team kann Aufwand grob einschätzen |
-| **S**mall | Klein genug für einen Sprint | 1-5 Tage Aufwand |
-| **T**estable | Testbar | Klare Akzeptanzkriterien |
+| Kriterium | Bedeutung |
+|-----------|-----------|
+| **I**ndependent | Unabhängig |
+| **N**egotiable | Verhandelbar |
+| **V**aluable | Wertvoll |
 
 Note:
-INVEST hilft, gute User Stories zu schreiben. Wenn eine Story nicht INVEST ist, sollte sie überarbeitet werden!
+INVEST hilft, gute Stories zu schreiben.
+
+--
+
+## User Story: INVEST (2/2)
+
+| Kriterium | Bedeutung |
+|-----------|-----------|
+| **E**stimable | Schätzbar |
+| **S**mall | Klein (1-5 Tage) |
+| **T**estable | Testbar |
+
+Note:
+Wenn nicht INVEST: überarbeiten!
 
 ---
 
@@ -967,32 +782,28 @@ Ein gutes Board ist transparent: Jeder sieht sofort, wo das Team steht. Physisch
 
 --
 
-## Sprint Backlog: DO's & DON'Ts
+## Sprint Backlog: DO's
 
 ✅ **DO:**
-- **Täglich aktualisieren**
-  - Board reflektiert immer aktuellen Stand
-- **Tasks hinzufügen/entfernen**
-  - Team darf Sprint Backlog anpassen
-  - Solange Sprint Goal erreicht wird!
-- **Visualisierung nutzen**
-  - Burndown Chart (optional)
-  - Blocker sichtbar machen (rote Post-Its)
-- **WIP Limits** (optional, aus Kanban)
-  - Max 2 Items "In Progress" pro Person
-
-❌ **DON'T:**
-- **PO ändert Sprint Backlog**
-  - Nur Team darf ändern!
-- **Scope Creep**
-  - Während Sprint kommen 5 neue Stories dazu
-  - Ausnahme: Sprint Goal gefährdet
-- **Board nicht aktualisiert**
-  - "Ach das ist schon seit 3 Tagen Done"
-  - Daily verliert Wert!
+- Täglich aktualisieren
+- Tasks hinzufügen/entfernen (solange Sprint Goal erreicht wird)
+- Visualisierung nutzen
+- WIP Limits (optional)
 
 Note:
-Das Sprint Backlog ist dynamisch - aber nur das Team darf es ändern. Der PO kann Wünsche äußern, aber nicht diktieren.
+Sprint Backlog ist dynamisch - nur Team darf ändern.
+
+--
+
+## Sprint Backlog: DON'Ts
+
+❌ **DON'T:**
+- PO ändert Sprint Backlog
+- Scope Creep
+- Board nicht aktualisiert
+
+Note:
+PO kann Wünsche äußern, nicht diktieren.
 
 ---
 
@@ -1014,80 +825,65 @@ Das Increment ist das konkrete Ergebnis des Sprints: Funktionierende Software! "
 
 ## Definition of Done (DoD)
 
-**Was bedeutet "Done"?**
-
-Typische DoD-Kriterien:
-- ✅ Code geschrieben & reviewed
-- ✅ Unit Tests geschrieben (>80% Coverage)
-- ✅ Integration Tests erfolgreich
-- ✅ Dokumentation aktualisiert
-- ✅ Akzeptanzkriterien erfüllt
-- ✅ Von PO abgenommen
-- ✅ In Staging deployed
-- ✅ Keine bekannten Bugs
+**Typische Kriterien:**
+- Code reviewed
+- Unit Tests (>80% Coverage)
+- Integration Tests
+- Dokumentation aktualisiert
+- Akzeptanzkriterien erfüllt
+- Von PO abgenommen
 
 **Wichtig:** DoD ist TEAMSPEZIFISCH!
 
 Note:
-Die Definition of Done ist ein Vertrag innerhalb des Teams: "Das verstehen wir unter 'fertig'". Ohne DoD entstehen Missverständnisse!
+DoD ist Vertrag: "Das bedeutet 'fertig'".
 
 --
 
-## Definition of Done: Beispiele
+## DoD: Schwach vs. Stark
 
-**Schwache DoD (Anti-Pattern):**
+**Schwache DoD:**
 - Code geschrieben
 - Compiles
-
-**Resultat:** Technische Schulden, keine Qualität!
+→ Technische Schulden!
 
 **Starke DoD:**
-- Code geschrieben & reviewed (4-Augen-Prinzip)
-- Unit Tests (>80% Coverage)
-- Integration Tests geschrieben
-- Akzeptanztests bestanden
-- Performance-Tests (falls relevant)
-- Security Scan (OWASP)
-- Dokumentation (API Docs, README)
+- Code reviewed
+- Tests (Unit + Integration)
 - Deployed in Staging
 - Von PO abgenommen
-
-**Resultat:** Hohe Qualität, potenziell auslieferbar!
+→ Hohe Qualität!
 
 Note:
-Je stärker die DoD, desto besser die Qualität - aber auch länger die Entwicklungszeit. Das Team muss den Sweet Spot finden.
+Team muss Sweet Spot finden.
 
 --
 
-## Increment: DO's & DON'Ts
+## Increment: DO's
 
 ✅ **DO:**
-- **Working Software** liefern
-  - Nicht "fast fertig"!
-- **Continuous Integration**
-  - Jeder Commit wird gebaut & getestet
-- **Deployment Pipeline**
-  - Automatisiertes Deployment in Staging
-- **Potentially Shippable**
-  - Könnte in Prod gehen (auch wenn nicht released)
-
-❌ **DON'T:**
-- **"95% fertig"**
-  - Story ist Done oder nicht Done, kein Dazwischen!
-- **Technical Debt** anhäufen
-  - "Refactor machen wir später"
-  - Später = Nie
-- **Ungetestet** ausliefern
-  - "Haben keine Zeit für Tests"
-  - Bugs in Produktion kosten mehr!
-- **"Hardening Sprint"**
-  - Letzter Sprint nur für Bugfixes
-  - DoD sollte das überflüssig machen
-
-**Red Flag:** "Wir brauchen einen Hardening Sprint"
+- Working Software liefern
+- Continuous Integration
+- Deployment Pipeline
+- Potentially Shippable
 
 Note:
-Wenn ein Team regelmäßig "Hardening Sprints" braucht, ist die Definition of Done zu schwach! Qualität sollte in jedem Sprint eingebaut werden.
+Jedes Increment ist potenziell auslieferbar.
+
+--
+
+## Increment: DON'Ts
+
+❌ **DON'T:**
+- "95% fertig" (Done oder nicht Done!)
+- Technical Debt anhäufen
+- Ungetestet ausliefern
+- "Hardening Sprint"
+
+**Red Flag:** Hardening Sprints nötig
+
+Note:
+Qualität in jedem Sprint einbauen!
 
 ---
 

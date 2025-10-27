@@ -88,30 +88,47 @@ Healthcare.gov ist ein Paradebeispiel für Big Bang Deployment. Mit agilem Vorge
 
 ---
 
-## Traditionell vs. Agile
+## Traditionell vs. Agile (1/2)
 
-| Aspekt | Traditionell (Wasserfall) | Agile |
-|--------|---------------------------|-------|
+| Aspekt | Traditionell | Agile |
+|--------|--------------|-------|
 | **Planung** | Alles im Voraus | Iterativ, adaptiv |
 | **Anforderungen** | Festgeschrieben | Änderungen willkommen |
 | **Feedback** | Am Ende | Kontinuierlich |
 | **Risiko** | Hoch (Big Bang) | Niedrig (inkrementell) |
+
+Note:
+Der fundamentale Unterschied: Traditionelle Methoden versuchen, Unsicherheit zu eliminieren.
+
+--
+
+## Traditionell vs. Agile (2/2)
+
+| Aspekt | Traditionell | Agile |
+|--------|--------------|-------|
 | **Team** | Spezialisiert, Silos | Cross-functional |
 | **Erfolgsmaß** | Plan eingehalten? | Wert geliefert? |
 | **Dokumentation** | Umfassend | Angemessen |
 
 Note:
-Der fundamentale Unterschied: Traditionelle Methoden versuchen, Unsicherheit zu eliminieren. Agile akzeptiert Unsicherheit und nutzt sie.
+Agile akzeptiert Unsicherheit und nutzt sie als Chance zum Lernen.
 
 --
 
-## DO's & DON'Ts: Projektstart
+## DO's: Projektstart
 
 ✅ **DO:**
 - Kleine, lieferbare Inkremente planen
 - Frühes und häufiges Feedback einholen
 - Cross-funktionale Teams bilden
 - Technische Exzellenz von Anfang an
+
+Note:
+Die richtigen Weichen am Anfang stellen!
+
+--
+
+## DON'Ts: Projektstart
 
 ❌ **DON'T:**
 - 100 Seiten Anforderungsdokument schreiben
@@ -120,7 +137,7 @@ Der fundamentale Unterschied: Traditionelle Methoden versuchen, Unsicherheit zu 
 - Teams nach Technologie trennen (Frontend/Backend/DB)
 
 Note:
-Die größten Fehler werden am Anfang gemacht. Vermeiden Sie Big Design Up Front und technische Schulden von Tag 1.
+Vermeiden Sie Big Design Up Front und technische Schulden von Tag 1.
 
 ---
 
@@ -143,6 +160,13 @@ Agile ist keine Erfindung der 2000er. Die Wurzeln reichen bis in die 1950er zur�
 - Kanban-Karten zur Steuerung
 - *"Eliminate waste, empower workers"*
 
+Note:
+Die Prinzipien entstanden in der Fertigung! Toyota erkannte: Verschwendung eliminieren, Mitarbeiter befähigen, kontinuierlich verbessern.
+
+--
+
+## Timeline: Scrum wird geboren
+
 **1986** 📄 **"The New New Product Development Game"**
 - Takeuchi & Nonaka (Harvard Business Review)
 - Rugby-Analogie: "Scrum"
@@ -150,11 +174,11 @@ Agile ist keine Erfindung der 2000er. Die Wurzeln reichen bis in die 1950er zur�
 - Overlapping Phasen
 
 Note:
-Die Prinzipien entstanden in der Fertigung! Toyota erkannte: Verschwendung eliminieren, Mitarbeiter befähigen, kontinuierlich verbessern. Diese Ideen wurden später auf Software übertragen.
+Diese Ideen wurden später auf Software übertragen.
 
 --
 
-## Timeline: Software-Methoden entstehen
+## Timeline: Software-Methoden (1/2)
 
 **1991** 🔄 **RAD (Rapid Application Development)**
 - James Martin
@@ -163,6 +187,13 @@ Die Prinzipien entstanden in der Fertigung! Toyota erkannte: Verschwendung elimi
 **1995** 🔵 **Scrum**
 - Ken Schwaber & Jeff Sutherland
 - Erste formale Beschreibung
+
+Note:
+In den 90ern entstanden parallel viele "leichtgewichtige" Methoden.
+
+--
+
+## Timeline: Software-Methoden (2/2)
 
 **1996** 🔶 **Extreme Programming (XP)**
 - Kent Beck
@@ -174,7 +205,7 @@ Die Prinzipien entstanden in der Fertigung! Toyota erkannte: Verschwendung elimi
 - Crystal Clear (Alistair Cockburn)
 
 Note:
-In den 90ern entstanden parallel viele "leichtgewichtige" Methoden - als Gegenbewegung zu schwerfälligen Prozessen wie RUP.
+Gegenbewegung zu schwerfälligen Prozessen wie RUP.
 
 --
 
@@ -184,6 +215,15 @@ In den 90ern entstanden parallel viele "leichtgewichtige" Methoden - als Gegenbe
 **📅 12.-14. Februar 2001**
 **👥 17 Software-Entwickler**
 
+**Ergebnis:** Das Agile Manifest + 12 Prinzipien
+
+Note:
+Diese 17 Personen trafen sich, um Gemeinsamkeiten ihrer Methoden zu finden.
+
+--
+
+## Die Autoren
+
 Darunter:
 - Kent Beck (XP)
 - Ken Schwaber & Jeff Sutherland (Scrum)
@@ -191,31 +231,38 @@ Darunter:
 - Martin Fowler (Refactoring)
 - Robert C. Martin (Clean Code)
 
-**Ergebnis:** Das Agile Manifest + 12 Prinzipien
-
 Note:
-Diese 17 Personen trafen sich, um Gemeinsamkeiten ihrer Methoden zu finden. In 2 Tagen entstand das Agile Manifest - eines der einflussreichsten Dokumente der Softwareentwicklung.
+In 2 Tagen entstand eines der einflussreichsten Dokumente der Softwareentwicklung.
 
 --
 
-## Agile wird Mainstream
+## Agile wird Mainstream (1/2)
 
 **2000er** 📈 **Verbreitung**
 - 2002: Scrum Alliance gegründet
-- 2003: "Agile Software Development with Scrum" (Schwaber)
-- 2005: Agile wird in großen Unternehmen eingesetzt
+- 2003: "Agile Software Development with Scrum"
+- 2005: Agile in großen Unternehmen
 
 **2010er** 🌍 **Dominanz**
 - 2011: SAFe 1.0 (Scaled Agile Framework)
-- Agile wird Standard in der Software-Industrie
+- Agile wird Standard
 - DevOps-Bewegung entsteht
 
+Note:
+Von einer Nischen-Bewegung zum Standard.
+
+--
+
+## Agile wird Mainstream (2/2)
+
 **Heute** 🚀 **New Normal**
-- 71% aller Unternehmen nutzen agile Ansätze (State of Agile 2023)
-- Agile beyond Software: Marketing, HR, etc.
+- 71% aller Unternehmen nutzen agile Ansätze
+  - State of Agile 2023
+- Agile beyond Software:
+  - Marketing, HR, Finance
 
 Note:
-Von einer Nischen-Bewegung zum Standard. Heute ist die Frage nicht mehr "Warum Agile?", sondern "Wie machen wir Agile richtig?".
+Heute ist die Frage nicht mehr "Warum Agile?", sondern "Wie machen wir Agile richtig?".
 
 ---
 
@@ -238,10 +285,10 @@ Agile ist angewandte Lean-Philosophie in der Softwareentwicklung. Wer Lean verst
 
 ---
 
-## Zusammenfassung: Warum Agile?
+## Zusammenfassung: Warum Agile? (1/2)
 
 ✅ **Frühe Wertschöpfung**
-- Funktionierende Software nach Wochen, nicht Monaten
+- Funktionierende Software nach Wochen
 - ROI beginnt früher
 
 ✅ **Risikominimierung**
@@ -249,8 +296,15 @@ Agile ist angewandte Lean-Philosophie in der Softwareentwicklung. Wer Lean verst
 - Kontinuierliches Feedback
 
 ✅ **Flexibilität**
-- Änderungen sind normal und willkommen
-- Anpassung an Marktbedürfnisse
+- Änderungen sind willkommen
+- Anpassung an Markt
+
+Note:
+Agile adressiert fundamentale Probleme der Softwareentwicklung.
+
+--
+
+## Zusammenfassung: Warum Agile? (2/2)
 
 ✅ **Qualität**
 - Tests & Integration von Anfang an
@@ -261,4 +315,4 @@ Agile ist angewandte Lean-Philosophie in der Softwareentwicklung. Wer Lean verst
 - Sichtbarer Impact
 
 Note:
-Agile ist kein Wundermittel, aber es adressiert die fundamentalen Probleme der Softwareentwicklung: Unsicherheit, Komplexität und Veränderung.
+Agile ist kein Wundermittel, aber es hilft bei Unsicherheit, Komplexität und Veränderung.

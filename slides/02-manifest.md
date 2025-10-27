@@ -37,47 +37,46 @@ Der erste und wichtigste Wert! Software wird von Menschen für Menschen gemacht.
 
 --
 
-## Wert 1: Praxisbeispiele
+## Wert 1: DO's
 
 ✅ **DO:**
-- **Daily Stand-up** am Kanban Board
-  - Team synchronisiert sich in 15 Min
-  - Blocker werden sofort angesprochen
+- **Daily Stand-up** am Board
+  - 15 Min Synchronisation
 - **Pair Programming**
   - Wissenstransfer in Echtzeit
-  - Höhere Code-Qualität
 - **Face-to-Face Kommunikation**
   - Videocall statt E-Mail-Kette
-  - Schnellere Entscheidungen
-
-❌ **DON'T:**
-- "Steht so im Prozess" als Totschlagargument
-- Tool-Gläubigkeit: "Jira löst unsere Probleme"
-- Alle Kommunikation nur über Tickets
-- "Nicht meine Abteilung"-Mentalität
 
 Note:
-Beispiel: Ein Team hatte 3 Tage E-Mail-Ping-Pong. Ein 15-minütiger Call löste das Problem. Prozesse sollen Menschen unterstützen, nicht einschränken.
+Prozesse sollen Menschen unterstützen, nicht einschränken.
 
 --
 
-## Real-World: Spotify's Squad Model
+## Wert 1: DON'Ts
 
-**Beispiel:** Spotify organisiert sich in **Squads** (kleine, autonome Teams)
+❌ **DON'T:**
+- "Steht so im Prozess"
+- Tool-Gläubigkeit
+- Nur Ticket-Kommunikation
+- "Nicht meine Abteilung"
+
+Note:
+Ein 15-Min Call kann 3 Tage E-Mail-Ping-Pong ersetzen.
+
+--
+
+## Real-World: Spotify Squads
+
+**Squads** = Kleine, autonome Teams
 - 6-12 Personen
-- Cross-functional (Design, Dev, QA, Product)
-- Eigenes Mission & KPIs
-- **Minimale Prozess-Vorgaben**
-
-**Resultat:**
-- Schnelle Entscheidungen
-- Hohe Ownership
-- Innovation durch Autonomie
+- Cross-functional
+- Eigene Mission & KPIs
+- Minimale Prozess-Vorgaben
 
 **Lehre:** Menschen > Organigramme
 
 Note:
-Spotify zeigt: Wenn man den Menschen vertraut und ihnen Freiraum gibt, entstehen großartige Produkte. Nicht der Prozess macht's, sondern die Menschen.
+Spotify zeigt: Vertrauen + Freiraum = großartige Produkte.
 
 ---
 
@@ -96,67 +95,58 @@ Nicht: "Keine Dokumentation!" Sondern: Dokumentation muss Wert liefern. Ein funk
 
 --
 
-## Wert 2: Praxisbeispiele
+## Wert 2: DO's
 
 ✅ **DO:**
 - **Working Demo** im Sprint Review
-  - Stakeholder sehen echte Features
-  - Sofortiges Feedback
 - **Living Documentation**
   - API-Docs aus Code generiert
-  - Tests als Spezifikation
-- **README über Architecture Decision Records**
+- **ADRs** (Architecture Decisions)
   - Knapp, aktuell, relevant
 
-**Angemessene Doku:**
-- API-Dokumentation (Swagger/OpenAPI)
+Note:
+Gute Dokumentation bleibt nah am Code.
+
+--
+
+## Wert 2: Angemessene Doku
+
+**Was dokumentieren?**
+- API-Dokumentation (Swagger)
 - Architecture Decision Records (ADRs)
 - Onboarding-Guides
 - Runbooks für Operations
 
 Note:
-Gute Dokumentation veraltet nicht, weil sie nah am Code ist. Tests sind oft die beste Dokumentation - sie lügen nie.
+Tests sind oft die beste Dokumentation - sie lügen nie.
 
 --
 
-## Wert 2: Praxisbeispiele (Fortsetzung)
+## Wert 2: DON'Ts
 
 ❌ **DON'T:**
-- **100-Seiten Pflichtenheft** vor der ersten Zeile Code
-  - Veraltet sofort
-  - Niemand liest es vollständig
-- **Dokumentation statt Demo**
-  - "Die Funktion ist fast fertig, hier die PowerPoint"
-  - Stakeholder sehen nichts Greifbares
-- **Duplicate Information**
-  - Doku sagt eins, Code macht was anderes
-  - Wartungsalptraum
+- 100-Seiten Pflichtenheft vor Code
+- Dokumentation statt Demo
+- Doku ≠ Code (Duplicate Information)
 
-**Red Flag:** Wenn mehr Zeit für Doku als für Code draufgeht!
+**Red Flag:** Mehr Zeit für Doku als für Code!
 
 Note:
-Faustregel: Dokumentiere Entscheidungen (Warum), nicht Implementierung (Was/Wie - das steht im Code). Code erklärt das "Was", Tests das "Wie", Doku das "Warum".
+Faustregel: Dokumentiere Entscheidungen (Warum), nicht Implementierung (Was/Wie).
 
 --
 
 ## Real-World: Amazon's "Working Backwards"
 
-**Beispiel:** Amazon startet neue Features mit einem **Press Release**
-- 1 Seite Produkt-Ankündigung (für Kunden)
-- Beschreibt Kundennutzen, nicht Features
+**Ansatz:** Neue Features starten mit **1-seitigem Press Release**
+- Kundennutzen, nicht Features
+- FAQ & Mock-Ups
 - Dann erst: Entwicklung
 
-**Plus:** FAQ & Mock-Ups - aber keine umfassende Spezifikation!
-
-**Resultat:**
-- Fokus auf Kundenwert
-- Klare Vision
-- Minimale Up-Front Doku
-
-**Lehre:** Dokumentation muss einen Zweck haben
+**Lehre:** Vision > umfassende Spezifikation
 
 Note:
-Amazon dreht es um: Erst das Endergebnis beschreiben (Press Release), dann entwickeln. Das zwingt zu Klarheit über den Wert. Keine Spezifikation, sondern Vision.
+Amazon dreht es um: Erst das Endergebnis beschreiben, dann entwickeln.
 
 ---
 
@@ -175,68 +165,63 @@ Der klassische Ansatz: Vertrag aushandeln, dann entwickeln, am Ende liefern. Agi
 
 --
 
-## Wert 3: Praxisbeispiele
+## Wert 3: DO's
 
 ✅ **DO:**
 - **Product Owner im Team**
-  - Täglich verfügbar für Fragen
-  - Nimmt an Sprint Reviews teil
-  - Priorisiert Backlog gemeinsam mit Team
-- **Sprint Reviews mit echten Usern**
-  - Nicht nur Stakeholder, auch End-User
-  - Sofortiges, ehrliches Feedback
-- **User Story Mapping Sessions**
-  - Team und Kunde mappen Journey gemeinsam
+  - Täglich verfügbar
+- **Sprint Reviews mit End-Usern**
+  - Sofortiges Feedback
+- **User Story Mapping**
   - Gemeinsames Verständnis
 
-**Beispiel:** Online-Shop
-- Product Owner: Täglich im Slack-Channel
-- Alle 2 Wochen: Demo mit echten Shop-Betreibern
-- Feedback fließt sofort in nächsten Sprint
-
 Note:
-Ein guter Product Owner ist Gold wert! Sie oder er ist die Brücke zwischen Business und Tech - und sollte täglich verfügbar sein.
+Ein guter Product Owner ist Gold wert!
 
 --
 
-## Wert 3: Praxisbeispiele (Fortsetzung)
+## Wert 3: Beispiel Online-Shop
+
+**Product Owner Einbindung:**
+- Täglich im Slack-Channel
+- Alle 2 Wochen: Demo mit echten Betreibern
+- Feedback sofort im nächsten Sprint
+
+Note:
+PO ist die Brücke zwischen Business und Tech.
+
+--
+
+## Wert 3: DON'Ts
 
 ❌ **DON'T:**
-- **Fixed-Price, Fixed-Scope Verträge**
-  - "Alle Features stehen fest, keine Änderungen"
-  - Realität: Anforderungen ändern sich IMMER
-  - Resultat: Change Requests, Konflikte
-- **"Fence Throwing"**
-  - Anforderungen über den Zaun werfen
-  - Monate später: "So habe ich das nicht gemeint"
-- **Nur am Anfang und Ende involviert**
-  - Kickoff → 6 Monate Stille → Präsentation
-  - Keine Chance für Korrekturen
+- Fixed-Price, Fixed-Scope Verträge
+- "Fence Throwing" (Anforderungen über Zaun)
+- Nur Kickoff + Enddemo
 
 **Red Flag:** "Der Kunde will uns nicht stören"
 
 Note:
-Der Kunde MUSS "stören" dürfen! Besser jede Woche kleine Korrekturen als nach 6 Monaten die große Katastrophe. Agile Verträge arbeiten mit Time & Material oder Money-for-Nothing.
+Der Kunde MUSS "stören" dürfen! Besser wöchentliche Korrekturen als 6-Monats-Katastrophe.
 
 --
 
-## Real-World: Gov.uk Digital Service
+## Real-World: Gov.uk
 
-**Beispiel:** UK Government Digital Service (GDS)
-- Entwickelt öffentliche Websites agil
-- **User Researchers** im Team
-- Jede Woche: Tests mit echten Bürgern
+**UK Government Digital Service:**
+- User Researchers im Team
+- Wöchentliche Tests mit Bürgern
 - Iterative Verbesserung
 
 **Resultat:**
-- gov.uk von 3.000 auf 1 Website konsolidiert
-- Nutzerzufriedenheit: 90%+
-- £1,7 Mrd. Einsparungen in 5 Jahren
+- 3.000 → 1 Website
+- 90%+ Zufriedenheit
+- £1,7 Mrd. Einsparungen
 
 **Lehre:** User Feedback > Expertenmeinungen
 
 Note:
-Die britische Regierung zeigt: Auch im öffentlichen Sektor funktioniert agiles Vorgehen. Durch kontinuierliches User Testing entstand eine der besten Regierungs-Websites der Welt.
+Auch im öffentlichen Sektor funktioniert agiles Vorgehen.
 
 ---
 
@@ -255,98 +240,102 @@ Der klassische Plan sagt: "So wird's gemacht, Punkt." Agile sagt: "Das ist unser
 
 --
 
-## Wert 4: Praxisbeispiele
+## Wert 4: DO's
 
 ✅ **DO:**
 - **Sprint Planning mit Flexibilität**
-  - Commitment für Sprint, nicht für 6 Monate
-  - Anpassung nach jedem Sprint
+  - Commitment für Sprint, nicht Monate
 - **Pivots sind OK**
-  - Markt ändert sich? → Prioritäten anpassen
-  - Technologie veraltet? → Stack wechseln
+  - Markt ändert sich? → Anpassen!
 - **A/B Tests & Experimente**
-  - Feature ausrollen, messen, lernen
-  - Bei Misserfolg: Schnell stoppen
-
-**Beispiel:** E-Commerce Feature
-- Hypothese: "Kunden wollen 1-Click-Checkout"
-- Sprint 1: MVP implementieren
-- Messung: Conversion -5% (!)
-- Reaktion: Feature entfernen, anderen Ansatz testen
+  - Ausrollen, messen, lernen
 
 Note:
-Das ist der Kern empirischen Arbeitens: Hypothese aufstellen, testen, messen, lernen, anpassen. Misserfolge sind Lern-Chancen, keine Katastrophen.
+Empirisches Arbeiten: Hypothese → Testen → Lernen → Anpassen.
 
 --
 
-## Wert 4: Praxisbeispiele (Fortsetzung)
+## Wert 4: Beispiel E-Commerce
+
+**Feature-Experiment:**
+- Hypothese: "1-Click-Checkout"
+- Sprint 1: MVP
+- Messung: Conversion -5% ❌
+- Reaktion: Feature entfernen
+
+Note:
+Misserfolge sind Lern-Chancen, keine Katastrophen.
+
+--
+
+## Wert 4: DON'Ts
 
 ❌ **DON'T:**
-- **Jahres-Roadmaps mit fixen Features**
-  - "Q3 2024: Feature X, Q4 2024: Feature Y"
-  - Realität: Markt, Technik, Prioritäten ändern sich
-- **"Scope Creep" als Feindbild**
-  - Änderungen als Problem sehen
-  - "Steht nicht im Vertrag!"
-- **Ignorieren von Feedback**
-  - "Wir haben schon 6 Monate investiert, jetzt ziehen wir durch"
-  - Sunk Cost Fallacy
+- Jahres-Roadmaps mit fixen Features
+- "Scope Creep" als Feindbild
+- Feedback ignorieren (Sunk Cost Fallacy)
 
-**Red Flag:** "Das haben wir so geplant, das machen wir so!"
+**Red Flag:** "Das haben wir so geplant!"
 
 Note:
-Rigide Pläne sind eine Illusion von Kontrolle. Die Welt ändert sich - gute Teams ändern sich mit. Das berühmte Zitat: "Plans are worthless, but planning is everything" (Eisenhower).
+Rigide Pläne = Illusion von Kontrolle. "Plans are worthless, but planning is everything" (Eisenhower).
 
 --
 
-## Real-World: Spotify's Bet Model
+## Real-World: Spotify Bets
 
-**Beispiel:** Spotify arbeitet mit **Bets statt Plänen**
-- Keine Feature-Roadmap, sondern Wetten/Hypothesen
-- "Wir glauben, dass Feature X Problem Y löst"
+**Bets statt Plänen:**
+- Wetten/Hypothesen statt Roadmap
 - Timeboxed: 4-8 Wochen
-- Erfolgskriterien definiert
 - **Bei Misserfolg: Stoppen!**
 
 **Resultat:**
-- 30% der Bets werden gestoppt
-- Ressourcen fließen zu erfolgreichen Initiativen
+- 30% werden gestoppt
+- Ressourcen zu Erfolgen
 - Kultur des Experimentierens
 
-**Lehre:** Pläne sind Hypothesen, keine Versprechungen
+**Lehre:** Features sind Hypothesen
 
 Note:
-Spotify macht's vor: Behandle Features als Experimente. Manche scheitern - das ist OK und sogar gewünscht, denn es bedeutet, man lernt schnell.
+Behandle Features als Experimente. Manche scheitern - das ist OK!
 
 ---
 
-## Die 12 Prinzipien (Überblick)
+## Die 12 Prinzipien (1/3)
 
-Das Agile Manifest hat auch **12 Prinzipien** - hier die wichtigsten:
+Das Agile Manifest hat **12 Prinzipien**:
 
-1. **Kundennutzen** - Frühe, kontinuierliche Auslieferung wertvoll Software
-2. **Änderungen willkommen** - Auch spät in der Entwicklung
-3. **Häufige Lieferung** - Alle paar Wochen/Monate
-4. **Tägliche Zusammenarbeit** - Business & Entwickler arbeiten täglich zusammen
-5. **Motivierte Individuen** - Vertrauen, Unterstützung, Umfeld geben
-6. **Face-to-Face Kommunikation** - Effizienteste Methode
+1. **Kundennutzen** - Frühe Auslieferung
+2. **Änderungen willkommen**
+3. **Häufige Lieferung** - Alle paar Wochen
+4. **Tägliche Zusammenarbeit**
 
 Note:
-Wir gehen nicht alle 12 durch (das wäre zu viel), aber schauen uns die praxisrelevantesten an.
+Wir schauen uns die praxisrelevantesten an.
 
 --
 
-## Die 12 Prinzipien (Fortsetzung)
+## Die 12 Prinzipien (2/3)
 
+5. **Motivierte Individuen** - Vertrauen geben
+6. **Face-to-Face Kommunikation**
 7. **Funktionierende Software** - Primäres Fortschrittsmaß
-8. **Nachhaltige Entwicklung** - Gleichmäßiges Tempo auf Dauer
-9. **Technische Exzellenz** - Continuous Attention to Excellence
-10. **Einfachheit** - Kunst, Arbeit die nicht getan werden muss zu maximieren
-11. **Selbstorganisation** - Beste Architekturen/Designs von selbstorganisierten Teams
-12. **Regelmäßige Reflexion** - In Abständen reflektieren und Verhalten anpassen
+8. **Nachhaltige Entwicklung** - Gleichmäßiges Tempo
 
 Note:
-Diese Prinzipien sind zeitlos. Sie gelten genauso heute wie 2001 - weil sie fundamentale Wahrheiten über Softwareentwicklung beschreiben.
+Diese Prinzipien sind zeitlos.
+
+--
+
+## Die 12 Prinzipien (3/3)
+
+9. **Technische Exzellenz**
+10. **Einfachheit** - Arbeit maximieren, die NICHT getan werden muss
+11. **Selbstorganisation**
+12. **Regelmäßige Reflexion** - Anpassen
+
+Note:
+Fundamentale Wahrheiten über Softwareentwicklung.
 
 ---
 
@@ -358,145 +347,129 @@ Schauen wir uns 3 besonders wichtige Prinzipien genauer an:
 
 ## Prinzip 8: Nachhaltiges Tempo
 
-> **"Agile Prozesse fördern nachhaltige Entwicklung. Die Auftraggeber, Entwickler und Benutzer sollten ein gleichmäßiges Tempo auf unbegrenzte Zeit halten können."**
-
-**Was heißt das konkret?**
+> **"Gleichmäßiges Tempo auf unbegrenzte Zeit halten können."**
 
 ✅ **DO:**
-- **40-Stunden-Woche** als Standard
-- Überstunden sind Ausnahme, nicht Regel
-- Urlaub wird genommen, nicht gehortet
-- Burnout-Prävention durch Work-Life-Balance
-
-❌ **DON'T:**
-- **"Sprint-Heroics"** - Jeder Sprint mit Überstunden
-- Vacation shaming ("Du nimmst schon wieder Urlaub?")
-- "Crunch Time" als Dauerzustand
-- Velocity durch Überlastung steigern
+- 40-Stunden-Woche als Standard
+- Urlaub wird genommen
+- Burnout-Prävention
 
 Note:
-Software-Entwicklung ist ein Marathon, kein Sprint. Übermüdete Entwickler machen Fehler, die später teuer werden. Nachhaltigkeit ist langfristig produktiver.
+Software-Entwicklung ist ein Marathon, kein Sprint.
 
 --
 
-## Prinzip 8: Real-World Beispiel
+## Prinzip 8: DON'Ts
 
-**Anti-Pattern: "Death March Project"**
-- 6 Monate: 60-80 Stunden/Woche
-- Team: Erschöpft, hohe Fluktuation
-- Code-Qualität: Technische Schulden
+❌ **DON'T:**
+- "Sprint-Heroics" (jeder Sprint Überstunden)
+- Vacation shaming
+- "Crunch Time" als Dauerzustand
+
+Note:
+Übermüdete Entwickler machen teure Fehler.
+
+--
+
+## Prinzip 8: Anti-Pattern
+
+**"Death March Project"**
+- 6 Monate: 60-80h/Woche
 - Resultat: Projekt fertig, Team kaputt
 
 **Agile Alternative:**
-- Realistische Sprint-Planung
 - Velocity basiert auf 40h/Woche
-- Bei Überlastung: Scope reduzieren, nicht Menschen überlasten
-- Resultat: Langfristig höhere Produktivität
-
-**Metric:** "Sustainable Pace" messen
-- Überstunden tracken
-- Krankheitstage beobachten
-- Fluktuation im Auge behalten
+- Bei Überlastung: Scope reduzieren!
 
 Note:
-Ein Team, das regelmäßig 60-Stunden-Wochen arbeitet, ist nicht "engagiert", sondern falsch geplant. Das Management muss Scope reduzieren, nicht Druck erhöhen.
+60h-Wochen = falsche Planung. Scope reduzieren, nicht Druck erhöhen.
 
 --
 
 ## Prinzip 9: Technische Exzellenz
 
-> **"Ständiges Augenmerk auf technische Exzellenz und gutes Design fördert Agilität."**
-
-**Was heißt das konkret?**
+> **"Technische Exzellenz fördert Agilität."**
 
 ✅ **DO:**
-- **Test-Driven Development (TDD)**
-- **Continuous Integration/Deployment**
-- **Code Reviews** & Pair Programming
-- **Refactoring** als Teil jedes Sprints
-- **Definition of Done** beinhaltet Tests, Doku
+- Test-Driven Development (TDD)
+- Continuous Integration/Deployment
+- Code Reviews & Pair Programming
+- Refactoring in jedem Sprint
+
+Note:
+Technische Exzellenz = Voraussetzung für Agilität.
+
+--
+
+## Prinzip 9: DON'Ts
 
 ❌ **DON'T:**
 - "Erst Features, später Qualität"
 - "Keine Zeit für Tests"
 - "Technical Debt Sprint" in 6 Monaten
-- Copy-Paste statt Refactoring
 
 Note:
-Technische Exzellenz ist kein Luxus, sondern Voraussetzung für Agilität. Schlechter Code macht Änderungen teuer und langsam - das Gegenteil von agil!
+Schlechter Code macht Änderungen teuer - das Gegenteil von agil!
 
 --
 
-## Prinzip 9: Real-World Beispiel
+## Prinzip 9: Beispiele
 
-**Google's 20% Zeit + Code Quality**
-- Entwickler dürfen 20% Zeit für Tech Debt nutzen
-- Strenge Code Review-Kultur
-- Automated Testing als Standard
-- Resultat: Hohe Qualität, schnelle Innovation
+**Google:** 20% Zeit für Tech Debt
+**Netflix:** Chaos Engineering
 
-**Netflix's Chaos Engineering**
-- "Chaos Monkey" testet Resilienz
-- Production wird regelmäßig gestresst
-- Resultat: 99,99% Uptime
-
-**Lehre:** Investition in Qualität zahlt sich aus
+**Resultat:**
+- Hohe Qualität
+- Schnelle Innovation
 - Weniger Bugs
-- Schnellere Features (kein Legacy-Ballast)
-- Weniger Stress im Team
+
+**Lehre:** Qualität ist keine Option
 
 Note:
-Die besten Unternehmen behandeln Qualität nicht als Optional. Google, Netflix, Amazon - alle investieren massiv in technische Exzellenz. Das ist kein Zufall.
+Top-Unternehmen investieren massiv in technische Exzellenz.
 
 --
 
 ## Prinzip 10: Einfachheit
 
-> **"Einfachheit -- die Kunst, die Menge nicht getaner Arbeit zu maximieren -- ist essenziell."**
+> **"Die Kunst, die Menge nicht getaner Arbeit zu maximieren."**
 
-**Das meistmissverstandene Prinzip!**
-
-Nicht: "Einfache Lösungen bauen"
-Sondern: **"Unnötige Arbeit vermeiden!"**
+**Nicht:** "Einfache Lösungen"
+**Sondern:** "Unnötige Arbeit vermeiden!"
 
 ✅ **DO:**
-- **YAGNI** (You Aren't Gonna Need It)
-  - Nur Features bauen, die JETZT gebraucht werden
-- **MVP** (Minimum Viable Product)
-  - Kleinstmögliche Version, die Wert liefert
-- **Kill Features**
-  - Ungenutzte Features entfernen
+- YAGNI (You Aren't Gonna Need It)
+- MVP (Minimum Viable Product)
+- Kill Features (ungenutzte entfernen)
 
 Note:
-Der größte Waste in Software: Features, die niemand benutzt. Studien zeigen: 45% aller Features werden nie oder selten genutzt. Das ist reine Verschwendung!
+45% aller Features werden nie/selten genutzt!
 
 --
 
-## Prinzip 10: Praxisbeispiele
+## Prinzip 10: DON'Ts
 
 ❌ **DON'T:**
-- **Over-Engineering**
-  - "Was wenn wir das mal brauchen?"
-  - Generische Frameworks für spezifische Probleme
-- **Feature Bloat**
-  - "Können wir nicht noch XYZ hinzufügen?"
-  - Resultat: Komplexe, unübersichtliche Software
-- **Premature Optimization**
-  - "Das muss super-performant sein!" (aber niemand nutzt es)
-
-✅ **DO:**
-- **Start simple, grow as needed**
-- **Feature Flags** für Experimente
-  - Feature einschalten, messen, bei Misserfolg: AUS
-- **Usage Analytics**
-  - Welche Features werden WIRKLICH genutzt?
-
-**Beispiel:** Basecamp removed 30% ihrer Features
-- Analytics zeigten: <5% Nutzung
-- Resultat: Einfachere, fokussiertere App
+- Over-Engineering
+- Feature Bloat
+- Premature Optimization
 
 Note:
-Die Kunst ist, NEIN zu sagen. Jedes Feature hat Kosten: Entwicklung, Wartung, Komplexität. Einfachheit bedeutet: Maximalen Wert mit minimalen Features.
+Jedes Feature hat Kosten: Entwicklung, Wartung, Komplexität.
+
+--
+
+## Prinzip 10: DO's
+
+✅ **DO:**
+- Start simple, grow as needed
+- Feature Flags für Experimente
+- Usage Analytics nutzen
+
+**Beispiel:** Basecamp entfernte 30% der Features (<5% Nutzung)
+
+Note:
+Die Kunst ist, NEIN zu sagen.
 
 ---
 
