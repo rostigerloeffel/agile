@@ -48,7 +48,10 @@ Der erste und wichtigste Wert! Software wird von Menschen für Menschen gemacht.
   - Videocall statt E-Mail-Kette
 
 Note:
-Prozesse sollen Menschen unterstützen, nicht einschränken.
+Prozesse sollen Menschen unterstützen, nicht einschränken. Erweiterte Erklärungen:
+- Daily Stand-up am Kanban Board: Team synchronisiert sich in 15 Min, Blocker werden sofort angesprochen
+- Pair Programming: Zwei Entwickler, ein Screen - Wissenstransfer in Echtzeit, höhere Code-Qualität
+- Face-to-Face: Ein 15-Min Videocall kann 3 Tage E-Mail-Ping-Pong ersetzen. Schnellere Entscheidungen, weniger Missverständnisse
 
 --
 
@@ -61,7 +64,11 @@ Prozesse sollen Menschen unterstützen, nicht einschränken.
 - "Nicht meine Abteilung"
 
 Note:
-Ein 15-Min Call kann 3 Tage E-Mail-Ping-Pong ersetzen.
+Ein 15-Min Call kann 3 Tage E-Mail-Ping-Pong ersetzen. Erweiterte Anti-Patterns:
+- "Steht so im Prozess": Prozess als Totschlagargument statt pragmatischer Lösungen
+- Tool-Gläubigkeit: "Jira löst unsere Probleme" - Tools sind Hilfsmittel, keine Lösung
+- Nur Ticket-Kommunikation: Alle Kommunikation nur über Tickets führt zu Verzögerungen
+- "Nicht meine Abteilung"-Mentalität: Silodenken verhindert Zusammenarbeit und schnelle Lösungen
 
 --
 
@@ -132,7 +139,11 @@ Tests sind oft die beste Dokumentation - sie lügen nie.
 **Red Flag:** Mehr Zeit für Doku als für Code!
 
 Note:
-Faustregel: Dokumentiere Entscheidungen (Warum), nicht Implementierung (Was/Wie).
+Faustregel: Dokumentiere Entscheidungen (Warum), nicht Implementierung (Was/Wie). Details:
+- 100-Seiten Pflichtenheft: Veraltet sofort nach Fertigstellung, niemand liest es vollständig
+- Dokumentation statt Demo: "Die Funktion ist fast fertig, hier die PowerPoint" - Stakeholder sehen nichts Greifbares
+- Duplicate Information: Doku sagt eins, Code macht was anderes - Wartungsalptraum
+- Code erklärt das "Was", Tests das "Wie", Dokumentation das "Warum"
 
 --
 
@@ -146,7 +157,13 @@ Faustregel: Dokumentiere Entscheidungen (Warum), nicht Implementierung (Was/Wie)
 **Lehre:** Vision > umfassende Spezifikation
 
 Note:
-Amazon dreht es um: Erst das Endergebnis beschreiben, dann entwickeln.
+Amazon dreht es um: Erst das Endergebnis beschreiben, dann entwickeln. Details:
+- 1-seitige Produkt-Ankündigung für Kunden (nicht interne Spezifikation)
+- Beschreibt Kundennutzen, nicht technische Features
+- Plus: FAQ & Mock-Ups zeigen die Vision
+- Aber: Keine umfassende technische Spezifikation up front
+- Das zwingt zu Klarheit über den Wert und hält den Fokus auf Kundenbedürfnissen
+- Dokumentation muss einen Zweck haben - Vision statt Bürokratie
 
 ---
 

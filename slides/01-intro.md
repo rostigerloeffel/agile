@@ -124,7 +124,11 @@ Agile akzeptiert Unsicherheit und nutzt sie als Chance zum Lernen.
 - Technische Exzellenz von Anfang an
 
 Note:
-Die richtigen Weichen am Anfang stellen!
+Die richtigen Weichen am Anfang stellen! Details zu den DO's:
+- Kleine Inkremente: Nicht monatelange Features, sondern 1-2 Wochen Zyklen
+- Frühes Feedback: Stakeholder sollten alle 1-2 Wochen funktionierende Software sehen
+- Cross-funktionale Teams: Alle Skills im Team (Frontend, Backend, Testing, UX)
+- Technische Exzellenz: Tests, CI/CD, Code Reviews von Tag 1 an - nicht "später refactoren wir das"
 
 --
 
@@ -137,7 +141,11 @@ Die richtigen Weichen am Anfang stellen!
 - Teams nach Technologie trennen (Frontend/Backend/DB)
 
 Note:
-Vermeiden Sie Big Design Up Front und technische Schulden von Tag 1.
+Vermeiden Sie Big Design Up Front und technische Schulden von Tag 1. Details:
+- 100-Seiten-Dokument: Veraltet sofort, niemand liest es vollständig. Besser: User Stories + Prototypen
+- "Später refactoren": Später kommt nie! Tech Debt wird nur größer. Quality muss von Anfang an sein
+- 6 Monate bis Deployment: Viel zu spät für Feedback. Lieber nach 2 Wochen erste Version deployen
+- Tech-Silos (Frontend-Team, Backend-Team): Führt zu Bottlenecks und Handoffs. Teams sollten Features Ende-zu-Ende liefern können
 
 ---
 

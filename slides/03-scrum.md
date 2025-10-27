@@ -109,7 +109,14 @@ Der Product Owner ist die wichtigste Rolle! Sie oder er entscheidet WAS gebaut w
 - NEIN sagen können
 
 Note:
-Ein guter PO ist täglich erreichbar und hat klare Prioritäten.
+Ein guter PO ist täglich erreichbar und hat klare Prioritäten. Erweiterte Details:
+- Verfügbar sein: Täglich im Team-Channel, beantwortet Fragen sofort - nicht "Ruft mich an, wenn's brennt"
+- Klare Prioritäten: "Feature A vor Feature B, weil..." mit Begründung. Keine "Alles ist wichtig"-Aussagen
+- User Stories: Mit klaren Akzeptanzkriterien schreiben, nicht "Macht mal, ihr wisst schon"
+- Entscheidungen: Nicht aufschieben, sondern treffen. Ein PO muss entscheidungsfähig sein
+- Mit Stakeholdern puffern: Team vor ständigen Anfragen schützen
+- Sprint Reviews aktiv moderieren und Feedback sammeln
+- NEIN sagen zu niedrig-priorisierten Anfragen - der PO muss auch den Mut haben NEIN zu sagen!
 
 --
 
@@ -124,7 +131,13 @@ Ein guter PO ist täglich erreichbar und hat klare Prioritäten.
 **Red Flag:** "Unser PO ist nie da"
 
 Note:
-Schlechte POs sind oft zu beschäftigt oder sagen nicht NEIN.
+Schlechte POs sind oft zu beschäftigt oder sagen nicht NEIN. Erweiterte Anti-Patterns:
+- Abwesend: "Ruft mich an, wenn's brennt" - Team steht still, warten auf Entscheidungen
+- Ständig Prioritäten ändern: Heute Feature X top, morgen Feature Y - Team kann nicht planen
+- Mikromanagement: "Macht es genau SO!" - Team entscheidet über das WIE, nicht der PO
+- Feature-Factory: Nur Output zählen, nicht Outcome. "Wir brauchen 20 Features pro Sprint!"
+- Alle Stakeholder-Wünsche akzeptieren: PO muss filtern & priorisieren, nicht alles durchwinken
+- Red Flag: "Wir haben 3 Product Owner" - PO ist EINE Person, kein Komitee!
 
 --
 
@@ -141,7 +154,10 @@ Schlechte POs sind oft zu beschäftigt oder sagen nicht NEIN.
 - Scope bleibt stabil
 
 Note:
-Der Unterschied: Vorbereitung, Klarheit, Verfügbarkeit.
+Der Unterschied: Vorbereitung, Klarheit, Verfügbarkeit. Szenario E-Commerce Team, Sprint Planning:
+SCHLECHTER PO: Kommt unprepared, "Hmm, was könnten wir machen... Vielleicht Feature X?", Team fragt nach Priorität → "Ist alles wichtig!", Akzeptanzkriterien? → "Macht mal, ihr wisst schon", Während Sprint: 5x Prioritäten geändert.
+GUTER PO: Hat Backlog vorbereitet & priorisiert, "Top 3: Checkout-Flow, Zahlungs-Bug, Performance", Erklärt WHY: "Checkout-Flow = 20% mehr Conversions (A/B-Test-Daten)", Klare User Story: "Als Kunde möchte ich... damit...", Während Sprint: Verfügbar für Fragen, aber Scope bleibt stabil.
+Ein guter PO macht das Leben des Teams SO viel einfacher!
 
 ---
 
@@ -173,7 +189,12 @@ Der Scrum Master ist Servant Leader - sie oder er dient dem Team, indem Hinderni
 - Organisation schulen
 
 Note:
-Ein guter SM ist unsichtbar, wenn alles läuft - aber sofort da, wenn's hakt.
+Ein guter SM ist unsichtbar, wenn alles läuft - aber sofort da, wenn's hakt. Details:
+- Impediments aktiv lösen: Team braucht Zugang zu Prod-DB? → Organisieren! Meetings kollidieren? → Umplanen! Nicht nur aufnehmen, sondern LÖSEN
+- Retrospektiven facilitieren: Sichere Atmosphäre schaffen, Aktionspunkte nachverfolgen, Team-Verbesserungen ermöglichen
+- Team vor Störungen schützen: "Nein, wir können nicht spontan Feature X einbauen" - Scope-Schutz im Sprint
+- Prozess-Verbesserungen: "Soll wir DoD erweitern?" - kontinuierlich Process optimieren
+- Organisation schulen: Management versteht Scrum nicht? → Workshops! Der SM ist Prozess-Guardian und Team-Enabler
 
 --
 
@@ -188,7 +209,13 @@ Ein guter SM ist unsichtbar, wenn alles läuft - aber sofort da, wenn's hakt.
 **Red Flag:** "Unser SM schreibt Tasks"
 
 Note:
-Häufigster Fehler: SM wird zum Projektmanager.
+Häufigster Fehler: SM wird zum Projektmanager. Details zu Anti-Patterns:
+- Als Projektmanager agieren: "Du machst Task A, du Task B..." - Team organisiert sich selbst! SM ist kein PM
+- Nur Events moderieren: SM ist mehr als Terminplaner, muss aktiv Impediments beseitigen
+- Probleme FÜR das Team lösen: Besser: Team befähigen, selbst zu lösen (Coaching statt Doing)
+- Scrum dogmatisch durchdrücken: "Das ist nicht Scrum, das geht gar nicht!" - Scrum ist Framework, kein Gesetz
+- Keine Zeit für Team: Teil-Zeit SM für 5 Teams = nicht effektiv
+- Red Flag: SM schreibt Tasks = PM-Rolle, nicht SM! Oder: "SM ist nur bei Events dabei"
 
 --
 
@@ -371,7 +398,13 @@ Diese 3 Fragen strukturieren das Planning. WHY gibt Kontext, WHAT gibt Scope, HO
 - Technical Spikes einplanen
 
 Note:
-Gutes Planning startet mit vorbereitetem Backlog!
+Gutes Planning startet mit vorbereitetem Backlog! Erweiterte Details:
+- Vorbereitetes Backlog: Top-Items sind refined, Akzeptanzkriterien klar - nicht erst im Planning User Stories schreiben!
+- Sprint Goal formulieren: "Payment-Flow verbessern" (nicht "5 User Stories abarbeiten") - gibt Fokus & Flexibilität
+- Realistische Planung: Velocity der letzten 3 Sprints als Basis, Urlaube/Feiertage berücksichtigen
+- Planning Poker für Estimation: Team schätzt gemeinsam, nicht ein Einzelner
+- Technical Spikes einplanen: "Wir müssen erst Library X evaluieren" - Time-Boxed Research
+- Wenn PO erst im Planning User Stories schreibt, ist es zu spät!
 
 --
 
@@ -386,7 +419,13 @@ Gutes Planning startet mit vorbereitetem Backlog!
 **Red Flag:** Planning > Timebox
 
 Note:
-Häufigste Fehler: Unprepared Backlog und Überladen.
+Häufigste Fehler: Unprepared Backlog und Überladen. Details:
+- Unprepared: Backlog nicht refined, User Stories unklar - Planning wird ineffizient
+- Überladen: "Wir schaffen 60 Points!" (aber Velocity ist 30) - Lieber konservativ schätzen
+- Kein Sprint Goal: Nur Liste von Tasks - Team verliert Fokus, keine gemeinsame Ausrichtung
+- PO diktiert Tasks: "Macht zuerst X, dann Y..." - Team entscheidet über HOW! PO sagt WAS
+- Planning länger als Timebox: 5h statt 4h → Ermüdung, schlechte Entscheidungen
+- Diese Fehler führen zu gescheiterten Sprints und Frustration
 
 --
 
