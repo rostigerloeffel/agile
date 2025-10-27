@@ -167,7 +167,7 @@ Tech Debt ist wie Kreditkarte: OK in Maßen, aber Zinsen zahlen tut weh! Lieber 
 
 --
 
-## Technical Excellence: DO's & DON'Ts
+## Technical Excellence: DO's
 
 ✅ **DO:**
 - **Definition of Done** beinhaltet Tests
@@ -176,6 +176,13 @@ Tech Debt ist wie Kreditkarte: OK in Maßen, aber Zinsen zahlen tut weh! Lieber 
 - **CI/CD Pipeline** pflegen
 - **Pair Programming** für komplexe Features
 - **Automatisierte Tests** priorisieren
+
+Note:
+Technische Exzellenz ist Investment. Kurzfristig kostet es Zeit, langfristig spart es massiv Zeit!
+
+--
+
+## Technical Excellence: DON'Ts
 
 ❌ **DON'T:**
 - **"Keine Zeit für Tests"**
@@ -190,7 +197,7 @@ Tech Debt ist wie Kreditkarte: OK in Maßen, aber Zinsen zahlen tut weh! Lieber 
   - Blockt Team!
 
 Note:
-Technische Exzellenz ist Investment. Kurzfristig kostet es Zeit, langfristig spart es massiv Zeit und Nerven!
+Diese Fehler kosten langfristig Nerven und Zeit!
 
 ---
 
@@ -318,7 +325,7 @@ Remote ist Realität! Teams müssen bewusst an Kultur arbeiten - virtueller Coff
 
 --
 
-## Team Practices: DO's & DON'Ts
+## Team Practices: DO's
 
 ✅ **DO:**
 - **Psychological Safety** schaffen
@@ -331,6 +338,13 @@ Remote ist Realität! Teams müssen bewusst an Kultur arbeiten - virtueller Coff
   - Frontend lernt Backend & vice versa
 - **Team-Building**
   - Gemeinsames Lunch, Games, etc.
+
+Note:
+Team-Kultur ist entscheidend! Psychologische Sicherheit ist das Fundament.
+
+--
+
+## Team Practices: DON'Ts
 
 ❌ **DON'T:**
 - **Blame Culture**
@@ -345,7 +359,7 @@ Remote ist Realität! Teams müssen bewusst an Kultur arbeiten - virtueller Coff
   - Probleme schönreden
 
 Note:
-Team-Kultur ist entscheidend! Ein toxisches Team kann mit Scrum/Kanban nichts anfangen. Psychologische Sicherheit ist Fundament.
+Ein toxisches Team kann mit Scrum/Kanban nichts anfangen!
 
 ---
 
@@ -466,7 +480,7 @@ Feature Flags entkoppeln Deployment von Release. Ihr könnt täglich deployen, a
 
 --
 
-## Product Management: DO's & DON'Ts
+## Product Management: DO's
 
 ✅ **DO:**
 - **User Research**
@@ -479,6 +493,13 @@ Feature Flags entkoppeln Deployment von Release. Ihr könnt täglich deployen, a
   - Ungenutzte Features entfernen
 - **Transparenz** über Roadmap
   - Team weiß wohin die Reise geht
+
+Note:
+Gutes Product Management bedeutet, den Mut zu haben, NEIN zu sagen!
+
+--
+
+## Product Management: DON'Ts
 
 ❌ **DON'T:**
 - **Feature-Factory**
@@ -493,7 +514,7 @@ Feature Flags entkoppeln Deployment von Release. Ihr könnt täglich deployen, a
   - 2-Jahres-Plan ohne Flexibilität
 
 Note:
-Gutes Product Management ist hart! Es bedeutet auch NEIN sagen zu Features, die nicht wertvoll sind.
+Features, die nicht wertvoll sind, sollten nicht gebaut werden!
 
 ---
 

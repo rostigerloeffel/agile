@@ -491,34 +491,54 @@ LeSS ist radikal minimalistisch: Ein Product Backlog, ein Product Owner, eine De
 
 ---
 
-## LeSS Prinzipien
+## LeSS Prinzipien (1/2)
 
 **Die 10 LeSS-Prinzipien:**
-1. Large-Scale Scrum is Scrum
-2. Empirical Process Control
-3. Transparency
-4. More with Less
-5. Whole Product Focus
-6. Customer-Centric
-7. Continuous Improvement
-8. Lean Thinking
-9. Systems Thinking
-10. Queuing Theory
-
-**Kern:** Scrum-Werte beibehalten, nicht komplex machen!
+1. **Large-Scale Scrum is Scrum**
+2. **Empirical Process Control**
+3. **Transparency**
+4. **More with Less**
+5. **Whole Product Focus**
 
 Note:
 LeSS ist das Gegenteil von SAFe: Statt mehr Struktur, WENIGER Struktur. Vertrauen auf Selbstorganisation.
 
+--
+
+## LeSS Prinzipien (2/2)
+
+**Die 10 LeSS-Prinzipien (Fortsetzung):**
+
+6. **Customer-Centric**
+7. **Continuous Improvement**
+8. **Lean Thinking**
+9. **Systems Thinking**
+10. **Queuing Theory**
+
+**Kern:** Scrum-Werte beibehalten, nicht komplex machen!
+
+Note:
+LeSS setzt auf Einfachheit und minimalen Overhead.
+
 ---
 
-## LeSS vs. SAFe
+## LeSS vs. SAFe (1/2)
 
 | Aspekt | SAFe | LeSS |
 |--------|------|------|
 | **Komplexität** | Hoch (viele Rollen/Events) | Niedrig (minimalistisch) |
 | **Product Owners** | Mehrere (pro Team) | **1 PO** für alle Teams |
 | **Backlog** | Mehrere | **1 Backlog** für alle |
+
+Note:
+SAFe = "Hier ist der Prozess, folgt ihm." LeSS = "Hier sind Prinzipien, adaptiert selbst."
+
+--
+
+## LeSS vs. SAFe (2/2)
+
+| Aspekt | SAFe | LeSS |
+|--------|------|------|
 | **Koordination** | ARTs, PI Planning | Gemeinsame Events |
 | **Größe** | 50-10.000+ | 10-500 |
 | **Philosophie** | Structured, Prescriptive | Minimalist, Adaptive |
@@ -527,7 +547,7 @@ LeSS ist das Gegenteil von SAFe: Statt mehr Struktur, WENIGER Struktur. Vertraue
 **LeSS:** Weniger Struktur, mehr Freiheit
 
 Note:
-SAFe = "Hier ist der Prozess, folgt ihm." LeSS = "Hier sind Prinzipien, adaptiert selbst." Beides hat Vor- und Nachteile.
+Beides hat Vor- und Nachteile. Wählt basierend auf eurer Organisation!
 
 ---
 

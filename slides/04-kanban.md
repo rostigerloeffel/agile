@@ -38,6 +38,16 @@ Kanban kommt aus der Lean-Bewegung. Toyota nutzte Karten, um Material "zu ziehen
 | **Rollen** | PO, SM, Dev Team | Keine vorgeschrieben |
 | **Planung** | Sprint Planning | Kontinuierlich |
 | **Änderungen** | Innerhalb Sprint vermeiden | Jederzeit möglich |
+
+Note:
+Scrum = Rhythmus durch Sprints. Kanban = kontinuierlicher Flow. Beides hat Vor- und Nachteile.
+
+--
+
+## Kanban vs. Scrum: Unterschiede (2/2)
+
+| Aspekt | Scrum | Kanban |
+|--------|-------|--------|
 | **Metriken** | Velocity, Burndown | Lead Time, Cycle Time |
 | **Board** | Resettet nach Sprint | Kontinuierlich |
 | **WIP Limits** | Implizit (Sprint Scope) | Explizit (pro Spalte) |
@@ -45,7 +55,7 @@ Kanban kommt aus der Lean-Bewegung. Toyota nutzte Karten, um Material "zu ziehen
 **Beide sind agil!** Nur unterschiedliche Ansätze.
 
 Note:
-Scrum = Rhythmus durch Sprints. Kanban = kontinuierlicher Flow. Beides hat Vor- und Nachteile. Manche Teams nutzen auch Scrumban (Hybrid).
+Manche Teams nutzen auch Scrumban (Hybrid) - das Beste aus beiden Welten!
 
 ---
 
