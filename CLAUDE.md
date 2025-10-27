@@ -279,6 +279,157 @@ Key settings in `Reveal.initialize()`:
 - Include visuals where helpful (diagrams, charts)
 - Use custom CSS classes for emphasis (`.highlight`, `.info-box`, etc.)
 
+### ⚠️ CRITICAL: Avoiding Content Overflow
+
+**Problem**: Slides with too much content get cut off at the bottom (content overflow).
+
+**Solution**: Follow these strict rules when creating/editing slides:
+
+#### 1. **Maximum Items Per Slide: 5-6**
+```markdown
+✅ GOOD (5 items):
+- Item 1
+- Item 2
+- Item 3
+- Item 4
+- Item 5
+
+❌ BAD (10+ items):
+- Item 1
+- Item 2
+- Item 3
+... (too many!)
+```
+
+#### 2. **Always Split DO's and DON'Ts**
+Never combine DO's and DON'Ts on one slide - always use vertical slides (`--`):
+
+```markdown
+## Topic: DO's
+
+✅ **DO:**
+- Item 1
+- Item 2
+- Item 3
+
+--
+
+## Topic: DON'Ts
+
+❌ **DON'T:**
+- Item 1
+- Item 2
+- Item 3
+```
+
+#### 3. **Split Large Tables**
+Tables with more than 3-4 rows cause overflow. Split them:
+
+```markdown
+## Table (1/2)
+
+| Column 1 | Column 2 |
+|----------|----------|
+| Row 1    | Data 1   |
+| Row 2    | Data 2   |
+| Row 3    | Data 3   |
+
+--
+
+## Table (2/2)
+
+| Column 1 | Column 2 |
+|----------|----------|
+| Row 4    | Data 4   |
+| Row 5    | Data 5   |
+| Row 6    | Data 6   |
+```
+
+#### 4. **No Sub-Bullets**
+Avoid nested bullet points - they add too much vertical space:
+
+```markdown
+❌ BAD:
+- Main point
+  - Sub-point 1
+  - Sub-point 2
+  - Sub-point 3
+
+✅ GOOD:
+- Main point: details in one line
+- Another point
+- Another point
+```
+
+#### 5. **Condense Examples Aggressively**
+Real-world examples should be extremely concise:
+
+```markdown
+❌ BAD (too detailed):
+**Schlechter PO:**
+- Kommt unprepared zum Planning
+- "Hmm, was könnten wir machen... Vielleicht Feature X?"
+- Team fragt nach Priorität → "Ist alles wichtig!"
+- Akzeptanzkriterien? → "Macht mal, ihr wisst schon"
+- Während Sprint: 5x Prioritäten geändert
+
+✅ GOOD (condensed):
+**Schlechter PO:**
+- Unprepared zum Planning
+- "Ist alles wichtig!"
+- 5x Prioritäten geändert
+```
+
+#### 6. **Use Vertical Slides for Related Content**
+When content naturally splits into sub-topics, use vertical slides:
+
+```markdown
+## Main Topic
+
+Overview
+
+--
+
+## Sub-Topic 1
+
+Details
+
+--
+
+## Sub-Topic 2
+
+More details
+```
+
+#### 7. **Move Details to Speaker Notes**
+Explanatory text belongs in speaker notes, not on slides:
+
+```markdown
+## Slide Title
+
+- Concise point 1
+- Concise point 2
+
+Note:
+Here you can add detailed explanations, context, and talking points
+that the audience doesn't see but the presenter uses.
+```
+
+#### 8. **Testing for Overflow**
+Before committing changes:
+1. Run `npm start`
+2. Navigate to modified slides
+3. Check that content fits within slide boundaries
+4. If content is cut off at bottom → split slide or condense
+
+#### Common Overflow Indicators:
+- ❌ More than 6 bullet points
+- ❌ DO's AND DON'Ts on same slide
+- ❌ Tables with 5+ rows
+- ❌ Nested bullet points (sub-bullets)
+- ❌ Long paragraphs of text
+- ❌ Multiple code examples on one slide
+
 ## Common Tasks
 
 ### Adding New Slides
