@@ -73,6 +73,15 @@ Das ist der komplette Scrum-Rahmen! Klingt simpel - aber in diesen 11 Elementen 
 
 ---
 
+## Der Sprint-Zyklus
+
+![Scrum Sprint Zyklus](images/scrum-sprint-cycle.svg)
+
+Note:
+Hier seht ihr den Sprint-Zyklus visuell: Von Product Backlog über Sprint Planning zum Sprint Backlog, dann täglich Daily Scrums, am Ende das Increment mit Review und Retrospective - und dann geht's weiter zum nächsten Sprint. Ein kontinuierlicher Verbesserungs-Kreislauf!
+
+---
+
 <!-- .slide: data-background="#FF5722" -->
 
 # 🎭 Die 3 Scrum-Rollen
