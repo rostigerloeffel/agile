@@ -1,5 +1,202 @@
 <!-- .slide: data-background="#4CAF50" -->
 
+# 📜 Agile als Lösung
+
+Geschichte, Manifest und Prinzipien
+
+Note:
+Nachdem wir die Probleme traditioneller Ansätze gesehen haben, schauen wir uns jetzt die agile Lösung an: Die Geschichte, wie Agile entstanden ist, und das Manifest mit seinen Werten und Prinzipien.
+
+---
+
+## Geschichte der Agilen Bewegung
+
+Von Toyota bis Snowbird
+
+Note:
+Agile ist keine Erfindung der 2000er. Die Wurzeln reichen bis in die 1950er zurück.
+
+---
+
+## Timeline: Die Wurzeln von Agile
+
+**1950er** 🏭 **Toyota Production System**
+- Taiichi Ohno entwickelt Lean Manufacturing
+- Just-in-Time Produktion
+- Kanban-Karten zur Steuerung
+- *"Eliminate waste, empower workers"*
+
+Note:
+Die Prinzipien entstanden in der Fertigung! Toyota erkannte: Verschwendung eliminieren, Mitarbeiter befähigen, kontinuierlich verbessern.
+
+--
+
+## Timeline: Scrum wird geboren
+
+**1986** 📄 **"The New New Product Development Game"**
+- Takeuchi & Nonaka (Harvard Business Review)
+- Rugby-Analogie: "Scrum"
+- Cross-funktionale Teams
+- Overlapping Phasen
+
+Note:
+Diese Ideen wurden später auf Software übertragen.
+
+--
+
+## Timeline: Software-Methoden (1/2)
+
+**1991** 🔄 **RAD (Rapid Application Development)**
+- James Martin
+- Prototyping & iterative Entwicklung
+
+**1995** 🔵 **Scrum**
+- Ken Schwaber & Jeff Sutherland
+- Erste formale Beschreibung
+
+Note:
+In den 90ern entstanden parallel viele "leichtgewichtige" Methoden.
+
+--
+
+## Timeline: Software-Methoden (2/2)
+
+**1996** 🔶 **Extreme Programming (XP)**
+- Kent Beck
+- Technische Praktiken im Fokus
+
+**1997-2000** 🌐 **DSDM, FDD, Crystal**
+- Dynamic Systems Development Method
+- Feature-Driven Development
+- Crystal Clear (Alistair Cockburn)
+
+Note:
+Gegenbewegung zu schwerfälligen Prozessen wie RUP.
+
+--
+
+## 2001: Das Agile Manifest
+
+**📍 Snowbird Ski Resort, Utah**
+**📅 12.-14. Februar 2001**
+**👥 17 Software-Entwickler**
+
+**Ergebnis:** Das Agile Manifest + 12 Prinzipien
+
+Note:
+Diese 17 Personen trafen sich, um Gemeinsamkeiten ihrer Methoden zu finden.
+
+--
+
+## Die Autoren
+
+Darunter:
+- Kent Beck (XP)
+- Ken Schwaber & Jeff Sutherland (Scrum)
+- Alistair Cockburn (Crystal)
+- Martin Fowler (Refactoring)
+- Robert C. Martin (Clean Code)
+
+Note:
+In 2 Tagen entstand eines der einflussreichsten Dokumente der Softwareentwicklung.
+
+--
+
+## Agile wird Mainstream
+
+**2000er** 📈 **Verbreitung**
+- 2002: Scrum Alliance gegründet
+- 2003: "Agile Software Development with Scrum"
+- 2005: Agile in großen Unternehmen
+
+**2010er** 🌍 **Dominanz**
+- 2011: SAFe 1.0 (Scaled Agile Framework)
+- Agile wird Standard
+- DevOps-Bewegung entsteht
+
+Note:
+Von einer Nischen-Bewegung zum Standard.
+
+--
+
+## Agile Heute
+
+**Heute** 🚀 **New Normal**
+- 71% aller Unternehmen nutzen agile Ansätze
+  - State of Agile 2023
+- Agile beyond Software:
+  - Marketing, HR, Finance
+
+Note:
+Heute ist die Frage nicht mehr "Warum Agile?", sondern "Wie machen wir Agile richtig?".
+
+---
+
+## Lean Prinzipien → Agile Praktiken
+
+Die DNA von Agile kommt aus **Lean Manufacturing**:
+
+| Lean Prinzip | Agile Umsetzung |
+|--------------|-----------------|
+| Verschwendung eliminieren | Working Software > Dokumentation |
+| Qualität einbauen | Test-Driven Development, CI/CD |
+| Wissen schaffen | Retrospektiven, Pair Programming |
+
+Note:
+Agile ist angewandte Lean-Philosophie in der Softwareentwicklung.
+
+--
+
+## Lean Prinzipien → Agile Praktiken (2/2)
+
+| Lean Prinzip | Agile Umsetzung |
+|--------------|-----------------|
+| Entscheidungen verzögern | Last Responsible Moment |
+| Schnell liefern | Sprints, Continuous Delivery |
+| Menschen respektieren | Selbstorganisierende Teams |
+| Ganzheitlich optimieren | End-to-End Value Stream |
+
+Note:
+Wer Lean versteht, versteht auch Agile besser.
+
+---
+
+## Warum Agile? (1/2)
+
+✅ **Frühe Wertschöpfung**
+- Funktionierende Software nach Wochen
+- ROI beginnt früher
+
+✅ **Risikominimierung**
+- Kleine Iterationen → kleine Fehler
+- Kontinuierliches Feedback
+
+✅ **Flexibilität**
+- Änderungen sind willkommen
+- Anpassung an Markt
+
+Note:
+Agile adressiert fundamentale Probleme der Softwareentwicklung.
+
+--
+
+## Warum Agile? (2/2)
+
+✅ **Qualität**
+- Tests & Integration von Anfang an
+- Technische Exzellenz eingebaut
+
+✅ **Teamzufriedenheit**
+- Autonomie & Ownership
+- Sichtbarer Impact
+
+Note:
+Agile ist kein Wundermittel, aber es hilft bei Unsicherheit, Komplexität und Veränderung.
+
+---
+
+<!-- .slide: data-background="#4CAF50" -->
+
 # 📜 Das Agile Manifest
 
 Werte und Prinzipien agiler Softwareentwicklung
@@ -40,18 +237,12 @@ Der erste und wichtigste Wert! Software wird von Menschen für Menschen gemacht.
 ## Wert 1: DO's
 
 ✅ **DO:**
-- **Daily Stand-up** am Board
-  - 15 Min Synchronisation
-- **Pair Programming**
-  - Wissenstransfer in Echtzeit
-- **Face-to-Face Kommunikation**
-  - Videocall statt E-Mail-Kette
+- Daily Stand-up am Board (15 Min Synchronisation)
+- Pair Programming (Wissenstransfer in Echtzeit)
+- Face-to-Face Kommunikation (Videocall statt E-Mail-Kette)
 
 Note:
-Prozesse sollen Menschen unterstützen, nicht einschränken. Erweiterte Erklärungen:
-- Daily Stand-up am Kanban Board: Team synchronisiert sich in 15 Min, Blocker werden sofort angesprochen
-- Pair Programming: Zwei Entwickler, ein Screen - Wissenstransfer in Echtzeit, höhere Code-Qualität
-- Face-to-Face: Ein 15-Min Videocall kann 3 Tage E-Mail-Ping-Pong ersetzen. Schnellere Entscheidungen, weniger Missverständnisse
+Prozesse sollen Menschen unterstützen, nicht einschränken. Ein 15-Min Call kann 3 Tage E-Mail-Ping-Pong ersetzen.
 
 --
 
@@ -59,16 +250,12 @@ Prozesse sollen Menschen unterstützen, nicht einschränken. Erweiterte Erkläru
 
 ❌ **DON'T:**
 - "Steht so im Prozess"
-- Tool-Gläubigkeit
+- Tool-Gläubigkeit ("Jira löst unsere Probleme")
 - Nur Ticket-Kommunikation
 - "Nicht meine Abteilung"
 
 Note:
-Ein 15-Min Call kann 3 Tage E-Mail-Ping-Pong ersetzen. Erweiterte Anti-Patterns:
-- "Steht so im Prozess": Prozess als Totschlagargument statt pragmatischer Lösungen
-- Tool-Gläubigkeit: "Jira löst unsere Probleme" - Tools sind Hilfsmittel, keine Lösung
-- Nur Ticket-Kommunikation: Alle Kommunikation nur über Tickets führt zu Verzögerungen
-- "Nicht meine Abteilung"-Mentalität: Silodenken verhindert Zusammenarbeit und schnelle Lösungen
+Prozess als Totschlagargument verhindert pragmatische Lösungen. Tools sind Hilfsmittel, keine Lösung.
 
 --
 
@@ -105,27 +292,12 @@ Nicht: "Keine Dokumentation!" Sondern: Dokumentation muss Wert liefern. Ein funk
 ## Wert 2: DO's
 
 ✅ **DO:**
-- **Working Demo** im Sprint Review
-- **Living Documentation**
-  - API-Docs aus Code generiert
-- **ADRs** (Architecture Decisions)
-  - Knapp, aktuell, relevant
+- Working Demo im Sprint Review
+- Living Documentation (API-Docs aus Code generiert)
+- ADRs (Architecture Decision Records)
 
 Note:
-Gute Dokumentation bleibt nah am Code.
-
---
-
-## Wert 2: Angemessene Doku
-
-**Was dokumentieren?**
-- API-Dokumentation (Swagger)
-- Architecture Decision Records (ADRs)
-- Onboarding-Guides
-- Runbooks für Operations
-
-Note:
-Tests sind oft die beste Dokumentation - sie lügen nie.
+Gute Dokumentation bleibt nah am Code. Tests sind oft die beste Dokumentation - sie lügen nie.
 
 --
 
@@ -139,11 +311,7 @@ Tests sind oft die beste Dokumentation - sie lügen nie.
 **Red Flag:** Mehr Zeit für Doku als für Code!
 
 Note:
-Faustregel: Dokumentiere Entscheidungen (Warum), nicht Implementierung (Was/Wie). Details:
-- 100-Seiten Pflichtenheft: Veraltet sofort nach Fertigstellung, niemand liest es vollständig
-- Dokumentation statt Demo: "Die Funktion ist fast fertig, hier die PowerPoint" - Stakeholder sehen nichts Greifbares
-- Duplicate Information: Doku sagt eins, Code macht was anderes - Wartungsalptraum
-- Code erklärt das "Was", Tests das "Wie", Dokumentation das "Warum"
+Faustregel: Dokumentiere Entscheidungen (Warum), nicht Implementierung (Was/Wie). Code erklärt das "Was", Tests das "Wie", Dokumentation das "Warum".
 
 --
 
@@ -157,13 +325,7 @@ Faustregel: Dokumentiere Entscheidungen (Warum), nicht Implementierung (Was/Wie)
 **Lehre:** Vision > umfassende Spezifikation
 
 Note:
-Amazon dreht es um: Erst das Endergebnis beschreiben, dann entwickeln. Details:
-- 1-seitige Produkt-Ankündigung für Kunden (nicht interne Spezifikation)
-- Beschreibt Kundennutzen, nicht technische Features
-- Plus: FAQ & Mock-Ups zeigen die Vision
-- Aber: Keine umfassende technische Spezifikation up front
-- Das zwingt zu Klarheit über den Wert und hält den Fokus auf Kundenbedürfnissen
-- Dokumentation muss einen Zweck haben - Vision statt Bürokratie
+Amazon dreht es um: Erst das Endergebnis beschreiben, dann entwickeln. Das zwingt zu Klarheit über den Wert und hält den Fokus auf Kundenbedürfnissen.
 
 ---
 
@@ -185,27 +347,12 @@ Der klassische Ansatz: Vertrag aushandeln, dann entwickeln, am Ende liefern. Agi
 ## Wert 3: DO's
 
 ✅ **DO:**
-- **Product Owner im Team**
-  - Täglich verfügbar
-- **Sprint Reviews mit End-Usern**
-  - Sofortiges Feedback
-- **User Story Mapping**
-  - Gemeinsames Verständnis
+- Product Owner im Team (täglich verfügbar)
+- Sprint Reviews mit End-Usern (sofortiges Feedback)
+- User Story Mapping (gemeinsames Verständnis)
 
 Note:
-Ein guter Product Owner ist Gold wert!
-
---
-
-## Wert 3: Beispiel Online-Shop
-
-**Product Owner Einbindung:**
-- Täglich im Slack-Channel
-- Alle 2 Wochen: Demo mit echten Betreibern
-- Feedback sofort im nächsten Sprint
-
-Note:
-PO ist die Brücke zwischen Business und Tech.
+Ein guter Product Owner ist Gold wert! PO ist die Brücke zwischen Business und Tech.
 
 --
 
@@ -260,28 +407,12 @@ Der klassische Plan sagt: "So wird's gemacht, Punkt." Agile sagt: "Das ist unser
 ## Wert 4: DO's
 
 ✅ **DO:**
-- **Sprint Planning mit Flexibilität**
-  - Commitment für Sprint, nicht Monate
-- **Pivots sind OK**
-  - Markt ändert sich? → Anpassen!
-- **A/B Tests & Experimente**
-  - Ausrollen, messen, lernen
+- Sprint Planning mit Flexibilität
+- Pivots sind OK (Markt ändert sich → Anpassen!)
+- A/B Tests & Experimente (Ausrollen, messen, lernen)
 
 Note:
 Empirisches Arbeiten: Hypothese → Testen → Lernen → Anpassen.
-
---
-
-## Wert 4: Beispiel E-Commerce
-
-**Feature-Experiment:**
-- Hypothese: "1-Click-Checkout"
-- Sprint 1: MVP
-- Messung: Conversion -5% ❌
-- Reaktion: Feature entfernen
-
-Note:
-Misserfolge sind Lern-Chancen, keine Katastrophen.
 
 --
 
@@ -304,7 +435,7 @@ Rigide Pläne = Illusion von Kontrolle. "Plans are worthless, but planning is ev
 **Bets statt Plänen:**
 - Wetten/Hypothesen statt Roadmap
 - Timeboxed: 4-8 Wochen
-- **Bei Misserfolg: Stoppen!**
+- Bei Misserfolg: Stoppen!
 
 **Resultat:**
 - 30% werden gestoppt
@@ -322,10 +453,10 @@ Behandle Features als Experimente. Manche scheitern - das ist OK!
 
 Das Agile Manifest hat **12 Prinzipien**:
 
-1. **Kundennutzen** - Frühe Auslieferung
-2. **Änderungen willkommen**
-3. **Häufige Lieferung** - Alle paar Wochen
-4. **Tägliche Zusammenarbeit**
+1. Kundennutzen - Frühe Auslieferung
+2. Änderungen willkommen
+3. Häufige Lieferung - Alle paar Wochen
+4. Tägliche Zusammenarbeit
 
 Note:
 Wir schauen uns die praxisrelevantesten an.
@@ -334,10 +465,10 @@ Wir schauen uns die praxisrelevantesten an.
 
 ## Die 12 Prinzipien (2/3)
 
-5. **Motivierte Individuen** - Vertrauen geben
-6. **Face-to-Face Kommunikation**
-7. **Funktionierende Software** - Primäres Fortschrittsmaß
-8. **Nachhaltige Entwicklung** - Gleichmäßiges Tempo
+5. Motivierte Individuen - Vertrauen geben
+6. Face-to-Face Kommunikation
+7. Funktionierende Software - Primäres Fortschrittsmaß
+8. Nachhaltige Entwicklung - Gleichmäßiges Tempo
 
 Note:
 Diese Prinzipien sind zeitlos.
@@ -346,21 +477,15 @@ Diese Prinzipien sind zeitlos.
 
 ## Die 12 Prinzipien (3/3)
 
-9. **Technische Exzellenz**
-10. **Einfachheit** - Arbeit maximieren, die NICHT getan werden muss
-11. **Selbstorganisation**
-12. **Regelmäßige Reflexion** - Anpassen
+9. Technische Exzellenz
+10. Einfachheit - Arbeit maximieren, die NICHT getan werden muss
+11. Selbstorganisation
+12. Regelmäßige Reflexion - Anpassen
 
 Note:
 Fundamentale Wahrheiten über Softwareentwicklung.
 
 ---
-
-## Praxisrelevante Prinzipien: Deep Dive
-
-Schauen wir uns 3 besonders wichtige Prinzipien genauer an:
-
---
 
 ## Prinzip 8: Nachhaltiges Tempo
 
@@ -383,25 +508,14 @@ Software-Entwicklung ist ein Marathon, kein Sprint.
 - Vacation shaming
 - "Crunch Time" als Dauerzustand
 
-Note:
-Übermüdete Entwickler machen teure Fehler.
-
---
-
-## Prinzip 8: Anti-Pattern
-
-**"Death March Project"**
+**Anti-Pattern:** "Death March Project"
 - 6 Monate: 60-80h/Woche
 - Resultat: Projekt fertig, Team kaputt
 
-**Agile Alternative:**
-- Velocity basiert auf 40h/Woche
-- Bei Überlastung: Scope reduzieren!
-
 Note:
-60h-Wochen = falsche Planung. Scope reduzieren, nicht Druck erhöhen.
+Übermüdete Entwickler machen teure Fehler. 60h-Wochen = falsche Planung. Scope reduzieren, nicht Druck erhöhen.
 
---
+---
 
 ## Prinzip 9: Technische Exzellenz
 
@@ -425,27 +539,16 @@ Technische Exzellenz = Voraussetzung für Agilität.
 - "Keine Zeit für Tests"
 - "Technical Debt Sprint" in 6 Monaten
 
-Note:
-Schlechter Code macht Änderungen teuer - das Gegenteil von agil!
-
---
-
-## Prinzip 9: Beispiele
-
-**Google:** 20% Zeit für Tech Debt
-**Netflix:** Chaos Engineering
-
-**Resultat:**
-- Hohe Qualität
-- Schnelle Innovation
-- Weniger Bugs
+**Beispiele:**
+- Google: 20% Zeit für Tech Debt
+- Netflix: Chaos Engineering
 
 **Lehre:** Qualität ist keine Option
 
 Note:
-Top-Unternehmen investieren massiv in technische Exzellenz.
+Schlechter Code macht Änderungen teuer - das Gegenteil von agil! Top-Unternehmen investieren massiv in technische Exzellenz.
 
---
+---
 
 ## Prinzip 10: Einfachheit
 
@@ -471,22 +574,10 @@ Note:
 - Feature Bloat
 - Premature Optimization
 
-Note:
-Jedes Feature hat Kosten: Entwicklung, Wartung, Komplexität.
-
---
-
-## Prinzip 10: DO's
-
-✅ **DO:**
-- Start simple, grow as needed
-- Feature Flags für Experimente
-- Usage Analytics nutzen
-
 **Beispiel:** Basecamp entfernte 30% der Features (<5% Nutzung)
 
 Note:
-Die Kunst ist, NEIN zu sagen.
+Jedes Feature hat Kosten: Entwicklung, Wartung, Komplexität. Die Kunst ist, NEIN zu sagen.
 
 ---
 
@@ -494,7 +585,7 @@ Die Kunst ist, NEIN zu sagen.
 
 Es gibt viele **Mythen** über Agile. Räumen wir auf:
 
---
+---
 
 ## Mythos 1: "Agile = Keine Planung"
 
@@ -509,12 +600,10 @@ Agile Teams planen **kontinuierlich**!
 
 **Unterschied:** Nicht 1x für 12 Monate planen, sondern alle 2 Wochen adjustieren.
 
-**Zitat:** *"Plans are worthless, but planning is everything."* - Eisenhower
-
 Note:
-Agile plant sogar MEHR als Wasserfall - nur in kürzeren Zyklen. Der Plan wird ständig an neue Erkenntnisse angepasst.
+Agile plant sogar MEHR als Wasserfall - nur in kürzeren Zyklen. "Plans are worthless, but planning is everything" - Eisenhower
 
---
+---
 
 ## Mythos 2: "Agile = Keine Dokumentation"
 
@@ -530,12 +619,10 @@ Agile Teams dokumentieren **angemessen**!
 
 **Unterschied:** Dokumentation hat Zweck, bleibt aktuell, lebt nah am Code.
 
-**Red Flag:** Doku, die nach 1 Woche veraltet ist.
-
 Note:
 "Funktionierende Software über umfassende Dokumentation" heißt nicht "keine Doku". Es heißt: Doku wo sinnvoll, nicht als Selbstzweck.
 
---
+---
 
 ## Mythos 3: "Agile = Chaos / Keine Struktur"
 
@@ -548,38 +635,10 @@ Agile hat **klare Strukturen**!
 - Kanban: WIP Limits, Pull-System
 - XP: Engineering Practices
 
-**Unterschied:** Struktur dient dem Team, nicht umgekehrt.
-
-**Beispiel:** Daily Scrum
-- Feste Zeit (z.B. 9:00 Uhr)
-- Feste Dauer (15 Min)
-- Festes Format (3 Fragen)
-→ Das ist Struktur!
+**Beispiel:** Daily Scrum - Feste Zeit, Dauer, Format
 
 Note:
 Agile ist hochstrukturiert - aber die Struktur ist leichtgewichtig und dient der Effizienz, nicht der Kontrolle.
-
---
-
-## Mythos 4: "Agile = Nur für Software"
-
-❌ **Mythos:**
-"Agile funktioniert nur in Software-Entwicklung!"
-
-✅ **Realität:**
-Agile funktioniert überall, wo **Komplexität + Unsicherheit** herrschen!
-
-**Beispiele außerhalb IT:**
-- **Marketing:** Sprint-basierte Kampagnen (Agile Marketing)
-- **HR:** Iteratives Recruiting, OKRs
-- **Hardware:** Tesla's iterative Entwicklung (OTA Updates)
-- **Bildung:** Agile Lehrpläne, Retrospektiven mit Schülern
-- **Bauwesen:** Lean Construction
-
-**Lehre:** Die Prinzipien sind universell.
-
-Note:
-Agile ist ein Mindset, kein Software-Tool. Überall, wo man in komplexen, unsicheren Umgebungen arbeitet, hilft agiles Vorgehen.
 
 ---
 
@@ -593,7 +652,6 @@ Agile ist ein Mindset, kein Software-Tool. Überall, wo man in komplexen, unsich
 
 **Wichtigste Prinzipien:**
 - Frühe & kontinuierliche Lieferung
-- Änderungen willkommen
 - Nachhaltiges Tempo
 - Technische Exzellenz
 - Einfachheit (YAGNI)
@@ -601,4 +659,4 @@ Agile ist ein Mindset, kein Software-Tool. Überall, wo man in komplexen, unsich
 **Wichtig:** Agile ist ein **Mindset**, kein Rezept!
 
 Note:
-Das Manifest ist nur 2 Seiten lang - aber es hat die Softwareentwicklung revolutioniert. Die Werte und Prinzipien sind zeitlos und gelten auch 20+ Jahre später.
+Das Manifest ist nur 2 Seiten lang - aber es hat die Softwareentwicklung revolutioniert. Die Werte und Prinzipien sind zeitlos.
