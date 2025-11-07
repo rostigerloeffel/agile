@@ -18,15 +18,11 @@
 .reveal h4 {
     text-transform: none;
     font-weight: 600;
+    color: var(--text-light); /* Always white for readability on colored backgrounds */
 }
 
 .reveal h1 {
-    color: var(--primary-color);
     margin-bottom: 0.5em;
-}
-
-.reveal h2 {
-    color: var(--secondary-color);
 }
 
 /* Improve lists */
