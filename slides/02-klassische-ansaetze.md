@@ -24,7 +24,7 @@ Bevor wir in die agile Welt eintauchen, schauen wir uns an, welche Probleme trad
 Note:
 Das Wasserfall-Modell bedeutet: Erst nach über einem Jahr sieht der Kunde das erste Ergebnis. Bis dahin können sich Anforderungen längst geändert haben. Die Kosten später Änderungen sind enorm.
 
----
+--
 
 ## Die Kosten später Änderungen
 
@@ -59,44 +59,62 @@ Ein Fehler in der Produktion kann das 200-fache kosten wie in der Anforderungsph
 
 Der teuerste "Go-Live" der US-Geschichte
 
----
+--
 
-## HealthCare.gov: Der Katastrophen-Launch
+## HealthCare.gov: Das Projekt
 
 > **"Am ersten Tag konnten sich exakt 6 Menschen anmelden."**
 
-**Das Projekt:**
-- 55 beteiligte Auftragnehmer
+**Die Zahlen:**
+- 55 Auftragnehmer
 - $1,7 Milliarden Budget
 - 3 Jahre Entwicklung
 - Big-Bang-Go-Live am 1. Oktober 2013
 
+Note:
+Drei Jahre Entwicklung, Dutzende Firmen, hunderte Entwickler - monolithische Planung, kein durchgängiges Ownership.
+
+--
+
+## HealthCare.gov: Der Ausfall
+
 **Das Ergebnis:**
 - Sofortiger Absturz
-- Langsame Ladezeiten, kaputte Formulare, Datenverlust
+- Nur 6 Anmeldungen am ersten Tag
+- Katastrophale Performance
+- 3 Monate Reparatur notwendig
 
 Note:
-Stellen Sie sich vor: Drei Jahre Entwicklung, Dutzende Firmen, hunderte Entwickler – und am ersten Tag schaffen es genau sechs Menschen, sich einzuloggen. Das war HealthCare.gov, das US-Gesundheitsportal, 2013. Über 55 Auftragnehmer, monolithische Planung, kein durchgängiges Ownership. Alles sollte am Stichtag live gehen – Big Bang. Ergebnis: Komplettausfall.
+Alles sollte am Stichtag live gehen – Big Bang. Ergebnis: Komplettausfall. Langsame Ladezeiten, kaputte Formulare, Datenverlust.
 
----
+--
 
-## Die Rettung: Agile in der Krise
+## Die Rettung: "Tech Surge"
 
-**"Tech Surge" Team:**
+**Der Ansatz:**
 - Kleine, cross-funktionale Teams
 - Iteratives Arbeiten
 - Radikale Priorisierung
 - Tägliche Releases
-- 3 Monate intensive Arbeit
+
+Note:
+Die Rettung kam nicht durch neue Meetings, sondern durch kleine, cross-funktionale Teams. Sie arbeiteten iterativ, priorisierten radikal, lieferten täglich aus.
+
+--
+
+## Die Rettung: Ergebnis
 
 **Resultat:**
+- 3 Monate intensive Arbeit
 - System stabilisiert
 - Daraus entstand der **U.S. Digital Service (USDS)**
 
-Note:
-Die Rettung kam nicht durch neue Meetings, sondern durch kleine, cross-funktionale Teams. Sie arbeiteten iterativ, priorisierten radikal, lieferten täglich aus. Das war echte Agilität – geboren aus Krise, nicht aus Zertifizierung.
+**Lehre:** Agilität ist die logische Antwort auf Komplexität!
 
----
+Note:
+Das war echte Agilität – geboren aus Krise, nicht aus Zertifizierung.
+
+--
 
 ## Lessons Learned
 
@@ -113,6 +131,22 @@ Note:
 Agilität ist kein Glaubenssatz, sondern eine pragmatische Reaktion auf die Realität komplexer Projekte.
 
 ---
+
+## Zusammenfassung: Warum scheitern klassische Ansätze?
+
+❌ **Hauptprobleme:**
+- Spätes Feedback (Monate bis Jahre)
+- Explodierende Kosten bei Änderungen
+- Big Bang Deployment = hohes Risiko
+- Silos & fehlende Zusammenarbeit
+- Rigide Pläne statt Anpassungsfähigkeit
+
+**➡️ Die Lösung:** Agile Software Development!
+
+Note:
+Klassische Ansätze funktionieren bei Unsicherheit und Komplexität nicht. Agile bietet eine bessere Alternative - schauen wir uns an wie!
+
+--
 
 ## Traditionell vs. Agile (1/2)
 
@@ -138,7 +172,7 @@ Der fundamentale Unterschied: Traditionelle Methoden versuchen, Unsicherheit zu 
 Note:
 Agile Teams fragen nicht "Haben wir den Plan eingehalten?", sondern "Haben wir Wert geliefert?"
 
----
+--
 
 ## DO's: Projektstart
 
@@ -171,19 +205,3 @@ Vermeiden Sie Big Design Up Front und technische Schulden von Tag 1. Details:
 - "Später refactoren": Später kommt nie! Tech Debt wird nur größer
 - 6 Monate bis Deployment: Viel zu spät für Feedback
 - Tech-Silos: Führt zu Bottlenecks und Handoffs
-
----
-
-## Zusammenfassung: Warum scheitern klassische Ansätze?
-
-❌ **Hauptprobleme:**
-- Spätes Feedback (Monate bis Jahre)
-- Explodierende Kosten bei Änderungen
-- Big Bang Deployment = hohes Risiko
-- Silos & fehlende Zusammenarbeit
-- Rigide Pläne statt Anpassungsfähigkeit
-
-**➡️ Die Lösung:** Agile Software Development!
-
-Note:
-Klassische Ansätze funktionieren bei Unsicherheit und Komplexität nicht. Agile bietet eine bessere Alternative - schauen wir uns an wie!

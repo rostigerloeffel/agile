@@ -16,7 +16,7 @@ Von Toyota bis Snowbird
 Note:
 Agile ist keine Erfindung der 2000er. Die Wurzeln reichen bis in die 1950er zurück.
 
----
+--
 
 ## Timeline: Die Wurzeln von Agile
 
@@ -130,7 +130,7 @@ Von einer Nischen-Bewegung zum Standard.
 Note:
 Heute ist die Frage nicht mehr "Warum Agile?", sondern "Wie machen wir Agile richtig?".
 
----
+--
 
 ## Lean Prinzipien → Agile Praktiken
 
@@ -159,7 +159,7 @@ Agile ist angewandte Lean-Philosophie in der Softwareentwicklung.
 Note:
 Wer Lean versteht, versteht auch Agile besser.
 
----
+--
 
 ## Warum Agile? (1/2)
 
@@ -197,16 +197,16 @@ Agile ist kein Wundermittel, aber es hilft bei Unsicherheit, Komplexität und Ve
 
 <!-- .slide: data-background="#4CAF50" -->
 
-# 📜 Das Agile Manifest
+# 📜 Die 4 Werte des Agile Manifests
 
-Werte und Prinzipien agiler Softwareentwicklung
+Grundlage aller agilen Frameworks
 
 Note:
-Jetzt tauchen wir ins Herz von Agile ein: Das Manifest und seine 12 Prinzipien. Diese bilden die Grundlage ALLER agilen Frameworks.
+Jetzt tauchen wir ins Herz von Agile ein: Das Manifest und seine 4 Werte. Diese bilden die Grundlage ALLER agilen Frameworks.
 
----
+--
 
-## Die 4 Werte des Agile Manifests
+## Die 4 Werte im Überblick
 
 > Wir erschließen bessere Wege, Software zu entwickeln, indem wir es selbst tun und anderen dabei helfen.
 >
@@ -217,7 +217,7 @@ Jetzt tauchen wir ins Herz von Agile ein: Das Manifest und seine 12 Prinzipien. 
 Note:
 Wichtig: Das Manifest sagt nicht, dass die Dinge auf der rechten Seite wertlos sind. Aber die Dinge auf der linken Seite werden höher bewertet.
 
----
+--
 
 ## Wert 1: Individuen & Interaktionen
 
@@ -272,7 +272,7 @@ Prozess als Totschlagargument verhindert pragmatische Lösungen. Tools sind Hilf
 Note:
 Spotify zeigt: Vertrauen + Freiraum = großartige Produkte.
 
----
+--
 
 ## Wert 2: Funktionierende Software
 
@@ -327,7 +327,7 @@ Faustregel: Dokumentiere Entscheidungen (Warum), nicht Implementierung (Was/Wie)
 Note:
 Amazon dreht es um: Erst das Endergebnis beschreiben, dann entwickeln. Das zwingt zu Klarheit über den Wert und hält den Fokus auf Kundenbedürfnissen.
 
----
+--
 
 ## Wert 3: Zusammenarbeit mit dem Kunden
 
@@ -387,7 +387,7 @@ Der Kunde MUSS "stören" dürfen! Besser wöchentliche Korrekturen als 6-Monats-
 Note:
 Auch im öffentlichen Sektor funktioniert agiles Vorgehen.
 
----
+--
 
 ## Wert 4: Reagieren auf Veränderung
 
@@ -449,7 +449,26 @@ Behandle Features als Experimente. Manche scheitern - das ist OK!
 
 ---
 
-## Die 12 Prinzipien (1/3)
+## Zusammenfassung & Prinzipien
+
+**Die 4 Werte:**
+1. 👥 Individuen & Interaktionen > Prozesse & Werkzeuge
+2. ✅ Funktionierende Software > Umfassende Dokumentation
+3. 🤝 Zusammenarbeit mit Kunden > Vertragsverhandlung
+4. 🔄 Reagieren auf Veränderung > Befolgen eines Plans
+
+**Wichtigste Prinzipien:**
+- Frühe & kontinuierliche Lieferung
+- Nachhaltiges Tempo
+- Technische Exzellenz
+- Einfachheit (YAGNI)
+
+Note:
+Das Manifest ist nur 2 Seiten lang - aber es hat die Softwareentwicklung revolutioniert.
+
+--
+
+## Die 12 Prinzipien im Detail (1/3)
 
 Das Agile Manifest hat **12 Prinzipien**:
 
@@ -485,7 +504,7 @@ Diese Prinzipien sind zeitlos.
 Note:
 Fundamentale Wahrheiten über Softwareentwicklung.
 
----
+--
 
 ## Prinzip 8: Nachhaltiges Tempo
 
@@ -515,7 +534,7 @@ Software-Entwicklung ist ein Marathon, kein Sprint.
 Note:
 Übermüdete Entwickler machen teure Fehler. 60h-Wochen = falsche Planung. Scope reduzieren, nicht Druck erhöhen.
 
----
+--
 
 ## Prinzip 9: Technische Exzellenz
 
@@ -548,7 +567,7 @@ Technische Exzellenz = Voraussetzung für Agilität.
 Note:
 Schlechter Code macht Änderungen teuer - das Gegenteil von agil! Top-Unternehmen investieren massiv in technische Exzellenz.
 
----
+--
 
 ## Prinzip 10: Einfachheit
 
@@ -579,13 +598,13 @@ Note:
 Note:
 Jedes Feature hat Kosten: Entwicklung, Wartung, Komplexität. Die Kunst ist, NEIN zu sagen.
 
----
+--
 
-## Häufige Missverständnisse über Agile
+## Häufige Missverständnisse
 
 Es gibt viele **Mythen** über Agile. Räumen wir auf:
 
----
+--
 
 ## Mythos 1: "Agile = Keine Planung"
 
@@ -603,7 +622,7 @@ Agile Teams planen **kontinuierlich**!
 Note:
 Agile plant sogar MEHR als Wasserfall - nur in kürzeren Zyklen. "Plans are worthless, but planning is everything" - Eisenhower
 
----
+--
 
 ## Mythos 2: "Agile = Keine Dokumentation"
 
@@ -622,7 +641,7 @@ Agile Teams dokumentieren **angemessen**!
 Note:
 "Funktionierende Software über umfassende Dokumentation" heißt nicht "keine Doku". Es heißt: Doku wo sinnvoll, nicht als Selbstzweck.
 
----
+--
 
 ## Mythos 3: "Agile = Chaos / Keine Struktur"
 
@@ -639,24 +658,3 @@ Agile hat **klare Strukturen**!
 
 Note:
 Agile ist hochstrukturiert - aber die Struktur ist leichtgewichtig und dient der Effizienz, nicht der Kontrolle.
-
----
-
-## Zusammenfassung: Agile Manifest
-
-**Die 4 Werte:**
-1. 👥 Individuen & Interaktionen > Prozesse & Werkzeuge
-2. ✅ Funktionierende Software > Umfassende Dokumentation
-3. 🤝 Zusammenarbeit mit Kunden > Vertragsverhandlung
-4. 🔄 Reagieren auf Veränderung > Befolgen eines Plans
-
-**Wichtigste Prinzipien:**
-- Frühe & kontinuierliche Lieferung
-- Nachhaltiges Tempo
-- Technische Exzellenz
-- Einfachheit (YAGNI)
-
-**Wichtig:** Agile ist ein **Mindset**, kein Rezept!
-
-Note:
-Das Manifest ist nur 2 Seiten lang - aber es hat die Softwareentwicklung revolutioniert. Die Werte und Prinzipien sind zeitlos.

@@ -35,7 +35,7 @@ Scrum ist das meistgenutzte agile Framework (58% aller agilen Teams). Wir schaue
 Note:
 Scrum ist kein Prozess - es ist ein Framework. Die Regeln sind einfach, die Umsetzung ist schwer!
 
----
+--
 
 ## Scrum auf einen Blick
 
@@ -55,7 +55,7 @@ Scrum ist kein Prozess - es ist ein Framework. Die Regeln sind einfach, die Umse
 Note:
 Das ist der komplette Scrum-Rahmen! 3-5-3. Schauen wir uns die wichtigsten Details an.
 
----
+--
 
 ## Product Owner (PO)
 
@@ -72,13 +72,20 @@ Der Product Owner entscheidet WAS gebaut wird und in welcher Reihenfolge.
 
 --
 
-## Product Owner: DO's & DON'Ts
+## Product Owner: DO's
 
 ✅ **DO:**
 - Täglich verfügbar sein
 - Klare Prioritäten kommunizieren
 - Entscheidungen treffen
 - NEIN sagen können
+
+Note:
+Ein guter PO ist täglich erreichbar und hat klare Prioritäten.
+
+--
+
+## Product Owner: DON'Ts
 
 ❌ **DON'T:**
 - Abwesend sein
@@ -88,9 +95,9 @@ Der Product Owner entscheidet WAS gebaut wird und in welcher Reihenfolge.
 **Red Flag:** "Unser PO ist nie da"
 
 Note:
-Ein guter PO ist Gold wert! Schlechte POs sind oft zu beschäftigt oder sagen nicht NEIN.
+Schlechte POs sind oft zu beschäftigt oder sagen nicht NEIN.
 
----
+--
 
 ## Scrum Master (SM)
 
@@ -107,12 +114,19 @@ Der Scrum Master ist Servant Leader - beseitigt Hindernisse, schützt das Team.
 
 --
 
-## Scrum Master: DO's & DON'Ts
+## Scrum Master: DO's
 
 ✅ **DO:**
 - Impediments aktiv lösen
 - Team vor Störungen schützen
 - Prozess-Verbesserungen einbringen
+
+Note:
+Ein guter SM ist unsichtbar, wenn alles läuft - aber sofort da, wenn's hakt.
+
+--
+
+## Scrum Master: DON'Ts
 
 ❌ **DON'T:**
 - Als Projektmanager agieren ("Du machst Task A...")
@@ -124,7 +138,7 @@ Der Scrum Master ist Servant Leader - beseitigt Hindernisse, schützt das Team.
 Note:
 SM ist kein PM! Der SM befähigt das Team, sich selbst zu organisieren.
 
----
+--
 
 ## Entwicklungsteam
 
@@ -142,7 +156,7 @@ SM ist kein PM! Der SM befähigt das Team, sich selbst zu organisieren.
 Note:
 Das Team ist das Herz von Scrum. Cross-funktional bedeutet: Alle Skills im Team.
 
----
+--
 
 ## Sprint Planning
 
@@ -161,7 +175,7 @@ Das Team ist das Herz von Scrum. Cross-funktional bedeutet: Alle Skills im Team.
 Note:
 Gutes Planning startet mit vorbereitetem Backlog!
 
----
+--
 
 ## Daily Scrum
 
@@ -180,7 +194,7 @@ Gutes Planning startet mit vorbereitetem Backlog!
 Note:
 Daily = Synchronisation, nicht Problem-Lösung!
 
----
+--
 
 ## Sprint Review
 
@@ -201,7 +215,7 @@ Daily = Synchronisation, nicht Problem-Lösung!
 Note:
 Review ist ein Arbeitstreffen, keine Show!
 
----
+--
 
 ## Sprint Retrospective
 
@@ -219,7 +233,7 @@ Review ist ein Arbeitstreffen, keine Show!
 Note:
 Ohne Retro kein kontinuierlicher Verbesserungsprozess!
 
----
+--
 
 ## Product Backlog
 
@@ -239,7 +253,7 @@ Ohne Retro kein kontinuierlicher Verbesserungsprozess!
 Note:
 Gepflegtes Backlog ist Gold wert!
 
----
+--
 
 ## Sprint Backlog & Increment
 
@@ -269,7 +283,7 @@ Visualize Work, Limit WIP, Manage Flow
 Note:
 Kanban ist ein flexibleres Framework - perfekt für kontinuierlichen Flow ohne Sprints.
 
----
+--
 
 ## Was ist Kanban?
 
@@ -286,7 +300,7 @@ Kanban ist ein flexibleres Framework - perfekt für kontinuierlichen Flow ohne S
 Note:
 Kanban kommt aus Lean. Wir ziehen Tasks, wenn wir Kapazität haben.
 
----
+--
 
 ## Kanban vs. Scrum
 
@@ -303,7 +317,7 @@ Kanban kommt aus Lean. Wir ziehen Tasks, wenn wir Kapazität haben.
 Note:
 Viele Teams nutzen auch Scrumban (Hybrid)!
 
----
+--
 
 ## Die 6 Kanban-Praktiken
 
@@ -317,7 +331,7 @@ Viele Teams nutzen auch Scrumban (Hybrid)!
 Note:
 Diese 6 Praktiken sind das Herz von Kanban.
 
----
+--
 
 ## Visualize Workflow
 
@@ -340,7 +354,7 @@ Diese 6 Praktiken sind das Herz von Kanban.
 Note:
 Ein gutes Board zeigt die Realität!
 
----
+--
 
 ## Limit Work in Progress (WIP)
 
@@ -361,7 +375,7 @@ Ein gutes Board zeigt die Realität!
 Note:
 WIP Limits sind das Herz von Kanban! Wenn voll: Helfen statt neue Tasks starten.
 
----
+--
 
 ## Manage Flow
 
@@ -380,7 +394,7 @@ WIP Limits sind das Herz von Kanban! Wenn voll: Helfen statt neue Tasks starten.
 Note:
 Flow zu messen bringt nichts, wenn man nicht handelt!
 
----
+--
 
 ## Kanban Zusammenfassung
 
@@ -403,14 +417,16 @@ Kanban ist perfekt für Teams mit kontinuierlichem Arbeitsstrom!
 
 <!-- .slide: data-background="#00BCD4" -->
 
-# 🌐 Weitere Frameworks
+# 🌐 Zusammenfassung & Weitere Frameworks
 
-XP, SAFe, LeSS
+**Scrum:** Struktur & Rhythmus (3-5-3)
+**Kanban:** Flow & Metriken (6 Praktiken)
+**Weitere:** XP, SAFe, LeSS
 
 Note:
-Scrum und Kanban sind die bekanntesten, aber es gibt weitere wichtige Frameworks.
+Wir haben Scrum und Kanban kennengelernt - jetzt ein Blick auf weitere wichtige Frameworks.
 
----
+--
 
 ## Extreme Programming (XP)
 
@@ -428,7 +444,7 @@ Scrum und Kanban sind die bekanntesten, aber es gibt weitere wichtige Frameworks
 Note:
 XP füllt Scrum's technische Lücke. Viele erfolgreiche Teams nutzen beides!
 
----
+--
 
 ## Test-Driven Development (TDD)
 
@@ -445,7 +461,7 @@ XP füllt Scrum's technische Lücke. Viele erfolgreiche Teams nutzen beides!
 Note:
 TDD fühlt sich anfangs langsam an, spart aber langfristig Zeit!
 
----
+--
 
 ## Continuous Integration (CI)
 
@@ -465,7 +481,7 @@ TDD fühlt sich anfangs langsam an, spart aber langfristig Zeit!
 Note:
 CI vermeidet "Integration Hell" durch häufige, kleine Integrationen.
 
----
+--
 
 ## SAFe (Scaled Agile Framework)
 
@@ -482,7 +498,7 @@ CI vermeidet "Integration Hell" durch häufige, kleine Integrationen.
 Note:
 SAFe ist umstritten, aber für sehr große Orgas manchmal notwendig.
 
----
+--
 
 ## LeSS (Large-Scale Scrum)
 
@@ -500,7 +516,7 @@ SAFe ist umstritten, aber für sehr große Orgas manchmal notwendig.
 Note:
 LeSS ist das Gegenteil von SAFe: Statt mehr Struktur, WENIGER Struktur.
 
----
+--
 
 ## Wann welches Framework?
 
@@ -518,20 +534,3 @@ LeSS ist das Gegenteil von SAFe: Statt mehr Struktur, WENIGER Struktur.
 
 Note:
 Wählt basierend auf Kontext, nicht auf Hype. Adaptiert, was funktioniert!
-
----
-
-## Zusammenfassung: Frameworks
-
-**Scrum:** 3 Rollen, 5 Events, 3 Artefakte - Struktur & Rhythmus
-
-**Kanban:** 6 Praktiken, Flow-Metriken - Flexibilität & Daten
-
-**XP:** TDD, Pair Programming, CI - Technische Exzellenz
-
-**SAFe/LeSS:** Skalierung für große Organisationen
-
-**Lehre:** Alle basieren auf Agile Manifest. Nutzt, was passt!
-
-Note:
-Am Ende zählt: Wert liefern, auf Änderung reagieren, kontinuierlich verbessern!

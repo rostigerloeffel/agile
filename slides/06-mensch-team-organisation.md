@@ -9,6 +9,19 @@ Agile ist Menschen-zentriert! Die besten Prozesse helfen nicht, wenn das Team ni
 
 ---
 
+## Team-Strukturen
+
+**Kern-Idee:** Autonomie ermöglicht Geschwindigkeit!
+
+- 🏗️ **Autonome Teams:** Cross-funktional, End-to-End Ownership
+- 📐 **Conway's Law:** Org-Struktur = Architektur
+- 🎵 **Spotify-Modell:** Squads, Tribes, Chapters, Guilds
+
+Note:
+Die richtige Team-Struktur ist Grundlage für agiles Arbeiten.
+
+--
+
 ## Autonome Teams vs. Matrix-Organisation
 
 **Matrix-Organisation (Traditional):**
@@ -36,7 +49,7 @@ Agile ist Menschen-zentriert! Die besten Prozesse helfen nicht, wenn das Team ni
 Note:
 Matrix-Organisation schafft Silos. Autonome Teams liefern Features Ende-zu-Ende!
 
----
+--
 
 ## Conway's Law
 
@@ -56,7 +69,7 @@ Matrix-Organisation schafft Silos. Autonome Teams liefern Features Ende-zu-Ende!
 Note:
 Conway's Law ist real! Wenn ihr Microservices wollt, braucht ihr autonome Teams.
 
----
+--
 
 ## Spotify-Modell
 
@@ -79,6 +92,20 @@ Spotify-Modell balanciert Autonomie + Alignment. Nicht 1:1 kopierbar, aber Prinz
 
 ---
 
+## Kultur & Führung
+
+**Kern-Idee:** Vertrauen ermöglicht Innovation!
+
+- 🛡️ **Psychological Safety:** Fehler sind Lern-Chancen
+- 🤝 **Blameless Culture:** System-Denken statt Schuldzuweisung
+- 👤 **Servant Leadership:** Befähigen statt bestimmen
+- 📊 **Data-Driven:** Daten > HiPPO
+
+Note:
+Die richtige Kultur ist der Schlüssel zu erfolgreichen agilen Teams.
+
+--
+
 ## Verantwortung & Vertrauen
 
 **Traditionell:**
@@ -91,22 +118,35 @@ Spotify-Modell balanciert Autonomie + Alignment. Nicht 1:1 kopierbar, aber Prinz
 - Trust & Empowerment
 - "You are the expert"
 
-**Psychologische Sicherheit:**
-- Fehler sind OK (Lern-Chancen!)
-- Fragen stellen ist erwünscht
-- Meinungen werden respektiert
-
 Note:
 Ohne Vertrauen keine Agilität! Teams brauchen Psychological Safety zum Experimentieren.
 
----
+--
+
+## Psychologische Sicherheit
+
+**Was ist das?**
+Umfeld, in dem man sich sicher fühlt, Risiken einzugehen
+
+**Merkmale:**
+- Fehler sind OK (Lern-Chancen!)
+- Fragen stellen ist erwünscht
+- Meinungen werden respektiert
+- Keine Angst vor Bloßstellung
+
+**Resultat:** Team experimentiert, innoviert, lernt
+
+Note:
+Psychological Safety ist Basis für Innovation. Ohne Sicherheit keine Kreativität!
+
+--
 
 ## Google's Project Aristotle
 
 **Frage:** Was macht Teams erfolgreich?
 
 **Ergebnis (2015):**
-1. **Psychological Safety** (mit Abstand wichtigster Faktor!)
+1. **Psychological Safety** (wichtigster Faktor!)
 2. Dependability
 3. Structure & Clarity
 4. Meaning
@@ -114,41 +154,62 @@ Ohne Vertrauen keine Agilität! Teams brauchen Psychological Safety zum Experime
 
 **Lehre:** Sicherheit > Smartness
 
-**Psychological Safety:**
-- Fehler ohne Blame
-- Ideen ohne Ridicule
-- Fragen ohne Judgment
-
 Note:
 Google analysierte 180 Teams. Ergebnis: Nicht WER im Team, sondern WIE Team zusammenarbeitet!
 
----
+--
+
+## Psychological Safety im Detail
+
+**Was bedeutet das konkret?**
+- Fehler ohne Blame
+- Ideen ohne Ridicule
+- Fragen ohne Judgment
+- Risiken eingehen erlaubt
+- Diverse Perspektiven willkommen
+
+**Resultat:** Innovation & High Performance
+
+Note:
+Teams mit hoher Psychological Safety sind produktiver und innovativer. Sie teilen Wissen statt es zu horten!
+
+--
 
 ## Blameless Culture
 
 **Traditionell:**
 - "Wer war's?" (Finger-Pointing)
 - Bestrafung
+- Angst vor Fehlern
 
 **Blameless:**
 - "Was ist passiert?" (System-Denken)
 - Learning
-
-**Blameless Postmortem:**
-1. Was ist passiert? (Timeline)
-2. Warum konnte es passieren? (Root Cause)
-3. Wie verhindern wir's? (Action Items)
+- Fehler als Chance
 
 **Wichtig:** Focus auf System, nicht Person!
-
-**Beispiel:** Etsy Blameless Postmortems
-- 100+ pro Jahr
-- Kultur des Lernens
 
 Note:
 "Human error" ist nie die Root Cause - es ist immer das System! Blame verhindert Lernen.
 
----
+--
+
+## Blameless Postmortem
+
+**Ablauf nach Incident:**
+1. Was ist passiert? (Timeline)
+2. Warum konnte es passieren? (Root Cause)
+3. Wie verhindern wir's? (Action Items)
+
+**Beispiel:** Etsy Blameless Postmortems
+- 100+ pro Jahr
+- Kultur des Lernens
+- Kontinuierliche Verbesserung
+
+Note:
+Blameless Postmortems schaffen Lernen statt Angst. Etsy hat das perfektioniert!
+
+--
 
 ## Stakeholder-Management
 
@@ -180,6 +241,13 @@ Stakeholder sind wichtig, aber direkter Zugriff aufs Team = Chaos! PO ist die Br
 - Roadmap kommunizieren (aber flexibel!)
 - Frühes Feedback einholen
 
+Note:
+Stakeholder sind wichtig - regelmäßiges Engagement ist der Schlüssel.
+
+--
+
+## Stakeholder-Management: DON'Ts
+
 ❌ **DON'T:**
 - Stakeholder ignorieren
 - Überraschungs-Releases
@@ -189,7 +257,7 @@ Stakeholder sind wichtig, aber direkter Zugriff aufs Team = Chaos! PO ist die Br
 Note:
 Stakeholder-Management ist Balance: Engagement ohne Mikromanagement.
 
----
+--
 
 ## Priorisierung & Entscheidungsfindung
 
@@ -254,7 +322,7 @@ triert
 Note:
 HiPPO ist Gift für Produktentwicklung! Daten + User Feedback schlagen Bauchgefühl.
 
----
+--
 
 ## Führung in agilen Teams
 
@@ -300,7 +368,7 @@ Self-organizing ≠ no leadership! Teams brauchen Kontext und Support.
 
 --
 
-## Führung: DO's & DON'Ts
+## Führung: DO's
 
 ✅ **DO:**
 - Set goals, not tasks
@@ -309,6 +377,13 @@ Self-organizing ≠ no leadership! Teams brauchen Kontext und Support.
 - Ask "How can I help?"
 - Celebrate failures (= Learning!)
 
+Note:
+Gute Führung schafft Umfeld für Erfolg.
+
+--
+
+## Führung: DON'Ts
+
 ❌ **DON'T:**
 - Task-Level Management
 - Team bypassing (direkt Devs ansprechen)
@@ -316,9 +391,9 @@ Self-organizing ≠ no leadership! Teams brauchen Kontext und Support.
 - Blame bei Fehlern
 
 Note:
-Gute Führung schafft Umfeld für Erfolg. Schlechte Führung schafft Bottlenecks.
+Schlechte Führung schafft Bottlenecks und Micromanagement tötet Autonomie.
 
----
+--
 
 ## Team-Praktiken: Definition of Done
 
@@ -339,7 +414,7 @@ Gute Führung schafft Umfeld für Erfolg. Schlechte Führung schafft Bottlenecks
 Note:
 Jedes Team braucht seine eigene DoD. Wichtig: DoD muss realistisch, aber anspruchsvoll sein.
 
----
+--
 
 ## Remote & Hybrid Work
 
@@ -347,8 +422,16 @@ Jedes Team braucht seine eigene DoD. Wichtig: DoD muss realistisch, aber anspruc
 - Spontane Kommunikation fehlt
 - Onboarding schwieriger
 - Team-Bonding
+- Timezone-Unterschiede
 
-**Best Practices:**
+Note:
+Remote funktioniert, braucht aber bewusste Kommunikation! Over-communicate ist OK.
+
+--
+
+## Remote: Best Practices
+
+**Kommunikation:**
 - **Daily Video-Calls** (Kamera an!)
 - **Virtual Pairing** (Screen Sharing)
 - **Async Communication** (Slack, Docs)
@@ -358,7 +441,7 @@ Jedes Team braucht seine eigene DoD. Wichtig: DoD muss realistisch, aber anspruc
 **Tools:** Zoom, Miro, Mural, Slack
 
 Note:
-Remote funktioniert, braucht aber bewusste Kommunikation! Over-communicate ist OK.
+Remote-Teams brauchen bewusste Kommunikations-Strukturen. Async + Sync kombinieren!
 
 ---
 

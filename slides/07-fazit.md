@@ -64,7 +64,7 @@ Continuous Improvement ist das Mantra!
 Note:
 Der häufigste Fehler: Zu schnell zu viel wollen. Start small!
 
----
+--
 
 ## FAQ: Wichtigste Fragen
 
@@ -85,7 +85,7 @@ Der häufigste Fehler: Zu schnell zu viel wollen. Start small!
 Note:
 Diese Fragen kommen am häufigsten. Weitere Fragen gleich in der Diskussion!
 
----
+--
 
 ## Ressourcen
 
@@ -118,7 +118,7 @@ Eure Fragen!
 Note:
 Jetzt seid ihr dran! Was brennt euch unter den Nägeln?
 
----
+--
 
 ## Diskussionsfragen
 
@@ -133,7 +133,7 @@ Jetzt seid ihr dran! Was brennt euch unter den Nägeln?
 Note:
 Agile lebt vom Austausch. Jedes Team hat andere Herausforderungen!
 
----
+--
 
 <!-- .slide: data-background="#2196F3" -->
 

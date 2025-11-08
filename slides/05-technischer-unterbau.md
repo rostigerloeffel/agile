@@ -17,20 +17,38 @@ Agile Prozesse allein reichen nicht! Ohne solide technische Basis wird man langs
 - Bugs in Produktion häufen sich
 - Team wird frustriert
 
+Note:
+Ohne solide technische Basis wird man langsam statt schnell.
+
+--
+
+## Warum technische Exzellenz? (2)
+
 **Mit Tech Excellence:**
 - Schnelle, sichere Änderungen
 - Deployment ohne Angst
 - Hohe Qualität
 - Zufriedene Entwickler
 
-**Lehre:** Ohne techn
-
-ischen Unterbau ist Agilität unmöglich!
+**Lehre:** Ohne technischen Unterbau ist Agilität unmöglich!
 
 Note:
 Technische Exzellenz ist kein "Nice to Have" - es ist Voraussetzung für Agilität!
 
 ---
+
+## Testing & CI/CD
+
+**Kern-Idee:** Qualität von Anfang an!
+
+- 🧪 **Testing:** Pyramid (70% Unit, 20% Integration, 10% E2E)
+- 🔄 **CI:** Automated Build + Tests bei jedem Commit
+- 🌿 **Trunk-Based Development:** Feature Branches < 2 Tage
+
+Note:
+Ohne Tests und CI ist Agilität unmöglich! Diese Praktiken sind das Fundament.
+
+--
 
 ## Testing Pyramid
 
@@ -55,7 +73,7 @@ Technische Exzellenz ist kein "Nice to Have" - es ist Voraussetzung für Agilit�
 Note:
 Die Test-Pyramide ist wichtig! Zu viele E2E-Tests = langsame Builds, flaky Tests. Unit Tests sind das Fundament.
 
----
+--
 
 ## Continuous Integration (CI)
 
@@ -63,21 +81,47 @@ Die Test-Pyramide ist wichtig! Zu viele E2E-Tests = langsame Builds, flaky Tests
 - ✅ Automated Build bei jedem Commit
 - ✅ Automated Tests (< 10 Min)
 - ✅ Build Status visible
-- ✅ Trunk-Based Development
 
 **Regel:** Red Build = **höchste Priorität**!
-
-**Trunk-Based Development:**
-- Feature Branches: < 2 Tage
-- Daily merges zu main
-- Feature Flags für unfertiges
 
 **Tools:** GitHub Actions, GitLab CI, Jenkins
 
 Note:
 CI ist non-negotiable! Ohne CI habt ihr keine Agilität. Integration Hell ist real.
 
+--
+
+## Trunk-Based Development
+
+**Prinzip:** Alle entwickeln auf einem Hauptzweig (main)
+
+**Regeln:**
+- Feature Branches: < 2 Tage
+- Daily merges zu main
+- Feature Flags für unfertiges
+
+**Vorteile:**
+- Weniger Merge-Konflikte
+- Kontinuierliche Integration
+- Schnelleres Feedback
+
+Note:
+Trunk-Based Development reduziert Integration Hell. Lange Feature Branches sind problematisch!
+
 ---
+
+## Deployment & DevOps
+
+**Kern-Idee:** Schnelle, sichere Releases durch Automation!
+
+- 🚀 **CD:** Continuous Delivery/Deployment
+- 🔵🟢 **Strategien:** Blue-Green, Canary, Feature Flags
+- 👥 **DevOps:** "You build it, you run it" + IaC + Observability
+
+Note:
+Deployment darf keine Angst machen - mit den richtigen Praktiken wird es zur Routine.
+
+--
 
 ## Continuous Deployment (CD)
 
@@ -98,7 +142,7 @@ CI ist non-negotiable! Ohne CI habt ihr keine Agilität. Integration Hell ist re
 Note:
 CD ist der heilige Gral! Aber: Braucht solide Tests, Monitoring, Feature Flags.
 
----
+--
 
 ## Deployment-Strategien
 
@@ -121,7 +165,7 @@ CD ist der heilige Gral! Aber: Braucht solide Tests, Monitoring, Feature Flags.
 Note:
 Diese Strategien ermöglichen risikoarme Deployments. Feature Flags sind besonders mächtig!
 
----
+--
 
 ## Code Reviews
 
@@ -135,15 +179,26 @@ Diese Strategien ermöglichen risikoarme Deployments. Feature Flags sind besonde
 - Schnell (< 24h, besser < 4h)
 - Konstruktiv (nicht arrogant!)
 
-**Checkliste:**
-- [ ] Tests vorhanden?
-- [ ] Code verständlich?
-- [ ] Sicherheit OK?
-
 Note:
 Code Reviews sind Gold wert! Aber sie müssen schnell sein - sonst blockieren sie.
 
----
+--
+
+## Code Review Checkliste
+
+**Beim Review prüfen:**
+- [ ] Tests vorhanden?
+- [ ] Code verständlich?
+- [ ] Sicherheit OK?
+- [ ] Performance-Aspekte beachtet?
+- [ ] Dokumentation aktualisiert?
+
+**Tipp:** Checkliste im Pull Request Template!
+
+Note:
+Eine gute Checkliste macht Reviews systematisch und verhindert, dass etwas übersehen wird.
+
+--
 
 ## Technical Debt Management
 
@@ -164,7 +219,7 @@ Code Reviews sind Gold wert! Aber sie müssen schnell sein - sonst blockieren si
 Note:
 Tech Debt ist wie Kreditkarte: OK in Maßen, aber Zinsen zahlen tut weh!
 
----
+--
 
 ## Architektur für Agilität
 
@@ -205,7 +260,7 @@ Microservices sind kein Selbstzweck! Sie ermöglichen Team-Autonomie, bringen ab
 Note:
 Decoupling ermöglicht unabhängige Teams. "You build it, you run it."
 
----
+--
 
 ## DevOps-Kultur
 
@@ -219,13 +274,24 @@ Decoupling ermöglicht unabhängige Teams. "You build it, you run it."
 - Teams verantwortlich für Prod
 - Gemeinsame Metriken
 
-**Praktiken:**
+Note:
+DevOps ist Kulturwandel, nicht Tool-Sammlung! Es geht um gemeinsame Verantwortung.
+
+--
+
+## DevOps-Praktiken
+
+**Kernpraktiken:**
 - Infrastructure as Code (IaC)
 - Monitoring & Observability
 - On-Call Rotation
+- Automated Deployments
+- Shared Metrics
+
+**Ziel:** Schnelle, sichere Deployments durch Zusammenarbeit
 
 Note:
-DevOps ist Kulturwandel, nicht Tool-Sammlung!
+Diese Praktiken ermöglichen schnelle, zuverlässige Releases. DevOps ist Team-Sport!
 
 --
 
@@ -277,7 +343,7 @@ IaC macht Infrastruktur agil! Änderungen via Code Review + CI/CD.
 Note:
 Ohne Observability ist Production ein Blackbox. "You can't improve what you can't measure."
 
----
+--
 
 ## Technical Excellence: DO's
 
