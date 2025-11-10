@@ -9,6 +9,8 @@ Wir nähern uns dem Ende. Fassen wir die wichtigsten Learnings zusammen!
 
 ---
 
+<!-- .slide: style="font-size: 0.85em" -->
+
 ## Die 7 wichtigsten Learnings
 
 1. **Agile ist ein Mindset, kein Prozess**
@@ -28,6 +30,8 @@ Diese Punkte sind das Herz von Agile.
 
 --
 
+<!-- .slide: style="font-size: 0.85em" -->
+
 ## Die 7 wichtigsten Learnings (2/2)
 
 5. **Menschen > Prozesse**
@@ -40,8 +44,6 @@ Diese Punkte sind das Herz von Agile.
 7. **Es gibt kein "perfektes" Framework**
    - Scrum, Kanban, XP - alle sind Tools
    - Nutzt was passt, adaptiert, verbessert
-
-**Wichtigste Frage:** "Was können wir diese Woche verbessern?"
 
 Note:
 Continuous Improvement ist das Mantra!

@@ -51,6 +51,8 @@ Matrix-Organisation schafft Silos. Autonome Teams liefern Features Ende-zu-Ende!
 
 --
 
+<!-- .slide: style="font-size: 0.75em" -->
+
 ## Conway's Law
 
 > **"Organizations design systems that mirror their communication structure."**
