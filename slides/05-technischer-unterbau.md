@@ -109,16 +109,28 @@ TDD fühlt sich anfangs langsam an, spart aber langfristig Zeit!
 
 ## Code Reviews
 
+<div class="two-columns">
+
+<div>
+
 **Warum?**
 - 👁️ 4-Augen-Prinzip
 - 📚 Wissensaustausch
 - 🐛 Bug-Prävention
+
+</div>
+
+<div>
 
 **Best Practices:**
 - Klein & häufig (< 100 Zeilen)
 - Schnell (< 24h, besser < 4h)
 - Konstruktiv, nüchtern, unemotional
 - PR-Stacking: https://www.stacking.dev/
+
+</div>
+
+</div>
 
 Note:
 Code Reviews sind Gold wert! Aber sie müssen schnell sein - sonst blockieren sie.
