@@ -344,14 +344,13 @@ Servant Leadership ist Mindset-Shift! Führung heißt: Team zum Erfolg befähige
 
 ## Zusammenfassung: Mensch, Team, Organisation
 
+<div class="two-columns">
+
+<div>
+
 **Team-Struktur:**
 - Autonome, cross-funktionale Teams > Matrix
 - Conway's Law: Org-Struktur = Architektur
-
-**Kultur:**
-- Vertrauen > Kontrolle
-- Psychological Safety > Smartness
-- Blameless > Blame
 
 **Stakeholder:**
 - PO als Filter
@@ -361,9 +360,22 @@ Servant Leadership ist Mindset-Shift! Führung heißt: Team zum Erfolg befähige
 - Daten > HiPPO
 - MoSCoW, WSJF
 
+</div>
+
+<div>
+
+**Kultur:**
+- Vertrauen > Kontrolle
+- Psychological Safety > Smartness
+- Blameless > Blame
+
 **Führung:**
 - Servant Leadership
 - Context geben, Team enablen
+
+</div>
+
+</div>
 
 Note:
 Menschen sind der Schlüssel! Prozesse und Tools sind nur Hilfsmittel.
