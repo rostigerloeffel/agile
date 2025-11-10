@@ -50,8 +50,6 @@ Continuous Improvement ist das Mantra!
 
 ## Getting Started: Nächste Schritte
 
-**Für Teams, die agil werden wollen:**
-
 1. **Lernen** - Agile Manifesto, Scrum Guide
 2. **Start Small** - 1 Pilot-Team, 2-Wochen-Sprints
 3. **Coaching** - Erfahrener Scrum Master/Coach
@@ -77,6 +75,7 @@ Der häufigste Fehler: Zu schnell zu viel wollen. Start small!
 - Planning Poker, Story Points
 - Schätzungen sind keine Commitments!
 - Velocity stabilisiert sich nach 3-5 Sprints
+- Monte Carlo: https://rostigerloeffel.github.io/monte-carlo/
 
 **"Skalierung - ab wann?"**
 - Erst wenn wirklich nötig!
@@ -89,20 +88,33 @@ Diese Fragen kommen am häufigsten. Weitere Fragen gleich in der Diskussion!
 
 ## Ressourcen
 
-**Offizielle Guides (kostenlos!):**
+<div class="two-columns">
+
+<div>
+
+**Offizielle Guides:**
 - [Agile Manifesto](https://agilemanifesto.org/)
 - [Scrum Guide](https://scrumguides.org/)
 - [Kanban Guide](https://kanbanguides.org/)
 
-**Must-Read Bücher:**
+**Bücher:**
 - "Scrum: The Art of Doing Twice the Work in Half the Time" (Sutherland)
 - "Clean Code" (Robert C. Martin)
 - "The Lean Startup" (Eric Ries)
 
-**Communities:**
-- Scrum Alliance, Agile Alliance
+</div>
+
+<div>
+
+**Personen:**
+- Allen Hollub
+- Roman Pichler
+- Tim Ottinger
 - Reddit: r/agile, r/scrum
-- Meetups in eurer Stadt!
+
+</div>
+
+</div>
 
 Note:
 Alle Guides sind kostenlos und sehr gut! Lest sie.
@@ -127,8 +139,6 @@ Jetzt seid ihr dran! Was brennt euch unter den Nägeln?
 - Welche Frameworks nutzt ihr?
 - Was würdet ihr anders machen?
 - Wie agil ist eure Organisation?
-
-**Teilt eure Learnings!** 🙌
 
 Note:
 Agile lebt vom Austausch. Jedes Team hat andere Herausforderungen!
