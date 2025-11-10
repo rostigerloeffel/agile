@@ -325,15 +325,27 @@ Decoupling ermöglicht unabhängige Teams. "You build it, you run it."
 
 ## DevOps-Kultur
 
+<div class="two-columns">
+
+<div>
+
 **Traditionell:**
 - Dev baut, Ops deployed
 - "Throw it over the wall"
 - Konflikte & Finger-Pointing
 
+</div>
+
+<div>
+
 **DevOps:**
 - **"You build it, you run it"** (Amazon)
 - Teams verantwortlich für Prod
 - Gemeinsame Metriken
+
+</div>
+
+</div>
 
 Note:
 DevOps ist Kulturwandel, nicht Tool-Sammlung! Es geht um gemeinsame Verantwortung.
