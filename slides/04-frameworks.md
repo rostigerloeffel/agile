@@ -58,91 +58,66 @@ Das ist der komplette Scrum-Rahmen! 3-5-3. Schauen wir uns die wichtigsten Detai
 
 ## Product Owner (PO)
 
-**Verantwortlichkeiten:**
 - 📊 Maximierung des Produktwerts
 - 📋 Product Backlog managen & priorisieren
 - 🎯 Product Goal definieren
 - ✅ Sprint-Ziele klären
 
-**Wichtig:** Der PO ist **EINE Person**!
-
 Note:
 Der Product Owner entscheidet WAS gebaut wird und in welcher Reihenfolge.
 
---
-
-## Product Owner: DO's
-
-✅ **DO:**
+DO:
 - Täglich verfügbar sein
 - Klare Prioritäten kommunizieren
 - Entscheidungen treffen
 - NEIN sagen können
 
-Note:
 Ein guter PO ist täglich erreichbar und hat klare Prioritäten.
 
---
-
-## Product Owner: DON'Ts
-
-❌ **DON'T:**
+DON'T
 - Abwesend sein
 - Ständig Prioritäten ändern
 - Alle Stakeholder-Wünsche akzeptieren
 
-**Red Flag:** "Unser PO ist nie da"
-
-Note:
-Schlechte POs sind oft zu beschäftigt oder sagen nicht NEIN.
+Red Flag "Unser PO ist nie da"
 
 --
 
 ## Scrum Master (SM)
 
-**Verantwortlichkeiten:**
 - 🧑‍🏫 Scrum-Prozess coachen
 - 🚧 Impediments beseitigen
 - 🛡️ Team schützen
-- 🤝 Events facilitieren
+- 🤝 Events moderieren
 
 **Wichtig:** Scrum Master ist **kein Projektmanager**!
 
 Note:
 Der Scrum Master ist Servant Leader - beseitigt Hindernisse, schützt das Team.
 
---
-
-## Scrum Master: DO's
-
-✅ **DO:**
+DO:
 - Impediments aktiv lösen
 - Team vor Störungen schützen
 - Prozess-Verbesserungen einbringen
 
-Note:
 Ein guter SM ist unsichtbar, wenn alles läuft - aber sofort da, wenn's hakt.
 
---
+-> Macht sich selbst obsolet
 
-## Scrum Master: DON'Ts
-
-❌ **DON'T:**
+DON'T:
 - Als Projektmanager agieren ("Du machst Task A...")
 - Nur Events moderieren
 - Scrum dogmatisch durchdrücken
 
 **Red Flag:** "Unser SM schreibt Tasks"
 
-Note:
 SM ist kein PM! Der SM befähigt das Team, sich selbst zu organisieren.
 
 --
 
 ## Entwicklungsteam
 
-**Verantwortlichkeiten:**
-- 💻 Increment erstellen
+- 💻 Inkrement erstellen
 - 🔧 Selbstorganisation (Team entscheidet WIE)
 - 🤝 Cross-functional sein
 
@@ -168,11 +143,24 @@ Das Team ist das Herz von Scrum. Cross-funktional bedeutet: Alle Skills im Team.
 2. **WHAT** - Sprint Backlog auswählen
 3. **HOW** - Grober technischer Plan
 
-**DO:** Vorbereitetes Backlog, realistische Planung
-**DON'T:** Unprepared, Sprint überladen, kein Goal
-
 Note:
+
+✅ DO's 
+- Vorbereitetes Backlog
+- realistische Planung
+
+❌ DON'Ts
+- Keine Vorbereitung
+- Sprint überladen
+- kein Goal
+
 Gutes Planning startet mit vorbereitetem Backlog!
+
+"Meeting-Tage" vermeiden.
+
+Nicht mehr als 10% der Zeit in Meetings.
+
+Mittwoch/Donnerstag sind häufig günstig.
 
 --
 
@@ -187,10 +175,10 @@ Gutes Planning startet mit vorbereitetem Backlog!
 2. Was werde ich heute tun?
 3. Gibt es Impediments?
 
-**DO:** Pünktlich, kurz, Fokus auf Sprint Goal
-**DON'T:** 30+ Minuten, Status-Report an Boss
+Note: 
+DO: Pünktlich, kurz, Fokus auf Sprint Goal
+DON'T: 30+ Minuten, Status-Report an Boss
 
-Note:
 Daily = Synchronisation, nicht Problem-Lösung!
 
 --
@@ -203,15 +191,15 @@ Daily = Synchronisation, nicht Problem-Lösung!
 
 **Teilnehmer:** Scrum Team + **Stakeholder**
 
-**DO:**
+Note:
+DO:
 - Echte Software zeigen (keine PPT!)
 - Stakeholder aktiv einbeziehen
 
-**DON'T:**
+DON'T:
 - PowerPoint statt Demo
 - Keine Stakeholder einladen
 
-Note:
 Review ist ein Arbeitstreffen, keine Show!
 
 --
@@ -226,31 +214,28 @@ Review ist ein Arbeitstreffen, keine Show!
 
 **Formate:** Start/Stop/Continue, Glad/Sad/Mad, 4 L's
 
-**DO:** Sichere Atmosphäre, konkrete Aktionen
-**DON'T:** Blame Game, keine Aktionen ableiten
-
 Note:
+DO: Sichere Atmosphäre, konkrete Aktionen
+DON'T: Blame Game, keine Aktionen ableiten
+
 Ohne Retro kein kontinuierlicher Verbesserungsprozess!
 
 --
 
 ## Product Backlog
 
-**Definition:**
 - Geordnete Liste aller Arbeiten für das Produkt
 - Owned by Product Owner
 - Living Document (nie fertig)
 
-**DEEP Backlog:**
-- **D**etailed appropriately
-- **E**stimated
-- **E**mergent
-- **P**rioritized
+**DEEP Backlog:** **D**etailed, **E**stimated, **E**mergent, **P**rioritized
 
 **User Stories:** INVEST-Kriterien (Independent, Negotiable, Valuable, Estimable, Small, Testable)
 
 Note:
 Gepflegtes Backlog ist Gold wert!
+
+Lernt User Stories zu schreiben!
 
 --
 
@@ -258,7 +243,6 @@ Gepflegtes Backlog ist Gold wert!
 
 **Sprint Backlog:**
 - Subset des Product Backlogs für den Sprint
-- Owned by Development Team
 - Commitment: **Sprint Goal**
 
 **Increment:**
