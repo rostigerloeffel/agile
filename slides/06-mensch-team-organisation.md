@@ -243,10 +243,18 @@ DON'Ts: Balance finden zwischen Engagement und Mikromanagement. Nicht: Stakehold
 
 ## Priorisierung & Entscheidungsfindung
 
+<div class="two-columns">
+
+<div>
+
 **Wer entscheidet WAS?**
 - **Product Owner:** WAS gebaut wird (Value)
 - **Team:** WIE gebaut wird (Technical)
 - **Stakeholder:** Input, kein Diktat
+
+</div>
+
+<div>
 
 **Priorisierungs-Frameworks:**
 
@@ -255,6 +263,10 @@ DON'Ts: Balance finden zwischen Engagement und Mikromanagement. Nicht: Stakehold
 - **S**hould have
 - **C**ould have
 - **W**on't have (this time)
+
+</div>
+
+</div>
 
 Note:
 Klare Verantwortlichkeiten vermeiden Konflikte. PO entscheidet WAS, Team entscheidet WIE!
