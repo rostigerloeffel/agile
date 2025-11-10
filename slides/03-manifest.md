@@ -198,13 +198,13 @@ Agile ist kein Wundermittel, aber es hilft bei Unsicherheit, Komplexität und Ve
 
 <div style="font-size: 0.9em; line-height: 1.8;">
 
-1. **<span style="font-size: 1.3em;">Individuen & Interaktionen</span>** > <span style="font-size: 0.85em; opacity: 0.8;">Prozesse & Werkzeuge</span>
+1. **<span style="font-size: 1.2em;">Individuen & Interaktionen</span>** > <span style="font-size: 0.95em; opacity: 0.8;">Prozesse & Werkzeuge</span>
 
-2. **<span style="font-size: 1.3em;">Funktionierende Software</span>** > <span style="font-size: 0.85em; opacity: 0.8;">Umfassende Dokumentation</span>
+2. **<span style="font-size: 1.2em;">Funktionierende Software</span>** > <span style="font-size: 0.95em; opacity: 0.8;">Umfassende Dokumentation</span>
 
-3. **<span style="font-size: 1.3em;">Zusammenarbeit mit Kunden</span>** > <span style="font-size: 0.85em; opacity: 0.8;">Vertragsverhandlung</span>
+3. **<span style="font-size: 1.2em;">Zusammenarbeit mit Kunden</span>** > <span style="font-size: 0.95em; opacity: 0.8;">Vertragsverhandlung</span>
 
-4. **<span style="font-size: 1.3em;">Reagieren auf Veränderung</span>** > <span style="font-size: 0.85em; opacity: 0.8;">Befolgen eines Plans</span>
+4. **<span style="font-size: 1.2em;">Reagieren auf Veränderung</span>** > <span style="font-size: 0.95em; opacity: 0.8;">Befolgen eines Plans</span>
 
 </div>
 
@@ -212,8 +212,8 @@ Agile ist kein Wundermittel, aber es hilft bei Unsicherheit, Komplexität und Ve
 
 ## Wert 1: Individuen & Interaktionen
 
-### **Individuen und Interaktionen**
-### mehr als Prozesse und Werkzeuge
+### <span style="color: #FF9800;">**Individuen und Interaktionen**</span>
+### <span style="color: #FF9800;">mehr als Prozesse und Werkzeuge</span>
 
 - Menschen sind wichtiger als Prozesse
 - Direkte Kommunikation > Dokumentierte Prozesse
