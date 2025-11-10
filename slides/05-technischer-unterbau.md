@@ -175,6 +175,8 @@ Deployment darf keine Angst machen - mit den richtigen Praktiken wird es zur Rou
 
 --
 
+<div style="font-size: 0.85em;">
+
 ## Continuous Deployment (CD)
 
 <div class="two-columns">
@@ -202,6 +204,8 @@ Deployment darf keine Angst machen - mit den richtigen Praktiken wird es zur Rou
 - Kleine Deployments = weniger Risiko
 
 **Beispiel:** Amazon deployed alle 11 Sekunden! 🚀
+
+</div>
 
 Note:
 CD ist der heilige Gral! Aber: Braucht solide Tests, Monitoring, Feature Flags.
