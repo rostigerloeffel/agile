@@ -256,8 +256,6 @@ DON'Ts: Balance finden zwischen Engagement und Mikromanagement. Nicht: Stakehold
 
 <div>
 
-**Priorisierungs-Frameworks:**
-
 **MoSCoW:**
 - **M**ust have
 - **S**hould have
@@ -292,38 +290,41 @@ Cost of Delay = Business Value + Time Criticality + Risk Reduction
 Note:
 WSJF aus SAFe. Sehr nützlich für datengetriebene Priorisierung!
 
---
+Anti-Pattern: HiPPO
 
-## Anti-Pattern: HiPPO
+HiPPO = Highest Paid Person's Opinion**
 
-**HiPPO = Highest Paid Person's Opinion**
-
-**Problem:**
+Problem:
 - "Der CEO sagt, wir brauchen Feature X!"
 - Keine Daten, nur Meinung
-- Team frus
+- Team frustriert
 
-triert
-
-**Lösung:**
-- **Data-driven Decisions**
+Lösung:
+- Data-driven Decisions
 - A/B Tests
 - User Research
 - PO vertritt User, nicht Boss!
 
-**Lehre:** Daten > Hierarchie
+Lehre: Daten > Hierarchie
 
-Note:
 HiPPO ist Gift für Produktentwicklung! Daten + User Feedback schlagen Bauchgefühl.
 
 --
 
 ## Führung in agilen Teams
 
+<div class="two-columns">
+
+<div>
+
 **Traditionell:** Command & Control
 - Manager gibt Tasks vor
 - Micromanagement
 - "Do as I say"
+
+</div>
+
+<div>
 
 **Agil:** Servant Leadership
 - Manager removed Blocker
@@ -334,6 +335,10 @@ HiPPO ist Gift für Produktentwicklung! Daten + User Feedback schlagen Bauchgef�
 - Dient dem Team
 - Befähigt, nicht bestimmt
 - Impediment Bulldozer
+
+</div>
+
+</div>
 
 Note:
 Servant Leadership ist Mindset-Shift! Führung heißt: Team zum Erfolg befähigen.
