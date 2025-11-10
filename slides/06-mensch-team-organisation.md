@@ -157,7 +157,7 @@ Ohne Vertrauen keine Agilität! Teams brauchen Psychological Safety zum Experime
 
 ## Psychological Safety & Blameless Culture
 
-**Psychological Safety:** Umfeld, in dem man sich sicher fühlt, Risiken einzugehen
+<span style="font-size: 0.85em;">**Psychological Safety:** Umfeld, in dem man sich sicher fühlt, Risiken einzugehen</span>
 
 **Google's Project Aristotle (2015):**
 - Analysierte 180 Teams
