@@ -413,6 +413,8 @@ Rigide Pläne = Illusion von Kontrolle. "Plans are worthless, but planning is ev
 
 --
 
+<div style="font-size: 0.85em;">
+
 ## Real-World: Spotify Bets
 
 **Bets statt Plänen:**
@@ -426,6 +428,8 @@ Rigide Pläne = Illusion von Kontrolle. "Plans are worthless, but planning is ev
 - Kultur des Experimentierens
 
 **Lehre:** Features sind Hypothesen
+
+</div>
 
 Note:
 Behandle Features als Experimente. Manche scheitern - das ist OK!
