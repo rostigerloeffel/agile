@@ -135,11 +135,9 @@ TDD fühlt sich anfangs langsam an, spart aber langfristig Zeit!
 Note:
 Code Reviews sind Gold wert! Aber sie müssen schnell sein - sonst blockieren sie.
 
---
+Code Review Checkliste
 
-## Code Review Checkliste
-
-**Beim Review prüfen:**
+Beim Review prüfen:
 - [ ] Architektur-Guidelines beachtet?
 - [ ] Tests vorhanden?
 - [ ] Code verständlich?
@@ -147,9 +145,6 @@ Code Reviews sind Gold wert! Aber sie müssen schnell sein - sonst blockieren si
 - [ ] Performance ok?
 - [ ] Dokumentation aktualisiert?
 
-**Tipp:** Checkliste im Pull Request-Template!
-
-Note:
 Eine gute Checkliste macht Reviews systematisch und verhindert, dass etwas übersehen wird.
 
 --
@@ -182,13 +177,25 @@ Deployment darf keine Angst machen - mit den richtigen Praktiken wird es zur Rou
 
 ## Continuous Deployment (CD)
 
+<div class="two-columns">
+
+<div>
+
 **Level 1: Continuous Delivery**
 - Jeder Commit _könnte_ in Prod gehen
 - Manual Deployment-Button
 
+</div>
+
+<div>
+
 **Level 2: Continuous Deployment**
 - Jeder Commit _geht_ automatisch in Prod
 - Feature Flags für Unfertiges
+
+</div>
+
+</div>
 
 **Vorteile:**
 - Schnelles Feedback von echten Usern
