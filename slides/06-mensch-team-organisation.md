@@ -12,6 +12,10 @@
 
 ## Autonome Teams vs. Matrix-Organisation
 
+<div class="two-columns">
+
+<div>
+
 **Matrix-Organisation:**
 ```
 ┌──────────┬──────────┬──────────┐
@@ -23,6 +27,10 @@
 - ❌ Bottlenecks
 - ❌ "Nicht meine Verantwortung"
 
+</div>
+
+<div>
+
 **Autonome Product Teams:**
 ```
 ┌────────────────────────────────┐
@@ -33,6 +41,10 @@
 - ✅ End-to-End Ownership
 - ✅ Schnelle Lieferung
 - ✅ Weniger Koordination
+
+</div>
+
+</div>
 
 Note:
 Matrix-Organisation schafft Silos. Autonome Teams liefern Features Ende-zu-Ende!
