@@ -258,17 +258,27 @@ Tech Debt ist wie Kreditkarte: OK in Maßen, aber Zinsen zahlen tut weh!
 
 ## Architektur für Agilität
 
-**Monolith vs. Microservices:**
+<div class="two-columns">
+
+<div>
 
 **Monolith:**
 - ✅ Einfach zu starten
 - ❌ Skalierung schwierig
 - ❌ Teams blockieren sich
 
+</div>
+
+<div>
+
 **Microservices:**
 - ✅ Unabhängige Deployments
 - ✅ Team-Autonomie
 - ❌ Komplexität (Netzwerk, Monitoring)
+
+</div>
+
+</div>
 
 **Faustregel:** Startet als Monolith, extrahiert Services nach Bedarf
 
