@@ -193,6 +193,8 @@ Beispiel: Etsy macht 100+ Blameless Postmortems pro Jahr und hat damit eine Kult
 
 --
 
+<div style="font-size: 0.85em;">
+
 ## Stakeholder-Management
 
 **Lösung: Product Owner als Filter!**
@@ -219,6 +221,8 @@ Beispiel: Etsy macht 100+ Blameless Postmortems pro Jahr und hat damit eine Kult
 - Überraschungs-Releases
 - Jede Anfrage akzeptieren
 - "We'll figure it out later"
+
+</div>
 
 </div>
 
