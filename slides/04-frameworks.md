@@ -4,6 +4,8 @@
 
 Das beliebteste agile Framework
 
+https://scrumguides.org/index.html
+
 Note:
 Scrum ist das meistgenutzte agile Framework (58% aller agilen Teams). Wir schauen uns Rollen, Events und Artefakte an.
 
@@ -26,6 +28,8 @@ Scrum ist kein Prozess - es ist ein Framework. Die Regeln sind einfach, die Umse
 
 --
 
+<div style="font-size: 0.85em;">
+
 ## Scrum auf einen Blick
 
 **3 Rollen:**
@@ -39,7 +43,13 @@ Scrum ist kein Prozess - es ist ein Framework. Die Regeln sind einfach, die Umse
 **3 Artefakte:**
 - Product Backlog, Sprint Backlog, Increment (+ DoD)
 
-![Scrum Sprint Zyklus](images/scrum-sprint-cycle.svg)
+</div>
+
+--
+
+## Scrum-Zyklus
+
+![Scrum Sprint Zyklus](images/scrum-framework-deutsch-min.jpg)
 
 Note:
 Das ist der komplette Scrum-Rahmen! 3-5-3. Schauen wir uns die wichtigsten Details an.
