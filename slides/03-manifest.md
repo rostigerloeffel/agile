@@ -1,20 +1,8 @@
 <!-- .slide: data-background="#4CAF50" -->
 
-# 📜 Agile als Lösung
+# 📜 Agiles Manifest
 
-Geschichte, Manifest und Prinzipien
-
-Note:
-Nachdem wir die Probleme traditioneller Ansätze gesehen haben, schauen wir uns jetzt die agile Lösung an: Die Geschichte, wie Agile entstanden ist, und das Manifest mit seinen Werten und Prinzipien.
-
----
-
-## Geschichte der Agilen Bewegung
-
-Von Toyota bis Snowbird
-
-Note:
-Agile ist keine Erfindung der 2000er. Die Wurzeln reichen bis in die 1950er zurück.
+Werte und Prinzipien
 
 --
 
@@ -130,7 +118,18 @@ Von einer Nischen-Bewegung zum Standard.
 Note:
 Heute ist die Frage nicht mehr "Warum Agile?", sondern "Wie machen wir Agile richtig?".
 
---
+---
+
+<!-- .slide: data-background="#4CAF50" -->
+
+**[agilemanifesto.org](https://agilemanifesto.org/iso/de/manifesto.html)**
+
+Das Manifest ist nur 2 Seiten lang!
+
+Note:
+Wichtig: Das Manifest sagt nicht, dass die Dinge auf der rechten Seite wertlos sind. Aber die Dinge auf der linken Seite werden höher bewertet.
+
+---
 
 ## Lean Prinzipien → Agile Praktiken
 
@@ -195,27 +194,13 @@ Agile ist kein Wundermittel, aber es hilft bei Unsicherheit, Komplexität und Ve
 
 ---
 
-<!-- .slide: data-background="#4CAF50" -->
+## 📜 Die 4 Werte des Agile Manifests
 
-# 📜 Die 4 Werte des Agile Manifests
-
-Grundlage aller agilen Frameworks
-
-Note:
-Jetzt tauchen wir ins Herz von Agile ein: Das Manifest und seine 4 Werte. Diese bilden die Grundlage ALLER agilen Frameworks.
-
---
-
-## Die 4 Werte im Überblick
-
-> Wir erschließen bessere Wege, Software zu entwickeln, indem wir es selbst tun und anderen dabei helfen.
->
-> Durch diese Tätigkeit haben wir diese Werte zu schätzen gelernt:
-
-**[agilemanifesto.org](https://agilemanifesto.org/iso/de/manifesto.html)**
-
-Note:
-Wichtig: Das Manifest sagt nicht, dass die Dinge auf der rechten Seite wertlos sind. Aber die Dinge auf der linken Seite werden höher bewertet.
+**Die 4 Werte:**
+1. Individuen & Interaktionen > Prozesse & Werkzeuge
+2. Funktionierende Software > Umfassende Dokumentation
+3. Zusammenarbeit mit Kunden > Vertragsverhandlung
+4. Reagieren auf Veränderung > Befolgen eines Plans
 
 --
 
@@ -449,25 +434,6 @@ Behandle Features als Experimente. Manche scheitern - das ist OK!
 
 ---
 
-## Zusammenfassung & Prinzipien
-
-**Die 4 Werte:**
-1. 👥 Individuen & Interaktionen > Prozesse & Werkzeuge
-2. ✅ Funktionierende Software > Umfassende Dokumentation
-3. 🤝 Zusammenarbeit mit Kunden > Vertragsverhandlung
-4. 🔄 Reagieren auf Veränderung > Befolgen eines Plans
-
-**Wichtigste Prinzipien:**
-- Frühe & kontinuierliche Lieferung
-- Nachhaltiges Tempo
-- Technische Exzellenz
-- Einfachheit (YAGNI)
-
-Note:
-Das Manifest ist nur 2 Seiten lang - aber es hat die Softwareentwicklung revolutioniert.
-
---
-
 ## Die 12 Prinzipien im Detail (1/3)
 
 Das Agile Manifest hat **12 Prinzipien**:
@@ -476,9 +442,6 @@ Das Agile Manifest hat **12 Prinzipien**:
 2. Änderungen willkommen
 3. Häufige Lieferung - Alle paar Wochen
 4. Tägliche Zusammenarbeit
-
-Note:
-Wir schauen uns die praxisrelevantesten an.
 
 --
 
@@ -489,9 +452,6 @@ Wir schauen uns die praxisrelevantesten an.
 7. Funktionierende Software - Primäres Fortschrittsmaß
 8. Nachhaltige Entwicklung - Gleichmäßiges Tempo
 
-Note:
-Diese Prinzipien sind zeitlos.
-
 --
 
 ## Die 12 Prinzipien (3/3)
@@ -500,9 +460,6 @@ Diese Prinzipien sind zeitlos.
 10. Einfachheit - Arbeit maximieren, die NICHT getan werden muss
 11. Selbstorganisation
 12. Regelmäßige Reflexion - Anpassen
-
-Note:
-Fundamentale Wahrheiten über Softwareentwicklung.
 
 --
 

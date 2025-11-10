@@ -1,16 +1,5 @@
 <!-- .slide: data-background="#FF9800" -->
 
-# 🏉 Agile Frameworks
-
-Scrum, Kanban & Co.
-
-Note:
-Jetzt wird's konkret! Wir schauen uns die wichtigsten agilen Frameworks an: Scrum (das meistgenutzte), Kanban (für kontinuierlichen Flow), und andere wie XP, SAFe und LeSS.
-
----
-
-<!-- .slide: data-background="#FF9800" -->
-
 # 🏉 Scrum Framework
 
 Das beliebteste agile Framework

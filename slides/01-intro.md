@@ -22,6 +22,7 @@ Note:
 4. **Agile Frameworks** - Scrum, Kanban & Co.
 5. **Technischer Unterbau** - CI/CD, Testing, DevOps, Architektur usw.
 6. **Mensch, Team & Organisation** - Autonome Teams, Führung
+7. **Fazit, Q&A**
 
 </div>
 

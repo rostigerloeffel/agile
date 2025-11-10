@@ -1,17 +1,6 @@
 <!-- .slide: data-background="#FF5722" -->
 
-# ⚠️ Warum klassische Ansätze scheitern
-
-Die Probleme traditioneller Softwareentwicklung
-
-Note:
-Bevor wir in die agile Welt eintauchen, schauen wir uns an, welche Probleme traditionelle Ansätze haben und warum sie in komplexen Projekten oft scheitern.
-
----
-
-## Das Wasserfall-Problem
-
-**Klassisches Projekt:**
+# Das Wasserfall-Problem
 
 1. 📋 Anforderungen (3 Monate)
 2. 🎨 Design (2 Monate)
@@ -19,10 +8,7 @@ Bevor wir in die agile Welt eintauchen, schauen wir uns an, welche Probleme trad
 4. 🧪 Testing (2 Monate)
 5. 🚀 Deployment (1 Monat)
 
-**Erstes Feedback:** Nach 14 Monaten! 😱
-
-Note:
-Das Wasserfall-Modell bedeutet: Erst nach über einem Jahr sieht der Kunde das erste Ergebnis. Bis dahin können sich Anforderungen längst geändert haben. Die Kosten später Änderungen sind enorm.
+**Feedback** Nach 14 Monaten! 😱
 
 --
 
@@ -33,23 +19,8 @@ Das Wasserfall-Modell bedeutet: Erst nach über einem Jahr sieht der Kunde das e
 | Anforderungen | **1x** | Feature-Idee ändern: 1 Tag |
 | Design | **5x** | Architektur anpassen: 1 Woche |
 | Implementierung | **10x** | Code umschreiben: 2 Wochen |
-
-Note:
-Studien zeigen: Ein Fehler in den Anforderungen kostet später ein Vielfaches! Frühes Feedback ist Gold wert.
-
---
-
-## Die Kosten später Änderungen (2/2)
-
-| Phase | Kostenänderung | Beispiel |
-|-------|----------------|----------|
 | Testing | **50x** | Retest & Bugfixes: 2 Monate |
 | Produktion | **200x** | Migration & Support: 8+ Monate |
-
-**Je später der Fehler, desto teurer!**
-
-Note:
-Ein Fehler in der Produktion kann das 200-fache kosten wie in der Anforderungsphase!
 
 ---
 
@@ -84,9 +55,6 @@ Drei Jahre Entwicklung, Dutzende Firmen, hunderte Entwickler - monolithische Pla
 - Katastrophale Performance
 - 3 Monate Reparatur notwendig
 
-Note:
-Alles sollte am Stichtag live gehen – Big Bang. Ergebnis: Komplettausfall. Langsame Ladezeiten, kaputte Formulare, Datenverlust.
-
 --
 
 ## Die Rettung: "Tech Surge"
@@ -111,9 +79,6 @@ Die Rettung kam nicht durch neue Meetings, sondern durch kleine, cross-funktiona
 
 **Lehre:** Agilität ist die logische Antwort auf Komplexität!
 
-Note:
-Das war echte Agilität – geboren aus Krise, nicht aus Zertifizierung.
-
 --
 
 ## Lessons Learned
@@ -134,14 +99,11 @@ Agilität ist kein Glaubenssatz, sondern eine pragmatische Reaktion auf die Real
 
 ## Zusammenfassung: Warum scheitern klassische Ansätze?
 
-❌ **Hauptprobleme:**
 - Spätes Feedback (Monate bis Jahre)
 - Explodierende Kosten bei Änderungen
 - Big Bang Deployment = hohes Risiko
 - Silos & fehlende Zusammenarbeit
 - Rigide Pläne statt Anpassungsfähigkeit
-
-**➡️ Die Lösung:** Agile Software Development!
 
 Note:
 Klassische Ansätze funktionieren bei Unsicherheit und Komplexität nicht. Agile bietet eine bessere Alternative - schauen wir uns an wie!
@@ -174,10 +136,9 @@ Agile Teams fragen nicht "Haben wir den Plan eingehalten?", sondern "Haben wir W
 
 --
 
-## DO's: Projektstart
+## ✅ DO's
 
-✅ **DO:**
-- Kleine, lieferbare Inkremente planen
+- Kleine Inkremente, häufige Iterationen
 - Frühes und häufiges Feedback einholen
 - Cross-funktionale Teams bilden
 - Technische Exzellenz von Anfang an
@@ -191,9 +152,8 @@ Die richtigen Weichen am Anfang stellen! Details:
 
 --
 
-## DON'Ts: Projektstart
+## ❌ DON'Ts
 
-❌ **DON'T:**
 - 100 Seiten Anforderungsdokument schreiben
 - "Später refactoren wir das"
 - Erstes Deployment nach 6 Monaten

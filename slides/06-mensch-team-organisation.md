@@ -5,7 +5,7 @@
 Menschen über Prozesse
 
 Note:
-Agile ist Menschen-zentriert! Die besten Prozesse helfen nicht, wenn das Team nicht funktioniert. Schauen wir uns an, wie man erfolgreiche Teams aufbaut.
+Agile ist Menschen-zentriert! Die besten Prozesse helfen nicht, wenn das Team nicht funktioniert.
 
 ---
 

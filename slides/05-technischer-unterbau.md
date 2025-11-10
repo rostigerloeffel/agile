@@ -98,7 +98,7 @@ CI ist non-negotiable! Ohne CI habt ihr keine Agilität. Integration Hell ist re
 **Regeln:**
 - Feature Branches: < 2 Tage
 - Daily merges zu main
-- Feature Flags für unfertiges
+- Feature Flags für Unfertiges
 
 **Vorteile:**
 - Weniger Merge-Konflikte
