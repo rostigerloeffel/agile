@@ -86,6 +86,8 @@ Diese Fragen kommen am häufigsten. Weitere Fragen gleich in der Diskussion!
 
 --
 
+<div style="font-size: 0.85em;">
+
 ## Ressourcen
 
 <div class="two-columns">
@@ -111,6 +113,8 @@ Diese Fragen kommen am häufigsten. Weitere Fragen gleich in der Diskussion!
 - Roman Pichler
 - Tim Ottinger
 - Reddit: r/agile, r/scrum
+
+</div>
 
 </div>
 
