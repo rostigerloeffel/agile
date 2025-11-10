@@ -291,16 +291,28 @@ Microservices sind kein Selbstzweck! Sie ermöglichen Team-Autonomie, bringen ab
 
 **Ziel:** Teams können unabhängig deployen
 
+<div class="two-columns">
+
+<div>
+
 **Patterns:**
 - **API-First Design:** Klare Schnittstellen
 - **Datenbank pro Service:** Kein Shared DB
 - **Event-Driven:** Asynchrone Kommunikation
 - **Bounded Contexts:** (Domain-Driven Design)
 
+</div>
+
+<div>
+
 **Beispiel:** Amazon (2-Pizza-Teams)
 - Jedes Team: Eigener Service
 - Eigene DB, eigenes Deployment
 - APIs für Kommunikation
+
+</div>
+
+</div>
 
 Note:
 Decoupling ermöglicht unabhängige Teams. "You build it, you run it."
