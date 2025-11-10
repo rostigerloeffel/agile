@@ -73,6 +73,10 @@ Conway's Law ist real! Wenn ihr Microservices wollt, braucht ihr autonome Teams.
 
 ## Spotify-Modell
 
+<div class="two-columns">
+
+<div>
+
 **Squads** (5-9 Personen)
 - Cross-funktional
 - Eigene Mission
@@ -81,11 +85,19 @@ Conway's Law ist real! Wenn ihr Microservices wollt, braucht ihr autonome Teams.
 **Tribes** (mehrere Squads, < 100 Personen)
 - Gemeinsame Mission
 
+</div>
+
+<div>
+
 **Chapters** (Fachdisziplin, z.B. Frontend)
 - Wissensaustausch, Mentoring
 
 **Guilds** (Interessensgruppen)
 - Communities of Practice
+
+</div>
+
+</div>
 
 Note:
 Spotify-Modell balanciert Autonomie + Alignment. Nicht 1:1 kopierbar, aber Prinzipien sind wertvoll!
