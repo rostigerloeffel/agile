@@ -2,15 +2,6 @@
 
 # 👥 Mensch, Team & Organisation
 
-Menschen über Prozesse
-
-Note:
-Agile ist Menschen-zentriert! Die besten Prozesse helfen nicht, wenn das Team nicht funktioniert.
-
----
-
-## Team-Strukturen
-
 **Kern-Idee:** Autonomie ermöglicht Geschwindigkeit!
 
 - 🏗️ **Autonome Teams:** Cross-funktional, End-to-End Ownership
@@ -106,6 +97,7 @@ Guild: Interessensgruppe, z.B. AI, Security usw.
 - 📊 **Data-Driven:** Daten > HiPPO
 
 Note:
+HiPPO = Highest Paid Person's Opinion
 Die richtige Kultur ist der Schlüssel zu erfolgreichen agilen Teams.
 
 --

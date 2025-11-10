@@ -354,12 +354,12 @@ DevOps ist Kulturwandel, nicht Tool-Sammlung! Es geht um gemeinsame Verantwortun
 
 ## Zusammenfassung: Technischer Unterbau
 
-**Testing:** Test-Driven Development, Testing Pyramid
-**CI/CD:** Automated Tests + Deployments
-**Deployment:** Blue-Green, Canary, Feature Flags
-**Architektur:** Decoupling für Team-Autonomie
-**DevOps** "You build it, you run it" + IaC + Observability
-**Lehre:** Technische Exzellenz = Voraussetzung für Agilität!
+- **Testing:** Test-Driven Development, Testing Pyramid
+- **CI/CD:** Automated Tests + Deployments
+- **Deployment:** Blue-Green, Canary, Feature Flags
+- **Architektur:** Decoupling für Team-Autonomie
+- **DevOps** "You build it, you run it" + IaC + Observability
+- **Lehre:** Technische Exzellenz = Voraussetzung für Agilität!
 
 Note:
 Ohne soliden technischen Unterbau scheitert Agile! Investiert in Tests, Automation, Architektur.

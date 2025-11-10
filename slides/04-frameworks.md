@@ -263,10 +263,12 @@ Note:
 
 Visualize Work, Limit WIP, Manage Flow
 
+https://kanbanguides.org/the-kanban-guide/
+
 Note:
 Kanban ist ein flexibleres Framework - perfekt für kontinuierlichen Flow ohne Sprints.
 
---
+---
 
 ## Was ist Kanban?
 
