@@ -167,10 +167,6 @@ Ohne Vertrauen keine Agilität! Teams brauchen Psychological Safety zum Experime
 - ❌ Traditionell: "Wer war's?" → Blame, Angst
 - ✅ Blameless: "Was ist passiert?" → System-Denken, Lernen
 
-**Blameless Postmortem Ablauf:**
-1. Was ist passiert? (Timeline)
-2. Warum konnte es passieren? (Root Cause)
-3. Wie verhindern wir's? (Action Items)
 
 Note:
 Psychological Safety ist Basis für Innovation und High Performance. Ohne Sicherheit keine Kreativität!
@@ -181,6 +177,11 @@ Was bedeutet das konkret?
 - Fragen ohne Judgment
 - Risiken eingehen erlaubt
 - Diverse Perspektiven willkommen
+
+Blameless Postmortem Ablauf:
+1. Was ist passiert? (Timeline)
+2. Warum konnte es passieren? (Root Cause)   5-WHY!!
+3. Wie verhindern wir's? (Action Items)
 
 Google's Project Aristotle: Nicht WER im Team, sondern WIE Team zusammenarbeitet! Die 5 Faktoren sind: 1. Psychological Safety, 2. Dependability, 3. Structure & Clarity, 4. Meaning, 5. Impact.
 
@@ -194,40 +195,24 @@ Beispiel: Etsy macht 100+ Blameless Postmortems pro Jahr und hat damit eine Kult
 
 ## Stakeholder-Management
 
-**Herausforderung:**
-- Viele Anfragen
-- Alle "wichtig"
-- Team überlastet
-
 **Lösung: Product Owner als Filter!**
-- PO sammelt Stakeholder-Input
-- PO priorisiert (nicht jeder Stakeholder!)
+- PO sammelt Stakeholder-Input & priorisiert
+- Sprint Reviews: Fortschritt zeigen, Feedback einholen
 - Team bleibt fokussiert
 
-**Sprint Reviews:**
-- Stakeholder sehen Fortschritt
-- Feedback-Loop
-- Erwartungs-Management
+<div class="two-columns">
 
-Note:
-Stakeholder sind wichtig, aber direkter Zugriff aufs Team = Chaos! PO ist die Brücke.
-
---
-
-## Stakeholder-Management: DO's
+<div>
 
 ✅ **DO:**
 - Sprint Reviews mit Stakeholdern
 - Transparentes Backlog
-- Roadmap kommunizieren (aber flexibel!)
+- Roadmap kommunizieren
 - Frühes Feedback einholen
 
-Note:
-Stakeholder sind wichtig - regelmäßiges Engagement ist der Schlüssel.
+</div>
 
---
-
-## Stakeholder-Management: DON'Ts
+<div>
 
 ❌ **DON'T:**
 - Stakeholder ignorieren
@@ -235,8 +220,20 @@ Stakeholder sind wichtig - regelmäßiges Engagement ist der Schlüssel.
 - Jede Anfrage akzeptieren
 - "We'll figure it out later"
 
+</div>
+
+</div>
+
 Note:
-Stakeholder-Management ist Balance: Engagement ohne Mikromanagement.
+Herausforderung: Viele Anfragen, alle "wichtig", Team überlastet. Lösung: Product Owner als Filter!
+
+Stakeholder sind wichtig, aber direkter Zugriff aufs Team = Chaos! PO ist die Brücke.
+
+Sprint Reviews schaffen Transparenz: Stakeholder sehen Fortschritt, es gibt einen Feedback-Loop, und Erwartungs-Management wird ermöglicht.
+
+DO's: Regelmäßiges Engagement ist der Schlüssel. Sprint Reviews mit Stakeholdern, transparentes Backlog, Roadmap kommunizieren (aber flexibel bleiben!), frühes Feedback einholen.
+
+DON'Ts: Balance finden zwischen Engagement und Mikromanagement. Nicht: Stakeholder ignorieren, Überraschungs-Releases, jede Anfrage akzeptieren, oder "We'll figure it out later".
 
 --
 
