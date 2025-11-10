@@ -152,6 +152,8 @@ Agile ist angewandte Lean-Philosophie in der Softwareentwicklung.
 
 --
 
+<div style="font-size: 0.85em;">
+
 ## Warum Agile? (1/2)
 
 ✅ **Frühe Wertschöpfung**
@@ -166,10 +168,14 @@ Agile ist angewandte Lean-Philosophie in der Softwareentwicklung.
 - Änderungen sind willkommen
 - Anpassung an Markt
 
+</div>
+
 Note:
 Agile adressiert fundamentale Probleme der Softwareentwicklung.
 
 --
+
+<div style="font-size: 0.85em;">
 
 ## Warum Agile? (2/2)
 
@@ -180,6 +186,8 @@ Agile adressiert fundamentale Probleme der Softwareentwicklung.
 ✅ **Teamzufriedenheit**
 - Autonomie & Ownership
 - Sichtbarer Impact
+
+</div>
 
 Note:
 Agile ist kein Wundermittel, aber es hilft bei Unsicherheit, Komplexität und Veränderung.
