@@ -77,22 +77,22 @@ Conway's Law ist real! Wenn ihr Microservices wollt, braucht ihr autonome Teams.
 
 <div>
 
-**Squads** (5-9 Personen)
+**<span style="color: #FF9800;">Squads</span>** (5-9 Personen)
 - Cross-funktional
 - Eigene Mission
 - Autonomie über WIE
 
-**Tribes** (mehrere Squads, < 100 Personen)
+**<span style="color: #FF9800;">Tribes</span>** (mehrere Squads, < 100 Personen)
 - Gemeinsame Mission
 
 </div>
 
 <div>
 
-**Chapters** (Fachdisziplin, z.B. Frontend)
+**<span style="color: #FF9800;">Chapters</span>** (Fachdisziplin, z.B. Frontend)
 - Wissensaustausch, Mentoring
 
-**Guilds** (Interessensgruppen)
+**<span style="color: #FF9800;">Guilds</span>** (Interessensgruppen)
 - Communities of Practice
 
 </div>
