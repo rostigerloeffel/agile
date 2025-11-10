@@ -155,91 +155,40 @@ Ohne Vertrauen keine Agilität! Teams brauchen Psychological Safety zum Experime
 
 --
 
-## Psychologische Sicherheit
+## Psychological Safety & Blameless Culture
 
-**Was ist das?**
-Umfeld, in dem man sich sicher fühlt, Risiken einzugehen
+**Psychological Safety:** Umfeld, in dem man sich sicher fühlt, Risiken einzugehen
 
-**Merkmale:**
-- Fehler sind OK (Lern-Chancen!)
-- Fragen stellen ist erwünscht
-- Meinungen werden respektiert
-- Keine Angst vor Bloßstellung
+**Google's Project Aristotle (2015):**
+- Analysierte 180 Teams
+- **#1 Faktor: Psychological Safety** (wichtiger als Skills!)
 
-**Resultat:** Team experimentiert, innoviert, lernt
+**Blameless Culture:**
+- ❌ Traditionell: "Wer war's?" → Blame, Angst
+- ✅ Blameless: "Was ist passiert?" → System-Denken, Lernen
 
-Note:
-Psychological Safety ist Basis für Innovation. Ohne Sicherheit keine Kreativität!
-
---
-
-## Google's Project Aristotle
-
-**Frage:** Was macht Teams erfolgreich?
-
-**Ergebnis (2015):**
-1. **Psychological Safety** (wichtigster Faktor!)
-2. Dependability
-3. Structure & Clarity
-4. Meaning
-5. Impact
-
-**Lehre:** Sicherheit > Smartness
+**Blameless Postmortem Ablauf:**
+1. Was ist passiert? (Timeline)
+2. Warum konnte es passieren? (Root Cause)
+3. Wie verhindern wir's? (Action Items)
 
 Note:
-Google analysierte 180 Teams. Ergebnis: Nicht WER im Team, sondern WIE Team zusammenarbeitet!
+Psychological Safety ist Basis für Innovation und High Performance. Ohne Sicherheit keine Kreativität!
 
---
-
-## Psychological Safety im Detail
-
-**Was bedeutet das konkret?**
-- Fehler ohne Blame
+Was bedeutet das konkret?
+- Fehler ohne Blame (sind Lern-Chancen!)
 - Ideen ohne Ridicule
 - Fragen ohne Judgment
 - Risiken eingehen erlaubt
 - Diverse Perspektiven willkommen
 
-**Resultat:** Innovation & High Performance
+Google's Project Aristotle: Nicht WER im Team, sondern WIE Team zusammenarbeitet! Die 5 Faktoren sind: 1. Psychological Safety, 2. Dependability, 3. Structure & Clarity, 4. Meaning, 5. Impact.
 
-Note:
-Teams mit hoher Psychological Safety sind produktiver und innovativer. Sie teilen Wissen statt es zu horten!
-
---
-
-## Blameless Culture
-
-**Traditionell:**
-- "Wer war's?" (Finger-Pointing)
-- Bestrafung
-- Angst vor Fehlern
-
-**Blameless:**
-- "Was ist passiert?" (System-Denken)
-- Learning
-- Fehler als Chance
-
-**Wichtig:** Focus auf System, nicht Person!
-
-Note:
 "Human error" ist nie die Root Cause - es ist immer das System! Blame verhindert Lernen.
 
---
+Teams mit hoher Psychological Safety sind produktiver und innovativer. Sie teilen Wissen statt es zu horten!
 
-## Blameless Postmortem
-
-**Ablauf nach Incident:**
-1. Was ist passiert? (Timeline)
-2. Warum konnte es passieren? (Root Cause)
-3. Wie verhindern wir's? (Action Items)
-
-**Beispiel:** Etsy Blameless Postmortems
-- 100+ pro Jahr
-- Kultur des Lernens
-- Kontinuierliche Verbesserung
-
-Note:
-Blameless Postmortems schaffen Lernen statt Angst. Etsy hat das perfektioniert!
+Beispiel: Etsy macht 100+ Blameless Postmortems pro Jahr und hat damit eine Kultur des Lernens und kontinuierlicher Verbesserung geschaffen.
 
 --
 
