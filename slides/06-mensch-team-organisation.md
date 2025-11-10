@@ -17,14 +17,11 @@ Agile ist Menschen-zentriert! Die besten Prozesse helfen nicht, wenn das Team ni
 - 📐 **Conway's Law:** Org-Struktur = Architektur
 - 🎵 **Spotify-Modell:** Squads, Tribes, Chapters, Guilds
 
-Note:
-Die richtige Team-Struktur ist Grundlage für agiles Arbeiten.
-
 --
 
 ## Autonome Teams vs. Matrix-Organisation
 
-**Matrix-Organisation (Traditional):**
+**Matrix-Organisation:**
 ```
 ┌──────────┬──────────┬──────────┐
 │ Frontend │ Backend  │ Database │
@@ -89,6 +86,13 @@ Conway's Law ist real! Wenn ihr Microservices wollt, braucht ihr autonome Teams.
 
 Note:
 Spotify-Modell balanciert Autonomie + Alignment. Nicht 1:1 kopierbar, aber Prinzipien sind wertvoll!
+
+Squad: Kleines autonomes Team, z.B. Scrum, z.B. ein Produkt
+Tribe: Mehrere Squads, verwandte Produkte
+Chapter: Ähnliche Fachrichtungen innerhalb eines Tribes
+Guild: Interessensgruppe, z.B. AI, Security usw.
+
+-> Querschnittliche Kommunikation
 
 ---
 

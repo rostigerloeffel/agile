@@ -2,7 +2,7 @@
 
 # 📜 Agiles Manifest
 
-Werte und Prinzipien
+Timeline - Lean und Agile
 
 --
 
@@ -122,6 +122,8 @@ Heute ist die Frage nicht mehr "Warum Agile?", sondern "Wie machen wir Agile ric
 
 <!-- .slide: data-background="#4CAF50" -->
 
+# 📜 Agiles Manifest
+
 **[agilemanifesto.org](https://agilemanifesto.org/iso/de/manifesto.html)**
 
 Das Manifest ist nur 2 Seiten lang!
@@ -140,23 +142,13 @@ Die DNA von Agile kommt aus **Lean Manufacturing**:
 | Verschwendung eliminieren | Working Software > Dokumentation |
 | Qualität einbauen | Test-Driven Development, CI/CD |
 | Wissen schaffen | Retrospektiven, Pair Programming |
-
-Note:
-Agile ist angewandte Lean-Philosophie in der Softwareentwicklung.
-
---
-
-## Lean Prinzipien → Agile Praktiken (2/2)
-
-| Lean Prinzip | Agile Umsetzung |
-|--------------|-----------------|
 | Entscheidungen verzögern | Last Responsible Moment |
 | Schnell liefern | Sprints, Continuous Delivery |
 | Menschen respektieren | Selbstorganisierende Teams |
 | Ganzheitlich optimieren | End-to-End Value Stream |
 
 Note:
-Wer Lean versteht, versteht auch Agile besser.
+Agile ist angewandte Lean-Philosophie in der Softwareentwicklung.
 
 --
 
@@ -196,7 +188,6 @@ Agile ist kein Wundermittel, aber es hilft bei Unsicherheit, Komplexität und Ve
 
 ## 📜 Die 4 Werte des Agile Manifests
 
-**Die 4 Werte:**
 1. Individuen & Interaktionen > Prozesse & Werkzeuge
 2. Funktionierende Software > Umfassende Dokumentation
 3. Zusammenarbeit mit Kunden > Vertragsverhandlung
@@ -209,7 +200,6 @@ Agile ist kein Wundermittel, aber es hilft bei Unsicherheit, Komplexität und Ve
 ### **Individuen und Interaktionen**
 ### mehr als Prozesse und Werkzeuge
 
-**Was bedeutet das?**
 - Menschen sind wichtiger als Prozesse
 - Direkte Kommunikation > Dokumentierte Prozesse
 - Problemlösung durch Zusammenarbeit
@@ -264,7 +254,6 @@ Spotify zeigt: Vertrauen + Freiraum = großartige Produkte.
 ### **Funktionierende Software**
 ### mehr als umfassende Dokumentation
 
-**Was bedeutet das?**
 - Lauffähiger Code ist der beste Beweis
 - Dokumentation nur wo nötig
 - "Show, don't tell"
@@ -319,7 +308,6 @@ Amazon dreht es um: Erst das Endergebnis beschreiben, dann entwickeln. Das zwing
 ### **Zusammenarbeit mit dem Kunden**
 ### mehr als Vertragsverhandlung
 
-**Was bedeutet das?**
 - Kunde ist Teil des Teams
 - Kontinuierliches Feedback
 - Gemeinsame Verantwortung für Erfolg
@@ -379,7 +367,6 @@ Auch im öffentlichen Sektor funktioniert agiles Vorgehen.
 ### **Reagieren auf Veränderung**
 ### mehr als Befolgen eines Plans
 
-**Was bedeutet das?**
 - Pläne sind wichtig, aber nicht in Stein gemeißelt
 - Änderungen sind normal und wertvoll
 - Empirisches Vorgehen: Inspect & Adapt

@@ -36,7 +36,6 @@ Der teuerste "Go-Live" der US-Geschichte
 
 > **"Am ersten Tag konnten sich exakt 6 Menschen anmelden."**
 
-**Die Zahlen:**
 - 55 Auftragnehmer
 - $1,7 Milliarden Budget
 - 3 Jahre Entwicklung
@@ -49,7 +48,6 @@ Drei Jahre Entwicklung, Dutzende Firmen, hunderte Entwickler - monolithische Pla
 
 ## HealthCare.gov: Der Ausfall
 
-**Das Ergebnis:**
 - Sofortiger Absturz
 - Nur 6 Anmeldungen am ersten Tag
 - Katastrophale Performance
@@ -57,9 +55,8 @@ Drei Jahre Entwicklung, Dutzende Firmen, hunderte Entwickler - monolithische Pla
 
 --
 
-## Die Rettung: "Tech Surge"
+## HealthCare.gov: Die Rettung
 
-**Der Ansatz:**
 - Kleine, cross-funktionale Teams
 - Iteratives Arbeiten
 - Radikale Priorisierung
@@ -70,9 +67,8 @@ Die Rettung kam nicht durch neue Meetings, sondern durch kleine, cross-funktiona
 
 --
 
-## Die Rettung: Ergebnis
+## HealthCare.gov: Die Rettung
 
-**Resultat:**
 - 3 Monate intensive Arbeit
 - System stabilisiert
 - Daraus entstand der **U.S. Digital Service (USDS)**
@@ -83,21 +79,29 @@ Die Rettung kam nicht durch neue Meetings, sondern durch kleine, cross-funktiona
 
 ## Lessons Learned
 
-**Was hätte geholfen?**
-
 1. **Komplexität schlägt Planbarkeit** - MVP statt Big Bang
 2. **Verantwortung > Vertrag** - Ein Team, ein Ziel
 3. **Feedbackzyklen sind überlebenswichtig** - Iterative Last-Tests
 4. **Agilität entsteht aus Not** - Pragmatismus über Dogma
-
-**Lehre:** Agilität ist die logische Antwort auf Komplexität!
 
 Note:
 Agilität ist kein Glaubenssatz, sondern eine pragmatische Reaktion auf die Realität komplexer Projekte.
 
 ---
 
-## Zusammenfassung: Warum scheitern klassische Ansätze?
+# 💥 Bundeswehr-Digitalfunk
+
+- "Digitalisierung landbasierter Operationen": 20-Milliarden-Euro-Projekt
+- Bundeswehr, Rohde & Schwarz, Blackned, Rheinmetall
+- 150 Millionen Euro extra Kosten
+
+Note:
+Haushaltspolitiker berichten, dass allein der Einbau eines Funkgeräts in einen aktuellen "Leopard"-Panzer zwei Techniker rund 400 Stunden lang beschäftigt. Das heißt Manufaktur- und nicht Fließbandarbeit.
+Und statt die Truppe komplett digital auszurüsten will man ein Provisorium schaffen, einen "Mischbetrieb": "Interoperabilität D-LBO mit der Altwelt" heißt das im Bundeswehr-Deutsch. Übersetzt ist es das Eingeständnis, dass man den milliardenteuren, flächendeckenden Einbau des Digitalfunks nicht planmäßig umsetzen kann.
+
+---
+
+## Warum scheitern klassische Ansätze?
 
 - Spätes Feedback (Monate bis Jahre)
 - Explodierende Kosten bei Änderungen
@@ -117,21 +121,12 @@ Klassische Ansätze funktionieren bei Unsicherheit und Komplexität nicht. Agile
 | **Planung** | Alles im Voraus | Iterativ, adaptiv |
 | **Anforderungen** | Festgeschrieben | Änderungen willkommen |
 | **Feedback** | Am Ende | Kontinuierlich |
-
-Note:
-Der fundamentale Unterschied: Traditionelle Methoden versuchen, Unsicherheit zu eliminieren. Agile akzeptiert Unsicherheit und nutzt sie als Chance zum Lernen.
-
---
-
-## Traditionell vs. Agile (2/2)
-
-| Aspekt | Traditionell | Agile |
-|--------|--------------|-------|
 | **Risiko** | Hoch (Big Bang) | Niedrig (inkrementell) |
 | **Team** | Spezialisiert, Silos | Cross-functional |
 | **Erfolgsmaß** | Plan eingehalten? | Wert geliefert? |
 
 Note:
+Der fundamentale Unterschied: Traditionelle Methoden versuchen, Unsicherheit zu eliminieren. Agile akzeptiert Unsicherheit und nutzt sie als Chance zum Lernen.
 Agile Teams fragen nicht "Haben wir den Plan eingehalten?", sondern "Haben wir Wert geliefert?"
 
 --
