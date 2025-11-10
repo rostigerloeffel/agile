@@ -270,7 +270,6 @@ Kanban ist ein flexibleres Framework - perfekt für kontinuierlichen Flow ohne S
 
 ## Was ist Kanban?
 
-**Definition:**
 > **Visualisierung von Arbeit**, **WIP-Begrenzung** und **Flow-Maximierung**.
 
 **Ursprung:** Toyota Production System (1940er)
@@ -318,23 +317,15 @@ Diese 6 Praktiken sind das Herz von Kanban.
 
 ## Visualize Workflow
 
-**Einfaches Kanban Board:**
-```
-┌─────────┬─────────┬─────────┬─────────┐
-│ Backlog │  To Do  │In Progr │  Done   │
-├─────────┼─────────┼─────────┼─────────┤
-│ [T-E]   │ [T-C]   │ [T-A]   │ [T-X]   │
-│ [T-F]   │ [T-D]   │ [T-B]   │ [T-Y]   │
-│  ...    │         │         │         │
-└─────────┴─────────┴─────────┴─────────┘
-```
+![Kanban Board](images/Abstract_Kanban_Board.svg)
 
-**Erweitert:** Dev → Code Review → Test → Deploy
+
+Note: 
+Beliebig erweiterbar
 
 **DO:** Workflow abbilden wie er IST, Blocker markieren
-**DON'T:** Zu viele Spalten (>10), Board nicht aktualisiert
+**DON'T:** Zu viele Spalten (>10), Board nicht aktualisiert, Spalten nicht limitiert
 
-Note:
 Ein gutes Board zeigt die Realität!
 
 --
@@ -345,13 +336,6 @@ Ein gutes Board zeigt die Realität!
 - Multitasking tötet Produktivität
 - Context Switching kostet 20-40%
 - WIP Limits erzwingen Fokus
-
-**Beispiel:**
-```
-│  Dev     │ Code Review │  Test    │
-├──────────┼─────────────┼──────────┤
-│ WIP: 2   │   WIP: 2    │  WIP: 3  │
-```
 
 **Faustregel:** WIP = Anzahl Personen (oder × 1,5)
 
@@ -371,43 +355,45 @@ WIP Limits sind das Herz von Kanban! Wenn voll: Helfen statt neue Tasks starten.
 - Zeigt Staus und Bottlenecks
 - Horizontale Breite = Cycle Time
 
-**DO:** Bottlenecks identifizieren & beseitigen
-**DON'T:** Nur messen, nicht handeln
-
-Note:
-Flow zu messen bringt nichts, wenn man nicht handelt!
-
 --
 
-## Kanban Zusammenfassung
+## Cumulative Flow Diagram
 
-**Vorteile:**
+![Cumulative Flow Diagram](images/cumulative-flow-diagram-agile.png)
+
+Note:
+DO: Bottlenecks identifizieren & beseitigen
+DON'T: Nur messen, nicht handeln
+
+Flow zu messen bringt nichts, wenn man nicht handelt!
+
+
+Kanban Zusammenfassung
+
+Vorteile:
 - Flexibel (kein Sprint-Zwang)
 - Datengetrieben (Metriken!)
 - Einfacher Einstieg
 
-**Wann nutzen?**
+Wann nutzen?
 - Support-Teams, Operations
 - Continuous Delivery
 - Teams mit hoher Variabilität
 
 **Scrumban:** Kombination aus Scrum-Struktur + Kanban-Praktiken
 
-Note:
 Kanban ist perfekt für Teams mit kontinuierlichem Arbeitsstrom!
 
 ---
 
 <!-- .slide: data-background="#00BCD4" -->
 
-# 🌐 Zusammenfassung & Weitere Frameworks
+# Zusammenfassung & Weitere Frameworks
 
-**Scrum:** Struktur & Rhythmus (3-5-3)
-**Kanban:** Flow & Metriken (6 Praktiken)
-**Weitere:** XP, SAFe, LeSS
+- **Scrum** Struktur & Rhythmus (3-5-3)
+- **Kanban** Flow & Metriken (6 Praktiken)
+- **Weitere** XP, Scrumbanm, Crystal, SAFe, LeSS
 
-Note:
-Wir haben Scrum und Kanban kennengelernt - jetzt ein Blick auf weitere wichtige Frameworks.
 
 --
 
@@ -426,43 +412,6 @@ Wir haben Scrum und Kanban kennengelernt - jetzt ein Blick auf weitere wichtige 
 
 Note:
 XP füllt Scrum's technische Lücke. Viele erfolgreiche Teams nutzen beides!
-
---
-
-## Test-Driven Development (TDD)
-
-**Red-Green-Refactor:**
-1. 🔴 **Red:** Test schreiben (fehlschlägt)
-2. 🟢 **Green:** Code schreiben (Test besteht)
-3. 🔵 **Refactor:** Code verbessern
-
-**DO:** Baby Steps, Tests als Spezifikation
-**DON'T:** Tests nachträglich, Refactoring überspringen
-
-**Beispiele:** Google (20% Zeit für Tech Debt), Netflix (Chaos Engineering)
-
-Note:
-TDD fühlt sich anfangs langsam an, spart aber langfristig Zeit!
-
---
-
-## Continuous Integration (CI)
-
-**Was:** Mehrmals täglich integrieren + automatisierte Tests
-
-**DO:**
-- Commit mindestens 1x täglich
-- Build schnell halten (<10 Min)
-- Bei Red Build: **FIX FIRST!**
-
-**DON'T:**
-- Lange Feature Branches (Wochen)
-- Broken Build ignorieren
-
-**Tools:** Jenkins, GitLab CI, GitHub Actions
-
-Note:
-CI vermeidet "Integration Hell" durch häufige, kleine Integrationen.
 
 --
 
@@ -503,17 +452,10 @@ LeSS ist das Gegenteil von SAFe: Statt mehr Struktur, WENIGER Struktur.
 
 ## Wann welches Framework?
 
-**Team-Level (5-10):** Scrum oder Kanban
+- **Team-Level (5-10):** Scrum oder Kanban
+- **Mehrere Teams (10-50):** LeSS oder Scrum of Scrums
+- **Viele Teams (50-500):** LeSS oder SAFe
+- **Sehr groß (500+):** SAFe
+- **Technischer Fokus:** XP-Praktiken dazu!
+- **Wichtig:** Frameworks sind Werkzeuge, kein Dogma!
 
-**Mehrere Teams (10-50):** LeSS oder Scrum of Scrums
-
-**Viele Teams (50-500):** LeSS oder SAFe
-
-**Sehr groß (500+):** SAFe
-
-**Technischer Fokus:** XP-Praktiken dazu!
-
-**Wichtig:** Frameworks sind Werkzeuge, kein Dogma!
-
-Note:
-Wählt basierend auf Kontext, nicht auf Hype. Adaptiert, was funktioniert!

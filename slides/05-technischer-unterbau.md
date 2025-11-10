@@ -91,6 +91,43 @@ CI ist non-negotiable! Ohne CI habt ihr keine Agilität. Integration Hell ist re
 
 --
 
+## Test-Driven Development (TDD)
+
+**Red-Green-Refactor:**
+1. 🔴 **Red:** Test schreiben (fehlschlägt)
+2. 🟢 **Green:** Code schreiben (Test besteht)
+3. 🔵 **Refactor:** Code verbessern
+
+**DO:** Baby Steps, Tests als Spezifikation
+**DON'T:** Tests nachträglich, Refactoring überspringen
+
+**Beispiele:** Google (20% Zeit für Tech Debt), Netflix (Chaos Engineering)
+
+Note:
+TDD fühlt sich anfangs langsam an, spart aber langfristig Zeit!
+
+--
+
+## Continuous Integration (CI)
+
+**Was:** Mehrmals täglich integrieren + automatisierte Tests
+
+**DO:**
+- Commit mindestens 1x täglich
+- Build schnell halten (<10 Min)
+- Bei Red Build: **FIX FIRST!**
+
+**DON'T:**
+- Lange Feature Branches (Wochen)
+- Broken Build ignorieren
+
+**Tools:** Jenkins, GitLab CI, GitHub Actions
+
+Note:
+CI vermeidet "Integration Hell" durch häufige, kleine Integrationen.
+
+--
+
 ## Trunk-Based Development
 
 **Prinzip:** Alle entwickeln auf einem Hauptzweig (main)
