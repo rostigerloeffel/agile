@@ -128,15 +128,27 @@ Die richtige Kultur ist der Schlüssel zu erfolgreichen agilen Teams.
 
 ## Verantwortung & Vertrauen
 
-**Traditionell:**
+<div class="two-columns">
+
+<div>
+
+**<span style="color: #FF9800;">Traditionell:</span>**
 - Micromanagement
 - Command & Control
 - "Check your brain at the door"
 
-**Agil:**
+</div>
+
+<div>
+
+**<span style="color: #FF9800;">Agil:</span>**
 - Ownership
 - Trust & Empowerment
 - "You are the expert"
+
+</div>
+
+</div>
 
 Note:
 Ohne Vertrauen keine Agilität! Teams brauchen Psychological Safety zum Experimentieren.
