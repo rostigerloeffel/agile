@@ -224,7 +224,7 @@ Der erste und wichtigste Wert! Software wird von Menschen für Menschen gemacht.
 
 --
 
-## Wert 1: ✅ DO's
+## Wert 1: Individuen & Interaktionen - ✅ DO's
 
 - Daily Stand-up am Board (15 Min Synchronisation)
 - Pair Programming (Wissenstransfer in Echtzeit)
@@ -235,7 +235,7 @@ Prozesse sollen Menschen unterstützen, nicht einschränken. Ein 15-Min Call kan
 
 --
 
-## Wert 1: ❌ DON'Ts
+## Wert 1: Individuen & Interaktionen - ❌ DON'Ts
 
 - "Steht so im Prozess"
 - Tool-Gläubigkeit ("Jira löst unsere Probleme")
@@ -276,7 +276,7 @@ Nicht: "Keine Dokumentation!" Sondern: Dokumentation muss Wert liefern. Ein funk
 
 --
 
-## Wert 2: ✅ DO's
+## Wert 2: Funktionierende Software - ✅ DO's
 
 - Working Demo im Sprint Review
 - Living Documentation (API-Docs aus Code generiert)
@@ -287,7 +287,7 @@ Gute Dokumentation bleibt nah am Code. Tests sind oft die beste Dokumentation - 
 
 --
 
-## Wert 2: ❌ DON'Ts
+## Wert 2: Funktionierende Software - ❌ DON'Ts
 
 - 100-Seiten Pflichtenheft vor Code
 - Dokumentation statt Demo
@@ -328,7 +328,7 @@ Der klassische Ansatz: Vertrag aushandeln, dann entwickeln, am Ende liefern. Agi
 
 --
 
-## Wert 3: ✅ DO's
+## Wert 3: Zusammenarbeit mit dem Kunden - ✅ DO's
 
 - Product Owner im Team (täglich verfügbar)
 - Sprint Reviews mit End-Usern (sofortiges Feedback)
@@ -339,7 +339,7 @@ Ein guter Product Owner ist Gold wert! PO ist die Brücke zwischen Business und 
 
 --
 
-## Wert 3: ❌ DON'Ts
+## Wert 3: Zusammenarbeit mit dem Kunden - ❌ DON'Ts
 
 - Fixed-Price, Fixed-Scope Verträge
 - "Fence Throwing" (Anforderungen über Zaun)
@@ -389,7 +389,7 @@ Der klassische Plan sagt: "So wird's gemacht, Punkt." Agile sagt: "Das ist unser
 
 --
 
-## Wert 4: ✅ DO's
+## Wert 4: Reagieren auf Veränderung - ✅ DO's
 
 - Sprint Planning mit Flexibilität
 - Pivots sind OK (Markt ändert sich → Anpassen!)
@@ -400,7 +400,7 @@ Empirisches Arbeiten: Hypothese → Testen → Lernen → Anpassen.
 
 --
 
-## Wert 4: ❌ DON'Ts
+## Wert 4: Reagieren auf Veränderung - ❌ DON'Ts
 
 - Jahres-Roadmaps mit fixen Features
 - "Scope Creep" als Feindbild
@@ -465,11 +465,10 @@ Das Agile Manifest hat **12 Prinzipien**:
 
 --
 
-## Prinzip 8: Nachhaltiges Tempo
+## Prinzip 8: Nachhaltiges Tempo - ✅ DOs
 
 > **"Gleichmäßiges Tempo auf unbegrenzte Zeit halten können."**
 
-✅ **DO:**
 - 40-Stunden-Woche als Standard
 - Urlaub wird genommen
 - Burnout-Prävention
@@ -479,9 +478,8 @@ Software-Entwicklung ist ein Marathon, kein Sprint.
 
 --
 
-## Prinzip 8: Nachhaltiges Tempo
+## Prinzip 8: Nachhaltiges Tempo - ❌ DON'Ts
 
-❌ **DON'T:**
 - "Sprint-Heroics" (jeder Sprint Überstunden)
 - Vacation shaming
 - "Crunch Time" als Dauerzustand
@@ -495,11 +493,10 @@ Note:
 
 --
 
-## Prinzip 9: Technische Exzellenz
+## Prinzip 9: Technische Exzellenz - ✅ DOs
 
 > **"Technische Exzellenz fördert Agilität."**
 
-✅ **DO:**
 - Test-Driven Development (TDD)
 - Continuous Integration/Deployment
 - Code Reviews & Pair Programming
@@ -510,9 +507,8 @@ Technische Exzellenz = Voraussetzung für Agilität.
 
 --
 
-## Prinzip 9: Technische Exzellenz
+## Prinzip 9: Technische Exzellenz - ❌ DON'Ts
 
-❌ **DON'T:**
 - "Erst Features, später Qualität"
 - "Keine Zeit für Tests"
 - "Technical Debt Sprint" in 6 Monaten
@@ -528,14 +524,13 @@ Schlechter Code macht Änderungen teuer - das Gegenteil von agil! Top-Unternehme
 
 --
 
-## Prinzip 10: Einfachheit
+## Prinzip 10: Einfachheit - ✅ DOs
 
 > **"Die Kunst, die Menge nicht getaner Arbeit zu maximieren."**
 
-**Nicht:** "Einfache Lösungen"
+**Nicht:** "Primitive/unfertige Lösungen"
 **Sondern:** "Unnötige Arbeit vermeiden!"
 
-✅ **DO:**
 - YAGNI (You Aren't Gonna Need It)
 - MVP (Minimum Viable Product)
 - Kill Features (ungenutzte entfernen)
@@ -545,9 +540,8 @@ Note:
 
 --
 
-## Prinzip 10: Einfachheit
+## Prinzip 10: Einfachheit - ❌ DON'Ts
 
-❌ **DON'T:**
 - Over-Engineering
 - Feature Bloat
 - Premature Optimization
@@ -557,11 +551,15 @@ Note:
 Note:
 Jedes Feature hat Kosten: Entwicklung, Wartung, Komplexität. Die Kunst ist, NEIN zu sagen.
 
---
+---
 
 ## Häufige Missverständnisse
 
-Es gibt viele **Mythen** über Agile. Räumen wir auf:
+Es gibt viele **Mythen** über Agile:
+
+- "Keine Planung"
+- "Keine Dokumentation"
+- "Chaos / Keine Struktur"
 
 --
 
