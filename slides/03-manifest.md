@@ -1,8 +1,8 @@
-<!-- .slide: data-background="#4CAF50" -->
+<!-- .slide: data-background="#FFC107" -->
 
-# 📜 Agiles Manifest
+# Agile Timeline 
 
-Timeline - Lean und Agile
+Von Lean zu Agile
 
 --
 
