@@ -287,6 +287,8 @@ Microservices sind kein Selbstzweck! Sie ermöglichen Team-Autonomie, bringen ab
 
 --
 
+<div style="font-size: 0.85em;">
+
 ## Decoupling für Autonomie
 
 **Ziel:** Teams können unabhängig deployen
@@ -309,6 +311,8 @@ Microservices sind kein Selbstzweck! Sie ermöglichen Team-Autonomie, bringen ab
 - Jedes Team: Eigener Service
 - Eigene DB, eigenes Deployment
 - APIs für Kommunikation
+
+</div>
 
 </div>
 
