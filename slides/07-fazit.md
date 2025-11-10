@@ -108,10 +108,11 @@ Diese Fragen kommen am häufigsten. Weitere Fragen gleich in der Diskussion!
 
 <div>
 
-**Personen:**
-- Allen Hollub
-- Roman Pichler
-- Tim Ottinger
+**Links:**
+- [Allen Holubs Blog](https://blog.holub.com/)
+- [Tim Ottingers Blog](https://www.industriallogic.com/people/tottinge/)
+- [Roman Pichler](https://www.romanpichler.com/)
+- [Fail Fast Move On](https://failfastmoveon.blogspot.com/p/is-scrum-too-heavy-for-you-only-if.html)
 - Reddit: r/agile, r/scrum
 
 </div>

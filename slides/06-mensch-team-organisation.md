@@ -342,7 +342,7 @@ Servant Leadership ist Mindset-Shift! Führung heißt: Team zum Erfolg befähige
 
 ---
 
-<div style="font-size: 0.85em;">
+<div style="font-size: 0.75em;">
 
 ## Zusammenfassung: Mensch, Team, Organisation
 
@@ -369,11 +369,11 @@ Servant Leadership ist Mindset-Shift! Führung heißt: Team zum Erfolg befähige
 **Kultur:**
 - Vertrauen > Kontrolle
 - Psychological Safety > Smartness
-- Blameless > Blame
+- Blameless
 
 **Führung:**
 - Servant Leadership
-- Context geben, Team enablen
+- Kontext geben, Team enablen
 
 </div>
 
