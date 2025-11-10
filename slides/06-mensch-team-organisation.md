@@ -327,14 +327,11 @@ HiPPO ist Gift für Produktentwicklung! Daten + User Feedback schlagen Bauchgef�
 <div>
 
 **Agil:** Servant Leadership
-- Manager removed Blocker
+- Gibt Kontext und Vision
+- Manager beseitigt Blocker
 - Coaching statt Controlling
+- Schützt Team
 - "How can I help?"
-
-**Scrum Master als Servant Leader:**
-- Dient dem Team
-- Befähigt, nicht bestimmt
-- Impediment Bulldozer
 
 </div>
 
@@ -342,105 +339,6 @@ HiPPO ist Gift für Produktentwicklung! Daten + User Feedback schlagen Bauchgef�
 
 Note:
 Servant Leadership ist Mindset-Shift! Führung heißt: Team zum Erfolg befähigen.
-
---
-
-## Manager-Rolle in Agile
-
-**Frage:** "Braucht Agile noch Manager?"
-
-**Antwort:** Ja, aber anders!
-
-**Manager-Aufgaben:**
-- **Context geben** (Vision, Ziele, Constraints)
-- **Team enablen** (Ressourcen, Tools, Training)
-- **Impediments beseitigen** (organisatorisch)
-- **Career Development** (Mentoring, Coaching)
-- **Team schützen** (vor Chaos von außen)
-
-**NICHT:**
-- Task-Level Management
-- Mikromanagement
-
-Note:
-Self-organizing ≠ no leadership! Teams brauchen Kontext und Support.
-
---
-
-## Führung: DO's
-
-✅ **DO:**
-- Set goals, not tasks
-- Empower decisions
-- Coach, don't control
-- Ask "How can I help?"
-- Celebrate failures (= Learning!)
-
-Note:
-Gute Führung schafft Umfeld für Erfolg.
-
---
-
-## Führung: DON'Ts
-
-❌ **DON'T:**
-- Task-Level Management
-- Team bypassing (direkt Devs ansprechen)
-- "I need status updates hourly"
-- Blame bei Fehlern
-
-Note:
-Schlechte Führung schafft Bottlenecks und Micromanagement tötet Autonomie.
-
---
-
-## Team-Praktiken: Definition of Done
-
-**Warum wichtig?**
-- Gemeinsames Verständnis von "Fertig"
-- Verhindert "95% fertig"-Syndrom
-- Qualitätsstandard
-
-**Beispiel-DoD:**
-- [ ] Code reviewed
-- [ ] Tests (>80% Coverage)
-- [ ] Akzeptanzkriterien erfüllt
-- [ ] Deployed in Staging
-- [ ] Von PO abgenommen
-
-**Team-spezifisch & evolving!**
-
-Note:
-Jedes Team braucht seine eigene DoD. Wichtig: DoD muss realistisch, aber anspruchsvoll sein.
-
---
-
-## Remote & Hybrid Work
-
-**Herausforderungen:**
-- Spontane Kommunikation fehlt
-- Onboarding schwieriger
-- Team-Bonding
-- Timezone-Unterschiede
-
-Note:
-Remote funktioniert, braucht aber bewusste Kommunikation! Over-communicate ist OK.
-
---
-
-## Remote: Best Practices
-
-**Kommunikation:**
-- **Daily Video-Calls** (Kamera an!)
-- **Virtual Pairing** (Screen Sharing)
-- **Async Communication** (Slack, Docs)
-- **Over-Communicate** (mehr Info > weniger)
-- **Regular Social Events** (Virtual Coffee)
-
-**Tools:** Zoom, Miro, Mural, Slack
-
-Note:
-Remote-Teams brauchen bewusste Kommunikations-Strukturen. Async + Sync kombinieren!
 
 ---
 
