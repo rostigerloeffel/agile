@@ -213,7 +213,7 @@ Agile ist kein Wundermittel, aber es hilft bei Unsicherheit, Komplexität und Ve
 ## Wert 1: Individuen & Interaktionen
 
 ### <span style="color: #FF9800;">**Individuen und Interaktionen**</span>
-### <span style="color: #FF9800;">mehr als Prozesse und Werkzeuge</span>
+#### <span style="color: #FF9800;">mehr als Prozesse und Werkzeuge</span>
 
 - Menschen sind wichtiger als Prozesse
 - Direkte Kommunikation > Dokumentierte Prozesse
@@ -224,9 +224,8 @@ Der erste und wichtigste Wert! Software wird von Menschen für Menschen gemacht.
 
 --
 
-## Wert 1: DO's
+## Wert 1: ✅ DO's
 
-✅ **DO:**
 - Daily Stand-up am Board (15 Min Synchronisation)
 - Pair Programming (Wissenstransfer in Echtzeit)
 - Face-to-Face Kommunikation (Videocall statt E-Mail-Kette)
@@ -236,9 +235,8 @@ Prozesse sollen Menschen unterstützen, nicht einschränken. Ein 15-Min Call kan
 
 --
 
-## Wert 1: DON'Ts
+## Wert 1: ❌ DON'Ts
 
-❌ **DON'T:**
 - "Steht so im Prozess"
 - Tool-Gläubigkeit ("Jira löst unsere Probleme")
 - Nur Ticket-Kommunikation
@@ -266,8 +264,8 @@ Spotify zeigt: Vertrauen + Freiraum = großartige Produkte.
 
 ## Wert 2: Funktionierende Software
 
-### **Funktionierende Software**
-### mehr als umfassende Dokumentation
+### <span style="color: #FF9800;">**Funktionierende Software**
+#### <span style="color: #FF9800;">mehr als umfassende Dokumentation
 
 - Lauffähiger Code ist der beste Beweis
 - Dokumentation nur wo nötig
@@ -278,9 +276,8 @@ Nicht: "Keine Dokumentation!" Sondern: Dokumentation muss Wert liefern. Ein funk
 
 --
 
-## Wert 2: DO's
+## Wert 2: ✅ DO's
 
-✅ **DO:**
 - Working Demo im Sprint Review
 - Living Documentation (API-Docs aus Code generiert)
 - ADRs (Architecture Decision Records)
@@ -290,9 +287,8 @@ Gute Dokumentation bleibt nah am Code. Tests sind oft die beste Dokumentation - 
 
 --
 
-## Wert 2: DON'Ts
+## Wert 2: ❌ DON'Ts
 
-❌ **DON'T:**
 - 100-Seiten Pflichtenheft vor Code
 - Dokumentation statt Demo
 - Doku ≠ Code (Duplicate Information)
@@ -320,8 +316,8 @@ Amazon dreht es um: Erst das Endergebnis beschreiben, dann entwickeln. Das zwing
 
 ## Wert 3: Zusammenarbeit mit dem Kunden
 
-### **Zusammenarbeit mit dem Kunden**
-### mehr als Vertragsverhandlung
+### <span style="color: #FF9800;">**Zusammenarbeit mit dem Kunden**
+#### <span style="color: #FF9800;">mehr als Vertragsverhandlung
 
 - Kunde ist Teil des Teams
 - Kontinuierliches Feedback
@@ -332,9 +328,8 @@ Der klassische Ansatz: Vertrag aushandeln, dann entwickeln, am Ende liefern. Agi
 
 --
 
-## Wert 3: DO's
+## Wert 3: ✅ DO's
 
-✅ **DO:**
 - Product Owner im Team (täglich verfügbar)
 - Sprint Reviews mit End-Usern (sofortiges Feedback)
 - User Story Mapping (gemeinsames Verständnis)
@@ -344,9 +339,8 @@ Ein guter Product Owner ist Gold wert! PO ist die Brücke zwischen Business und 
 
 --
 
-## Wert 3: DON'Ts
+## Wert 3: ❌ DON'Ts
 
-❌ **DON'T:**
 - Fixed-Price, Fixed-Scope Verträge
 - "Fence Throwing" (Anforderungen über Zaun)
 - Nur Kickoff + Enddemo
@@ -357,6 +351,8 @@ Note:
 Der Kunde MUSS "stören" dürfen! Besser wöchentliche Korrekturen als 6-Monats-Katastrophe.
 
 --
+
+<div style="font-size: 0.85em;">
 
 ## Real-World: Gov.uk
 
@@ -372,6 +368,8 @@ Der Kunde MUSS "stören" dürfen! Besser wöchentliche Korrekturen als 6-Monats-
 
 **Lehre:** User Feedback > Expertenmeinungen
 
+</div>
+
 Note:
 Auch im öffentlichen Sektor funktioniert agiles Vorgehen.
 
@@ -379,8 +377,8 @@ Auch im öffentlichen Sektor funktioniert agiles Vorgehen.
 
 ## Wert 4: Reagieren auf Veränderung
 
-### **Reagieren auf Veränderung**
-### mehr als Befolgen eines Plans
+### <span style="color: #FF9800;">**Reagieren auf Veränderung**
+#### <span style="color: #FF9800;">mehr als Befolgen eines Plans
 
 - Pläne sind wichtig, aber nicht in Stein gemeißelt
 - Änderungen sind normal und wertvoll
@@ -391,9 +389,8 @@ Der klassische Plan sagt: "So wird's gemacht, Punkt." Agile sagt: "Das ist unser
 
 --
 
-## Wert 4: DO's
+## Wert 4: ✅ DO's
 
-✅ **DO:**
 - Sprint Planning mit Flexibilität
 - Pivots sind OK (Markt ändert sich → Anpassen!)
 - A/B Tests & Experimente (Ausrollen, messen, lernen)
@@ -403,9 +400,8 @@ Empirisches Arbeiten: Hypothese → Testen → Lernen → Anpassen.
 
 --
 
-## Wert 4: DON'Ts
+## Wert 4: ❌ DON'Ts
 
-❌ **DON'T:**
 - Jahres-Roadmaps mit fixen Features
 - "Scope Creep" als Feindbild
 - Feedback ignorieren (Sunk Cost Fallacy)
@@ -479,7 +475,7 @@ Software-Entwicklung ist ein Marathon, kein Sprint.
 
 --
 
-## Prinzip 8: DON'Ts
+## Prinzip 8: Nachhaltiges Tempo
 
 ❌ **DON'T:**
 - "Sprint-Heroics" (jeder Sprint Überstunden)
@@ -510,7 +506,7 @@ Technische Exzellenz = Voraussetzung für Agilität.
 
 --
 
-## Prinzip 9: DON'Ts
+## Prinzip 9: Technische Exzellenz
 
 ❌ **DON'T:**
 - "Erst Features, später Qualität"
@@ -545,7 +541,7 @@ Note:
 
 --
 
-## Prinzip 10: DON'Ts
+## Prinzip 10: Einfachheit
 
 ❌ **DON'T:**
 - Over-Engineering
@@ -565,7 +561,7 @@ Es gibt viele **Mythen** über Agile. Räumen wir auf:
 
 --
 
-## Mythos 1: "Agile = Keine Planung"
+## Mythos 1: "Keine Planung"
 
 ❌ **Mythos:**
 "Agile Teams planen nicht, sie improvisieren!"
@@ -576,14 +572,14 @@ Agile Teams planen **kontinuierlich**!
 - Backlog Refinement regelmäßig
 - Release Planning für größere Horizonte
 
-**Unterschied:** Nicht 1x für 12 Monate planen, sondern alle 2 Wochen adjustieren.
+**Unterschied:** Nicht 1x für 12 Monate planen, sondern alle 2 Wochen justieren
 
 Note:
 Agile plant sogar MEHR als Wasserfall - nur in kürzeren Zyklen. "Plans are worthless, but planning is everything" - Eisenhower
 
 --
 
-## Mythos 2: "Agile = Keine Dokumentation"
+## Mythos 2: "Keine Dokumentation"
 
 ❌ **Mythos:**
 "Agile Teams dokumentieren nichts!"
@@ -600,9 +596,11 @@ Agile Teams dokumentieren **angemessen**!
 Note:
 "Funktionierende Software über umfassende Dokumentation" heißt nicht "keine Doku". Es heißt: Doku wo sinnvoll, nicht als Selbstzweck.
 
+Ganz wichtig: Das "WARUM" dokumentieren, nicht das "WAS" oder "WIE".
+
 --
 
-## Mythos 3: "Agile = Chaos / Keine Struktur"
+## Mythos 3: "Chaos / Keine Struktur"
 
 ❌ **Mythos:**
 "Agile ist chaotisch, jeder macht was er will!"
@@ -617,3 +615,5 @@ Agile hat **klare Strukturen**!
 
 Note:
 Agile ist hochstrukturiert - aber die Struktur ist leichtgewichtig und dient der Effizienz, nicht der Kontrolle.
+
+Hohe Disziplin ist erforderlich
