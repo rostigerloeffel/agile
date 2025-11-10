@@ -132,7 +132,7 @@ Die richtige Kultur ist der Schlüssel zu erfolgreichen agilen Teams.
 
 <div>
 
-**<span style="color: #FF9800;">Traditionell:</span>**
+**Traditionell:**
 - Micromanagement
 - Command & Control
 - "Check your brain at the door"
@@ -141,7 +141,7 @@ Die richtige Kultur ist der Schlüssel zu erfolgreichen agilen Teams.
 
 <div>
 
-**<span style="color: #FF9800;">Agil:</span>**
+**Agil:**
 - Ownership
 - Trust & Empowerment
 - "You are the expert"
