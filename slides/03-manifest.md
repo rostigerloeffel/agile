@@ -196,10 +196,17 @@ Agile ist kein Wundermittel, aber es hilft bei Unsicherheit, Komplexität und Ve
 
 ## 📜 Die 4 Werte des Agile Manifests
 
-1. Individuen & Interaktionen > Prozesse & Werkzeuge
-2. Funktionierende Software > Umfassende Dokumentation
-3. Zusammenarbeit mit Kunden > Vertragsverhandlung
-4. Reagieren auf Veränderung > Befolgen eines Plans
+<div style="font-size: 0.9em; line-height: 1.8;">
+
+1. **<span style="font-size: 1.3em;">Individuen & Interaktionen</span>** > <span style="font-size: 0.85em; opacity: 0.8;">Prozesse & Werkzeuge</span>
+
+2. **<span style="font-size: 1.3em;">Funktionierende Software</span>** > <span style="font-size: 0.85em; opacity: 0.8;">Umfassende Dokumentation</span>
+
+3. **<span style="font-size: 1.3em;">Zusammenarbeit mit Kunden</span>** > <span style="font-size: 0.85em; opacity: 0.8;">Vertragsverhandlung</span>
+
+4. **<span style="font-size: 1.3em;">Reagieren auf Veränderung</span>** > <span style="font-size: 0.85em; opacity: 0.8;">Befolgen eines Plans</span>
+
+</div>
 
 --
 
