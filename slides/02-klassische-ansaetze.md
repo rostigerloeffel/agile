@@ -1,6 +1,12 @@
-<!-- .slide: data-background="#FF5722" -->
+<!-- .slide: data-background="#1565C0" -->
 
-# Das Wasserfall-Problem
+# Wasserfall-Modell
+
+![Waterfall](images/waterfall.png)
+
+--
+
+# Das Problem
 
 1. 📋 Anforderungen (3 Monate)
 2. 🎨 Design (2 Monate)
@@ -21,6 +27,12 @@
 | Implementierung | **10x** | Code umschreiben: 2 Wochen |
 | Testing | **50x** | Retest & Bugfixes: 2 Monate |
 | Produktion | **200x** | Migration & Support: 8+ Monate |
+
+--
+
+## Waterfall vs Agile
+
+![Success](images/waterfallvsagile.png)
 
 ---
 
