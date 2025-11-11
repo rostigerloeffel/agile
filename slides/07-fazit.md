@@ -48,6 +48,38 @@ Diese Punkte sind das Herz von Agile.
 Note:
 Continuous Improvement ist das Mantra!
 
+--
+
+## ✅ DO's
+
+- Kleine Inkremente, häufige Iterationen
+- Frühes und häufiges Feedback einholen
+- Cross-funktionale Teams bilden
+- Technische Exzellenz von Anfang an
+
+Note:
+Die richtigen Weichen am Anfang stellen! Details:
+- Kleine Inkremente: 1-2 Wochen Zyklen, nicht monatelange Features
+- Frühes Feedback: Stakeholder sollten alle 1-2 Wochen funktionierende Software sehen
+- Cross-funktionale Teams: Alle Skills im Team (Frontend, Backend, Testing, UX)
+- Technische Exzellenz: Tests, CI/CD, Code Reviews von Tag 1 an
+
+--
+
+## ❌ DON'Ts
+
+- 100 Seiten Anforderungsdokument schreiben
+- "Später refactoren wir das"
+- Erstes Deployment nach 6 Monaten
+- Teams nach Technologie trennen
+
+Note:
+Vermeiden Sie Big Design Up Front und technische Schulden von Tag 1. Details:
+- 100-Seiten-Dokument: Veraltet sofort, niemand liest es vollständig. Besser: User Stories + Prototypen
+- "Später refactoren": Später kommt nie! Tech Debt wird nur größer
+- 6 Monate bis Deployment: Viel zu spät für Feedback
+- Tech-Silos: Führt zu Bottlenecks und Handoffs
+
 ---
 
 ## Getting Started: Nächste Schritte

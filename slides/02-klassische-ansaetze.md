@@ -103,7 +103,7 @@ Agilität ist kein Glaubenssatz, sondern eine pragmatische Reaktion auf die Real
 
 # 💥 Bundeswehr-Digitalfunk
 
-- "Digitalisierung landbasierter Operationen": 20-Milliarden-Euro-Projekt
+- D-LBO: 20-Milliarden-Euro-Projekt
 - Bundeswehr, Rohde & Schwarz, Blackned, Rheinmetall
 - 150 Millionen Euro extra Kosten
 
@@ -123,52 +123,3 @@ Und statt die Truppe komplett digital auszurüsten will man ein Provisorium scha
 
 Note:
 Klassische Ansätze funktionieren bei Unsicherheit und Komplexität nicht. Agile bietet eine bessere Alternative - schauen wir uns an wie!
-
---
-
-## Traditionell vs. Agile (1/2)
-
-| Aspekt | Traditionell | Agile |
-|--------|--------------|-------|
-| **Planung** | Alles im Voraus | Iterativ, adaptiv |
-| **Anforderungen** | Festgeschrieben | Änderungen willkommen |
-| **Feedback** | Am Ende | Kontinuierlich |
-| **Risiko** | Hoch (Big Bang) | Niedrig (inkrementell) |
-| **Team** | Spezialisiert, Silos | Cross-functional |
-| **Erfolgsmaß** | Plan eingehalten? | Wert geliefert? |
-
-Note:
-Der fundamentale Unterschied: Traditionelle Methoden versuchen, Unsicherheit zu eliminieren. Agile akzeptiert Unsicherheit und nutzt sie als Chance zum Lernen.
-Agile Teams fragen nicht "Haben wir den Plan eingehalten?", sondern "Haben wir Wert geliefert?"
-
---
-
-## ✅ DO's
-
-- Kleine Inkremente, häufige Iterationen
-- Frühes und häufiges Feedback einholen
-- Cross-funktionale Teams bilden
-- Technische Exzellenz von Anfang an
-
-Note:
-Die richtigen Weichen am Anfang stellen! Details:
-- Kleine Inkremente: 1-2 Wochen Zyklen, nicht monatelange Features
-- Frühes Feedback: Stakeholder sollten alle 1-2 Wochen funktionierende Software sehen
-- Cross-funktionale Teams: Alle Skills im Team (Frontend, Backend, Testing, UX)
-- Technische Exzellenz: Tests, CI/CD, Code Reviews von Tag 1 an
-
---
-
-## ❌ DON'Ts
-
-- 100 Seiten Anforderungsdokument schreiben
-- "Später refactoren wir das"
-- Erstes Deployment nach 6 Monaten
-- Teams nach Technologie trennen
-
-Note:
-Vermeiden Sie Big Design Up Front und technische Schulden von Tag 1. Details:
-- 100-Seiten-Dokument: Veraltet sofort, niemand liest es vollständig. Besser: User Stories + Prototypen
-- "Später refactoren": Später kommt nie! Tech Debt wird nur größer
-- 6 Monate bis Deployment: Viel zu spät für Feedback
-- Tech-Silos: Führt zu Bottlenecks und Handoffs

@@ -20,7 +20,7 @@ Note:
 2. **Warum klassische Ansätze scheitern** - Das Wasserfall-Problem
 3. **Agiles Manifest** - Werte & Prinzipien
 4. **Agile Frameworks** - Scrum, Kanban & Co.
-5. **Technischer Unterbau** - CI/CD, Testing, DevOps, Architektur usw.
+5. **Technischer Unterbau** - CI/CD, Testing, DevOps, Architektur
 6. **Mensch, Team & Organisation** - Autonome Teams, Führung
 7. **Fazit, Q&A**
 

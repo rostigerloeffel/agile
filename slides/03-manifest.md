@@ -15,6 +15,48 @@ Note:
 Der fundamentale Unterschied: Traditionelle Methoden versuchen, Unsicherheit zu eliminieren. Agile akzeptiert Unsicherheit und nutzt sie als Chance zum Lernen.
 Agile Teams fragen nicht "Haben wir den Plan eingehalten?", sondern "Haben wir Wert geliefert?"
 
+--
+
+<div style="font-size: 0.85em;">
+
+## Warum Agile? (1/2)
+
+✅ **Frühe Wertschöpfung**
+- Funktionierende Software nach Wochen
+- ROI beginnt früher
+
+✅ **Risikominimierung**
+- Kleine Iterationen → kleine Fehler
+- Kontinuierliches Feedback
+
+✅ **Flexibilität**
+- Änderungen sind willkommen
+- Anpassung an Markt
+
+</div>
+
+Note:
+Agile adressiert fundamentale Probleme der Softwareentwicklung.
+
+--
+
+<div style="font-size: 0.85em;">
+
+## Warum Agile? (2/2)
+
+✅ **Qualität**
+- Tests & Integration von Anfang an
+- Technische Exzellenz eingebaut
+
+✅ **Teamzufriedenheit**
+- Autonomie & Ownership
+- Sichtbarer Impact
+
+</div>
+
+Note:
+Agile ist kein Wundermittel, aber es hilft bei Unsicherheit, Komplexität und Veränderung.
+
 ---
 
 <!-- .slide: data-background="#2E7D32" -->
@@ -168,48 +210,6 @@ Das Manifest ist nur 2 Seiten lang!
 
 Note:
 Wichtig: Das Manifest sagt nicht, dass die Dinge auf der rechten Seite wertlos sind. Aber die Dinge auf der linken Seite werden höher bewertet.
-
---
-
-<div style="font-size: 0.85em;">
-
-## Warum Agile? (1/2)
-
-✅ **Frühe Wertschöpfung**
-- Funktionierende Software nach Wochen
-- ROI beginnt früher
-
-✅ **Risikominimierung**
-- Kleine Iterationen → kleine Fehler
-- Kontinuierliches Feedback
-
-✅ **Flexibilität**
-- Änderungen sind willkommen
-- Anpassung an Markt
-
-</div>
-
-Note:
-Agile adressiert fundamentale Probleme der Softwareentwicklung.
-
---
-
-<div style="font-size: 0.85em;">
-
-## Warum Agile? (2/2)
-
-✅ **Qualität**
-- Tests & Integration von Anfang an
-- Technische Exzellenz eingebaut
-
-✅ **Teamzufriedenheit**
-- Autonomie & Ownership
-- Sichtbarer Impact
-
-</div>
-
-Note:
-Agile ist kein Wundermittel, aber es hilft bei Unsicherheit, Komplexität und Veränderung.
 
 ---
 
