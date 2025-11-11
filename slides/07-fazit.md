@@ -98,12 +98,26 @@ Der häufigste Fehler: Zu schnell zu viel wollen. Start small!
 
 --
 
+<!-- .slide: style="font-size: 0.85em" -->
+
 ## FAQ: Wichtigste Fragen
+
+<div class="two-columns">
+
+<div>
 
 **"Funktioniert Agile in regulierten Branchen?"**
 - Ja! Gesundheitswesen, Finanzen, Automotive nutzen Agile
 - Compliance ≠ Wasserfall
 - Dokumentation "just in time"
+
+**"Skalierung - ab wann?"**
+- Erst wenn wirklich nötig!
+- <10: Scrum/Kanban, 10-50: LeSS, 50+: SAFe
+
+</div>
+
+<div>
 
 **"Wie schätzt man richtig?"**
 - Planning Poker, Story Points
@@ -111,9 +125,9 @@ Der häufigste Fehler: Zu schnell zu viel wollen. Start small!
 - Velocity stabilisiert sich nach 3-5 Sprints
 - Monte Carlo: https://rostigerloeffel.github.io/monte-carlo/
 
-**"Skalierung - ab wann?"**
-- Erst wenn wirklich nötig!
-- <10: Scrum/Kanban, 10-50: LeSS, 50+: SAFe
+</div>
+
+</div>
 
 Note:
 Diese Fragen kommen am häufigsten. Weitere Fragen gleich in der Diskussion!
