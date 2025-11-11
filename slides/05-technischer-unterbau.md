@@ -212,7 +212,13 @@ CD ist der heilige Gral! Aber: Braucht solide Tests, Monitoring, Feature Flags.
 
 --
 
+<!-- .slide: style="font-size: 0.85em" -->
+
 ## Deployment-Strategien
+
+<div class="two-columns">
+
+<div>
 
 **Blue-Green Deployment:**
 - 2 identische Umgebungen (Blue = alt, Green = neu)
@@ -224,11 +230,19 @@ CD ist der heilige Gral! Aber: Braucht solide Tests, Monitoring, Feature Flags.
 - Monitoring: Fehlerrate, Performance
 - Bei OK: Rollout zu 100%
 
+</div>
+
+<div>
+
 **Feature Flags:**
 - Code deployed, Feature ausgeschaltet
 - Schrittweise aktivieren (z.B. Beta-User)
 
 **Beispiel:** Netflix nutzt alle drei!
+
+</div>
+
+</div>
 
 Note:
 Diese Strategien ermöglichen risikoarme Deployments. Feature Flags sind besonders mächtig!
