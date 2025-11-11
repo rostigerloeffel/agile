@@ -1,8 +1,46 @@
 <!-- .slide: data-background="#FFC107" -->
 
+# Traditionell vs. Agile
+
+| Aspekt | Traditionell | Agile |
+|--------|--------------|-------|
+| **Planung** | Alles im Voraus | Iterativ, adaptiv |
+| **Anforderungen** | Festgeschrieben | Änderungen willkommen |
+| **Feedback** | Am Ende | Kontinuierlich |
+| **Risiko** | Hoch (Big Bang) | Niedrig (inkrementell) |
+| **Team** | Spezialisiert, Silos | Cross-functional |
+| **Erfolgsmaß** | Plan eingehalten? | Wert geliefert? |
+
+Note:
+Der fundamentale Unterschied: Traditionelle Methoden versuchen, Unsicherheit zu eliminieren. Agile akzeptiert Unsicherheit und nutzt sie als Chance zum Lernen.
+Agile Teams fragen nicht "Haben wir den Plan eingehalten?", sondern "Haben wir Wert geliefert?"
+
+---
+
+<!-- .slide: data-background="#2E7D32" -->
+
 # Agile Timeline 
 
 Von Lean zu Agile
+
+---
+
+## Lean Prinzipien → Agile Praktiken
+
+Die DNA von Agile kommt aus **Lean Manufacturing**:
+
+| Lean Prinzip | Agile Umsetzung |
+|--------------|-----------------|
+| Verschwendung eliminieren | Working Software > Dokumentation |
+| Qualität einbauen | Test-Driven Development, CI/CD |
+| Wissen schaffen | Retrospektiven, Pair Programming |
+| Entscheidungen verzögern | Last Responsible Moment |
+| Schnell liefern | Sprints, Continuous Delivery |
+| Menschen respektieren | Selbstorganisierende Teams |
+| Ganzheitlich optimieren | End-to-End Value Stream |
+
+Note:
+Agile ist angewandte Lean-Philosophie in der Softwareentwicklung.
 
 --
 
@@ -120,7 +158,7 @@ Heute ist die Frage nicht mehr "Warum Agile?", sondern "Wie machen wir Agile ric
 
 ---
 
-<!-- .slide: data-background="#4CAF50" -->
+<!-- .slide: data-background="#C62828" -->
 
 # 📜 Agiles Manifest
 
@@ -130,25 +168,6 @@ Das Manifest ist nur 2 Seiten lang!
 
 Note:
 Wichtig: Das Manifest sagt nicht, dass die Dinge auf der rechten Seite wertlos sind. Aber die Dinge auf der linken Seite werden höher bewertet.
-
----
-
-## Lean Prinzipien → Agile Praktiken
-
-Die DNA von Agile kommt aus **Lean Manufacturing**:
-
-| Lean Prinzip | Agile Umsetzung |
-|--------------|-----------------|
-| Verschwendung eliminieren | Working Software > Dokumentation |
-| Qualität einbauen | Test-Driven Development, CI/CD |
-| Wissen schaffen | Retrospektiven, Pair Programming |
-| Entscheidungen verzögern | Last Responsible Moment |
-| Schnell liefern | Sprints, Continuous Delivery |
-| Menschen respektieren | Selbstorganisierende Teams |
-| Ganzheitlich optimieren | End-to-End Value Stream |
-
-Note:
-Agile ist angewandte Lean-Philosophie in der Softwareentwicklung.
 
 --
 
@@ -199,11 +218,8 @@ Agile ist kein Wundermittel, aber es hilft bei Unsicherheit, Komplexität und Ve
 <div style="font-size: 0.9em; line-height: 1.8;">
 
 1. **<span style="font-size: 1.2em;">Individuen & Interaktionen</span>** > <span style="font-size: 0.95em; opacity: 0.8;">Prozesse & Werkzeuge</span>
-
 2. **<span style="font-size: 1.2em;">Funktionierende Software</span>** > <span style="font-size: 0.95em; opacity: 0.8;">Umfassende Dokumentation</span>
-
 3. **<span style="font-size: 1.2em;">Zusammenarbeit mit Kunden</span>** > <span style="font-size: 0.95em; opacity: 0.8;">Vertragsverhandlung</span>
-
 4. **<span style="font-size: 1.2em;">Reagieren auf Veränderung</span>** > <span style="font-size: 0.95em; opacity: 0.8;">Befolgen eines Plans</span>
 
 </div>
@@ -619,3 +635,4 @@ Note:
 Agile ist hochstrukturiert - aber die Struktur ist leichtgewichtig und dient der Effizienz, nicht der Kontrolle.
 
 Hohe Disziplin ist erforderlich
+
