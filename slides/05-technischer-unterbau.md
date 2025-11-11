@@ -249,6 +249,8 @@ Diese Strategien ermöglichen risikoarme Deployments. Feature Flags sind besonde
 
 --
 
+<!-- .slide: style="font-size: 0.75em" -->
+
 ## Technical Debt Management
 
 **Was ist Tech Debt?**
